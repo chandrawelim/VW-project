@@ -15,6 +15,7 @@
 		CD259558243E00FC00D8BD54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD259557243E00FC00D8BD54 /* Assets.xcassets */; };
 		CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD259559243E00FC00D8BD54 /* LaunchScreen.storyboard */; };
 		CD259566243E00FC00D8BD54 /* VW_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259565243E00FC00D8BD54 /* VW_projectTests.swift */; };
+		CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259570243E0EA800D8BD54 /* VWTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		CD259561243E00FC00D8BD54 /* VW-projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VW-projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259565243E00FC00D8BD54 /* VW_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VW_projectTests.swift; sourceTree = "<group>"; };
 		CD259567243E00FC00D8BD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD259570243E0EA800D8BD54 /* VWTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				CD259559243E00FC00D8BD54 /* LaunchScreen.storyboard */,
 				CD25955C243E00FC00D8BD54 /* Info.plist */,
 				CD259554243E00F300D8BD54 /* VW_project.xcdatamodeld */,
+				CD259570243E0EA800D8BD54 /* VWTabBarController.swift */,
 			);
 			path = "VW-project";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				CD25954C243E00F200D8BD54 /* AppDelegate.swift in Sources */,
 				CD259556243E00F300D8BD54 /* VW_project.xcdatamodeld in Sources */,
 				CD25954E243E00F200D8BD54 /* SceneDelegate.swift in Sources */,
+				CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

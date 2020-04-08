@@ -19,7 +19,11 @@ protocol TicketBuilderInterface {
 
 extension TicketBuilderInterface {
     func resolveView(presenter: TicketPresenterInterface) -> TicketViewController {
-        let view: TicketViewController = TicketViewController()
+        let _storyboard = UIStoryboard(name: "Ticket", bundle: Bundle(for: TicketBuilder.self))
+        guard let view: TicketViewController = _storyboard.instantiateInitialViewController(
+            creator: { coder in
+                TicketViewController(coder: coder)
+            }) else { fatalError("Initial View Controller is not set up") }
         view.set(presenter: presenter)
         return view
     }

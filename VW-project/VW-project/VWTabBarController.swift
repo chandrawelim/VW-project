@@ -9,6 +9,7 @@
 import UIKit
 import Profile
 import Ticket
+import Map
 
 class VWTabBarController: UITabBarController {
 
@@ -27,7 +28,7 @@ class VWTabBarController: UITabBarController {
     }
     
     func mapNav() -> UINavigationController {
-        let mapVC = ViewController()
+        let mapVC = MapBuilder().main()
         mapVC.title = "Map"
         mapVC.tabBarItem = UITabBarItem(title: "Map", image: nil, tag: 0)
         return UINavigationController(rootViewController: mapVC)

@@ -10,12 +10,13 @@
 		CD2595CE243E114100D8BD54 /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2595C4243E114100D8BD54 /* Profile.framework */; };
 		CD2595D3243E114100D8BD54 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2595D2243E114100D8BD54 /* ProfileTests.swift */; };
 		CD2595D5243E114100D8BD54 /* Profile.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2595C7243E114100D8BD54 /* Profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD2595FB243E132800D8BD54 /* ProfileInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2595F5243E132800D8BD54 /* ProfileInterfaces.swift */; };
-		CD2595FC243E132800D8BD54 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2595F6243E132800D8BD54 /* ProfilePresenter.swift */; };
-		CD2595FD243E132800D8BD54 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2595F7243E132800D8BD54 /* ProfileRouter.swift */; };
-		CD2595FE243E132800D8BD54 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2595F8243E132800D8BD54 /* ProfileViewController.swift */; };
-		CD2595FF243E132800D8BD54 /* ProfileBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2595F9243E132800D8BD54 /* ProfileBuilder.swift */; };
-		CD259600243E132800D8BD54 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2595FA243E132800D8BD54 /* ProfileInteractor.swift */; };
+		CD25966C243E18AB00D8BD54 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD259665243E18AB00D8BD54 /* Profile.storyboard */; };
+		CD25966D243E18AB00D8BD54 /* ProfileInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259666243E18AB00D8BD54 /* ProfileInterfaces.swift */; };
+		CD25966E243E18AB00D8BD54 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259667243E18AB00D8BD54 /* ProfilePresenter.swift */; };
+		CD25966F243E18AB00D8BD54 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259668243E18AB00D8BD54 /* ProfileRouter.swift */; };
+		CD259670243E18AB00D8BD54 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259669243E18AB00D8BD54 /* ProfileViewController.swift */; };
+		CD259671243E18AB00D8BD54 /* ProfileBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25966A243E18AB00D8BD54 /* ProfileBuilder.swift */; };
+		CD259672243E18AB00D8BD54 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25966B243E18AB00D8BD54 /* ProfileInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +36,13 @@
 		CD2595CD243E114100D8BD54 /* ProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2595D2243E114100D8BD54 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
 		CD2595D4243E114100D8BD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD2595F5243E132800D8BD54 /* ProfileInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInterfaces.swift; sourceTree = "<group>"; };
-		CD2595F6243E132800D8BD54 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
-		CD2595F7243E132800D8BD54 /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
-		CD2595F8243E132800D8BD54 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		CD2595F9243E132800D8BD54 /* ProfileBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBuilder.swift; sourceTree = "<group>"; };
-		CD2595FA243E132800D8BD54 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		CD259665243E18AB00D8BD54 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CD259666243E18AB00D8BD54 /* ProfileInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInterfaces.swift; sourceTree = "<group>"; };
+		CD259667243E18AB00D8BD54 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		CD259668243E18AB00D8BD54 /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		CD259669243E18AB00D8BD54 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CD25966A243E18AB00D8BD54 /* ProfileBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBuilder.swift; sourceTree = "<group>"; };
+		CD25966B243E18AB00D8BD54 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +85,15 @@
 		CD2595C6243E114100D8BD54 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				CD2595C7243E114100D8BD54 /* Profile.h */,
 				CD2595C8243E114100D8BD54 /* Info.plist */,
-				CD2595F5243E132800D8BD54 /* ProfileInterfaces.swift */,
-				CD2595F6243E132800D8BD54 /* ProfilePresenter.swift */,
-				CD2595F7243E132800D8BD54 /* ProfileRouter.swift */,
-				CD2595F8243E132800D8BD54 /* ProfileViewController.swift */,
-				CD2595F9243E132800D8BD54 /* ProfileBuilder.swift */,
-				CD2595FA243E132800D8BD54 /* ProfileInteractor.swift */,
+				CD2595C7243E114100D8BD54 /* Profile.h */,
+				CD259665243E18AB00D8BD54 /* Profile.storyboard */,
+				CD25966A243E18AB00D8BD54 /* ProfileBuilder.swift */,
+				CD25966B243E18AB00D8BD54 /* ProfileInteractor.swift */,
+				CD259666243E18AB00D8BD54 /* ProfileInterfaces.swift */,
+				CD259667243E18AB00D8BD54 /* ProfilePresenter.swift */,
+				CD259668243E18AB00D8BD54 /* ProfileRouter.swift */,
+				CD259669243E18AB00D8BD54 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD25966C243E18AB00D8BD54 /* Profile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,12 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2595FD243E132800D8BD54 /* ProfileRouter.swift in Sources */,
-				CD2595FF243E132800D8BD54 /* ProfileBuilder.swift in Sources */,
-				CD2595FC243E132800D8BD54 /* ProfilePresenter.swift in Sources */,
-				CD2595FE243E132800D8BD54 /* ProfileViewController.swift in Sources */,
-				CD259600243E132800D8BD54 /* ProfileInteractor.swift in Sources */,
-				CD2595FB243E132800D8BD54 /* ProfileInterfaces.swift in Sources */,
+				CD25966F243E18AB00D8BD54 /* ProfileRouter.swift in Sources */,
+				CD259671243E18AB00D8BD54 /* ProfileBuilder.swift in Sources */,
+				CD25966E243E18AB00D8BD54 /* ProfilePresenter.swift in Sources */,
+				CD259670243E18AB00D8BD54 /* ProfileViewController.swift in Sources */,
+				CD259672243E18AB00D8BD54 /* ProfileInteractor.swift in Sources */,
+				CD25966D243E18AB00D8BD54 /* ProfileInterfaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

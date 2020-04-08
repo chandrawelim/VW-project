@@ -1,6 +1,6 @@
 //
-//  TicketViewController.swift
-//  Ticket
+//  MapViewController.swift
+//  Map
 //
 //  Created by Chandra Welim on 08/04/20.
 //  Copyright © 2020 Chandra Welim. All rights reserved.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-final class TicketViewController: UIViewController {
+final class MapViewController: UIViewController {
 
     // MARK: - Default properties -
-    private var _presenter: TicketPresenterInterface!
+    private var _presenter: MapPresenterInterface!
     
     // MARK: - Module Setup -
-    func set(presenter: TicketPresenterInterface) {
+    func set(presenter: MapPresenterInterface) {
         _presenter = presenter
     }
 
@@ -32,5 +32,5 @@ final class TicketViewController: UIViewController {
 }
 
 // MARK: - Extensions -
-extension TicketViewController: TicketViewInterface {
+extension MapViewController: MapViewInterface {
 }

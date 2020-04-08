@@ -9,13 +9,22 @@
 
 import UIKit
 
-final class TicketPresenter {
+struct Ticket {
+    var img: String
+    var title: String
+}
 
+final class TicketPresenter {
+    
     // MARK: - Default properties -
     private weak var _view: TicketViewInterface?
     private var _interactor: TicketInteractorInterface
     private var _router: TicketRouterInterface?
-
+    
+    let tickets: [Ticket] = [
+        Ticket(img: "", title: "Hotel A")
+    ]
+    
     // MARK: - Module Setup -
     init(interactor: TicketInteractorInterface, router: TicketRouterInterface) {
         _interactor = interactor
@@ -25,8 +34,21 @@ final class TicketPresenter {
 
 // MARK: - Extensions -
 extension TicketPresenter: TicketPresenterInterface {
-
+    
     func setView(_ view: TicketViewInterface) {
         _view = view
     }
+    
+    func viewDidLoad() {
+        _view?.showTickets()
+    }
+    
+    func numberOfRows() -> Int {
+        return tickets.count
+    }
+    
+    func getTicket(atIndex index: Int) -> Ticket {
+        return tickets[index]
+    }
+    
 }

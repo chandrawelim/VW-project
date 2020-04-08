@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD003DA7243E365500517A2B /* TicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD003DA6243E365500517A2B /* TicketCell.swift */; };
 		CD259586243E111500D8BD54 /* Ticket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD25957C243E111500D8BD54 /* Ticket.framework */; };
 		CD25958B243E111500D8BD54 /* TicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25958A243E111500D8BD54 /* TicketTests.swift */; };
 		CD25958D243E111500D8BD54 /* Ticket.h in Headers */ = {isa = PBXBuildFile; fileRef = CD25957F243E111500D8BD54 /* Ticket.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD003DA6243E365500517A2B /* TicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCell.swift; sourceTree = "<group>"; };
 		CD25957C243E111500D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25957F243E111500D8BD54 /* Ticket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
 		CD259580243E111500D8BD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,15 +87,9 @@
 		CD25957E243E111500D8BD54 /* Ticket */ = {
 			isa = PBXGroup;
 			children = (
+				CD259673243E258200D8BD54 /* List */,
 				CD259580243E111500D8BD54 /* Info.plist */,
 				CD25957F243E111500D8BD54 /* Ticket.h */,
-				CD259657243E185700D8BD54 /* Ticket.storyboard */,
-				CD25965C243E185700D8BD54 /* TicketBuilder.swift */,
-				CD25965D243E185700D8BD54 /* TicketInteractor.swift */,
-				CD259658243E185700D8BD54 /* TicketInterfaces.swift */,
-				CD259659243E185700D8BD54 /* TicketPresenter.swift */,
-				CD25965A243E185700D8BD54 /* TicketRouter.swift */,
-				CD25965B243E185700D8BD54 /* TicketViewController.swift */,
 			);
 			path = Ticket;
 			sourceTree = "<group>";
@@ -105,6 +101,21 @@
 				CD25958C243E111500D8BD54 /* Info.plist */,
 			);
 			path = TicketTests;
+			sourceTree = "<group>";
+		};
+		CD259673243E258200D8BD54 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CD259657243E185700D8BD54 /* Ticket.storyboard */,
+				CD25965C243E185700D8BD54 /* TicketBuilder.swift */,
+				CD25965D243E185700D8BD54 /* TicketInteractor.swift */,
+				CD259658243E185700D8BD54 /* TicketInterfaces.swift */,
+				CD259659243E185700D8BD54 /* TicketPresenter.swift */,
+				CD25965A243E185700D8BD54 /* TicketRouter.swift */,
+				CD25965B243E185700D8BD54 /* TicketViewController.swift */,
+				CD003DA6243E365500517A2B /* TicketCell.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 				CD259663243E185700D8BD54 /* TicketBuilder.swift in Sources */,
 				CD259662243E185700D8BD54 /* TicketViewController.swift in Sources */,
 				CD259664243E185700D8BD54 /* TicketInteractor.swift in Sources */,
+				CD003DA7243E365500517A2B /* TicketCell.swift in Sources */,
 				CD259660243E185700D8BD54 /* TicketPresenter.swift in Sources */,
 				CD25965F243E185700D8BD54 /* TicketInterfaces.swift in Sources */,
 				CD259661243E185700D8BD54 /* TicketRouter.swift in Sources */,

@@ -12,6 +12,7 @@ enum TicketNavigationOption {
 }
 
 protocol TicketViewInterface: class {
+    func showTickets()
 }
 
 protocol TicketInteractorInterface: class {
@@ -20,6 +21,9 @@ protocol TicketInteractorInterface: class {
 protocol TicketPresenterInterface: class {
 	init(interactor: TicketInteractorInterface, router: TicketRouterInterface)
 	func setView(_ view: TicketViewInterface)
+    func viewDidLoad()
+    func numberOfRows() -> Int
+    func getTicket(atIndex index: Int) -> Ticket
 }
 
 protocol TicketRouterInterface: class {

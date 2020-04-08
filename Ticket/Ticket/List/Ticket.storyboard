@@ -15,24 +15,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ticket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iR8-1L-gdv">
-                                <rect key="frame" x="164" y="323" width="47" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YNV-Uf-Wlo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="iR8-1L-gdv" firstAttribute="centerX" secondItem="Z2g-4m-atm" secondAttribute="centerX" id="MDE-Xa-XqU"/>
-                            <constraint firstItem="iR8-1L-gdv" firstAttribute="centerY" secondItem="Z2g-4m-atm" secondAttribute="centerY" id="O86-LG-KRX"/>
+                            <constraint firstItem="YNV-Uf-Wlo" firstAttribute="top" secondItem="3pi-N7-nbV" secondAttribute="top" id="IDm-uC-6nI"/>
+                            <constraint firstItem="YNV-Uf-Wlo" firstAttribute="leading" secondItem="3pi-N7-nbV" secondAttribute="leading" id="bUf-hx-0eR"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="bottom" secondItem="YNV-Uf-Wlo" secondAttribute="bottom" id="d4k-M7-2ZE"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="trailing" secondItem="YNV-Uf-Wlo" secondAttribute="trailing" id="niR-cM-u5C"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3pi-N7-nbV"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="YNV-Uf-Wlo" id="GjT-dN-pvc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rle-ol-2Ax" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="306" y="303"/>
+            <point key="canvasLocation" x="304.80000000000001" y="302.6986506746627"/>
         </scene>
     </scenes>
 </document>

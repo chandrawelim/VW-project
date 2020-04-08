@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Profile
 
 class VWTabBarController: UITabBarController {
 
@@ -32,7 +33,7 @@ class VWTabBarController: UITabBarController {
     }
     
     func profileVC() -> UINavigationController {
-        let profileVC = ViewController()
+        let profileVC = ProfileBuilder().main()
         profileVC.title = "Profile"
         profileVC.tabBarItem = UITabBarItem(title: "Profile", image: nil, tag: 0)
         return UINavigationController(rootViewController: profileVC)

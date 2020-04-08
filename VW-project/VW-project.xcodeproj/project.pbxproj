@@ -16,12 +16,10 @@
 		CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD259559243E00FC00D8BD54 /* LaunchScreen.storyboard */; };
 		CD259566243E00FC00D8BD54 /* VW_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259565243E00FC00D8BD54 /* VW_projectTests.swift */; };
 		CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259570243E0EA800D8BD54 /* VWTabBarController.swift */; };
-		CD2595E2243E115D00D8BD54 /* Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2595DF243E115D00D8BD54 /* Map.framework */; };
-		CD2595E3243E115D00D8BD54 /* Map.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD2595DF243E115D00D8BD54 /* Map.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CD2595E4243E115D00D8BD54 /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2595E0243E115D00D8BD54 /* Profile.framework */; };
-		CD2595E5243E115D00D8BD54 /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD2595E0243E115D00D8BD54 /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CD2595E6243E115D00D8BD54 /* Ticket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2595E1243E115D00D8BD54 /* Ticket.framework */; };
-		CD2595E7243E115D00D8BD54 /* Ticket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD2595E1243E115D00D8BD54 /* Ticket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD259603243E13B400D8BD54 /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD259601243E13B400D8BD54 /* Profile.framework */; };
+		CD259604243E13B400D8BD54 /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD259601243E13B400D8BD54 /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD259605243E13B400D8BD54 /* Ticket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD259602243E13B400D8BD54 /* Ticket.framework */; };
+		CD259606243E13B400D8BD54 /* Ticket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD259602243E13B400D8BD54 /* Ticket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CD2595E8243E115D00D8BD54 /* Embed Frameworks */ = {
+		CD259607243E13B400D8BD54 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CD2595E5243E115D00D8BD54 /* Profile.framework in Embed Frameworks */,
-				CD2595E7243E115D00D8BD54 /* Ticket.framework in Embed Frameworks */,
-				CD2595E3243E115D00D8BD54 /* Map.framework in Embed Frameworks */,
+				CD259606243E13B400D8BD54 /* Ticket.framework in Embed Frameworks */,
+				CD259604243E13B400D8BD54 /* Profile.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,9 +61,8 @@
 		CD259565243E00FC00D8BD54 /* VW_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VW_projectTests.swift; sourceTree = "<group>"; };
 		CD259567243E00FC00D8BD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD259570243E0EA800D8BD54 /* VWTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWTabBarController.swift; sourceTree = "<group>"; };
-		CD2595DF243E115D00D8BD54 /* Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD2595E0243E115D00D8BD54 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD2595E1243E115D00D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD259601243E13B400D8BD54 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD259602243E13B400D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2595E4243E115D00D8BD54 /* Profile.framework in Frameworks */,
-				CD2595E6243E115D00D8BD54 /* Ticket.framework in Frameworks */,
-				CD2595E2243E115D00D8BD54 /* Map.framework in Frameworks */,
+				CD259605243E13B400D8BD54 /* Ticket.framework in Frameworks */,
+				CD259603243E13B400D8BD54 /* Profile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +132,8 @@
 		CD2595DE243E115D00D8BD54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD2595DF243E115D00D8BD54 /* Map.framework */,
-				CD2595E0243E115D00D8BD54 /* Profile.framework */,
-				CD2595E1243E115D00D8BD54 /* Ticket.framework */,
+				CD259601243E13B400D8BD54 /* Profile.framework */,
+				CD259602243E13B400D8BD54 /* Ticket.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,7 +148,7 @@
 				CD259544243E00F200D8BD54 /* Sources */,
 				CD259545243E00F200D8BD54 /* Frameworks */,
 				CD259546243E00F200D8BD54 /* Resources */,
-				CD2595E8243E115D00D8BD54 /* Embed Frameworks */,
+				CD259607243E13B400D8BD54 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

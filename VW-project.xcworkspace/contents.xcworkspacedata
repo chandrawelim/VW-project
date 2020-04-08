@@ -4,4 +4,17 @@
    <FileRef
       location = "group:VW-project/VW-project.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "Features">
+      <FileRef
+         location = "group:Map/Map.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Profile/Profile.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Ticket/Ticket.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

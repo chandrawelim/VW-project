@@ -8,6 +8,7 @@
 
 import UIKit
 import Profile
+import Ticket
 
 class VWTabBarController: UITabBarController {
 
@@ -19,9 +20,9 @@ class VWTabBarController: UITabBarController {
     }
     
     func ticketNav() -> UINavigationController {
-        let ticketVC = ViewController()
-        ticketVC.title = "Search"
-        ticketVC.tabBarItem = UITabBarItem(title: "Search", image: nil, tag: 0)
+        let ticketVC = TicketBuilder().main()
+        ticketVC.title = "Ticket"
+        ticketVC.tabBarItem = UITabBarItem(title: "Ticket", image: nil, tag: 0)
         return UINavigationController(rootViewController: ticketVC)
     }
     

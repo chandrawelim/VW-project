@@ -10,6 +10,12 @@
 		CD259586243E111500D8BD54 /* Ticket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD25957C243E111500D8BD54 /* Ticket.framework */; };
 		CD25958B243E111500D8BD54 /* TicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25958A243E111500D8BD54 /* TicketTests.swift */; };
 		CD25958D243E111500D8BD54 /* Ticket.h in Headers */ = {isa = PBXBuildFile; fileRef = CD25957F243E111500D8BD54 /* Ticket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD25960E243E14A100D8BD54 /* TicketInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259608243E14A100D8BD54 /* TicketInterfaces.swift */; };
+		CD25960F243E14A100D8BD54 /* TicketPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259609243E14A100D8BD54 /* TicketPresenter.swift */; };
+		CD259610243E14A100D8BD54 /* TicketRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25960A243E14A100D8BD54 /* TicketRouter.swift */; };
+		CD259611243E14A100D8BD54 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25960B243E14A100D8BD54 /* TicketViewController.swift */; };
+		CD259612243E14A100D8BD54 /* TicketBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25960C243E14A100D8BD54 /* TicketBuilder.swift */; };
+		CD259613243E14A100D8BD54 /* TicketInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25960D243E14A100D8BD54 /* TicketInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		CD259585243E111500D8BD54 /* TicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25958A243E111500D8BD54 /* TicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTests.swift; sourceTree = "<group>"; };
 		CD25958C243E111500D8BD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD259608243E14A100D8BD54 /* TicketInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketInterfaces.swift; sourceTree = "<group>"; };
+		CD259609243E14A100D8BD54 /* TicketPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketPresenter.swift; sourceTree = "<group>"; };
+		CD25960A243E14A100D8BD54 /* TicketRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRouter.swift; sourceTree = "<group>"; };
+		CD25960B243E14A100D8BD54 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		CD25960C243E14A100D8BD54 /* TicketBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBuilder.swift; sourceTree = "<group>"; };
+		CD25960D243E14A100D8BD54 /* TicketInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,12 @@
 			children = (
 				CD25957F243E111500D8BD54 /* Ticket.h */,
 				CD259580243E111500D8BD54 /* Info.plist */,
+				CD259608243E14A100D8BD54 /* TicketInterfaces.swift */,
+				CD259609243E14A100D8BD54 /* TicketPresenter.swift */,
+				CD25960A243E14A100D8BD54 /* TicketRouter.swift */,
+				CD25960B243E14A100D8BD54 /* TicketViewController.swift */,
+				CD25960C243E14A100D8BD54 /* TicketBuilder.swift */,
+				CD25960D243E14A100D8BD54 /* TicketInteractor.swift */,
 			);
 			path = Ticket;
 			sourceTree = "<group>";
@@ -195,6 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD259612243E14A100D8BD54 /* TicketBuilder.swift in Sources */,
+				CD259611243E14A100D8BD54 /* TicketViewController.swift in Sources */,
+				CD259613243E14A100D8BD54 /* TicketInteractor.swift in Sources */,
+				CD25960F243E14A100D8BD54 /* TicketPresenter.swift in Sources */,
+				CD25960E243E14A100D8BD54 /* TicketInterfaces.swift in Sources */,
+				CD259610243E14A100D8BD54 /* TicketRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +412,7 @@
 		CD259594243E111500D8BD54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG5UT86E9K;
 				INFOPLIST_FILE = TicketTests/Info.plist;
@@ -406,6 +431,7 @@
 		CD259595243E111500D8BD54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG5UT86E9K;
 				INFOPLIST_FILE = TicketTests/Info.plist;

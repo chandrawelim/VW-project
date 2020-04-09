@@ -22,6 +22,18 @@ class ItineraryView: UIView {
         super.awakeFromNib()
     }
     
+    func setup(openHour: String,
+               closeHour: String,
+               venueName: String,
+               duration: String,
+               locationName: String) {
+        
+        openHourLabel.text = openHour
+        closeHourLabel.text = closeHour
+        venueNameLabel.text = venueName
+        durationLabel.text = duration
+        locationNameLabel.text = locationName
+    }
     
     @IBAction func addItinenaryPressed(_ sender: UIButton) {
         

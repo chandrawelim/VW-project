@@ -17,28 +17,36 @@ class VWTabBarController: UITabBarController {
         super.viewDidLoad()
 
         UITabBar.appearance().tintColor = .systemGreen
-        viewControllers = [ticketNav(), mapNav(), profileVC()]
+        viewControllers = [home(), map(), itenerary(), myTickets()]
     }
     
-    func ticketNav() -> UINavigationController {
+    func home() -> UINavigationController {
         let ticketVC = TicketBuilder().main()
-        ticketVC.title = "Ticket"
+        ticketVC.title = "Home"
         ticketVC.tabBarItem = UITabBarItem(title: "Ticket", image: nil, tag: 0)
         return UINavigationController(rootViewController: ticketVC)
     }
     
-    func mapNav() -> UINavigationController {
+    func map() -> UINavigationController {
         let mapVC = MapBuilder().main()
         mapVC.title = "Map"
         mapVC.tabBarItem = UITabBarItem(title: "Map", image: nil, tag: 0)
         return UINavigationController(rootViewController: mapVC)
     }
     
-    func profileVC() -> UINavigationController {
+    func itenerary() -> UINavigationController {
         let profileVC = ProfileBuilder().main()
-        profileVC.title = "Profile"
+        profileVC.title = "Itenerary"
         profileVC.tabBarItem = UITabBarItem(title: "Profile", image: nil, tag: 0)
         return UINavigationController(rootViewController: profileVC)
     }
+    
+    func myTickets() -> UINavigationController {
+        let profileVC = ProfileBuilder().main()
+        profileVC.title = "My Tickets"
+        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: nil, tag: 0)
+        return UINavigationController(rootViewController: UIViewController())
+    }
+
 }
 

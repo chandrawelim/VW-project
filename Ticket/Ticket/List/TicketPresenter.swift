@@ -10,8 +10,8 @@
 import UIKit
 
 public struct Ticket {
-    var img: String
-    var title: String
+    public var img: String
+    public var title: String
 }
 
 final class TicketPresenter {

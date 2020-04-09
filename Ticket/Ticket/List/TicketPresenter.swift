@@ -34,7 +34,7 @@ final class TicketPresenter {
 
 // MARK: - Extensions -
 extension TicketPresenter: TicketPresenterInterface {
-    
+ 
     func setView(_ view: TicketViewInterface) {
         _view = view
     }
@@ -51,4 +51,7 @@ extension TicketPresenter: TicketPresenterInterface {
         return tickets[index]
     }
     
+    func openDetail(atIndex index: Int) {
+        _router?.navigate(to: .ticketDetail(ticket: tickets[index]))
+     }
 }

@@ -24,16 +24,13 @@ final class TicketViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         _setupView()
-        
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         _presenter.viewDidLoad()
     }
     
     // MARK: - Setup Initial View
     private func _setupView() {
+        view.backgroundColor = .systemBackground
+        navigationController?.navigationBar.prefersLargeTitles = true
         tableView.delegate = self
         tableView.dataSource = self
         tableView.rowHeight = 80
@@ -58,5 +55,9 @@ extension TicketViewController: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: TicketCell.reuseID) as! TicketCell
         cell.set(ticket: _presenter.getTicket(atIndex: indexPath.row))
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        _presenter.openDetail(atIndex: indexPath.row)
     }
 }

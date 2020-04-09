@@ -22,5 +22,10 @@ extension TicketRouter: TicketRouterInterface {
     }
 
     func navigate(to option: TicketNavigationOption) {
+        switch option {
+        case .ticketDetail(let ticket):
+            let vc = TicketDetailBuilder().main()
+            self._view?.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }

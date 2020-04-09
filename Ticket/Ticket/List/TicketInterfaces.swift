@@ -9,6 +9,7 @@
 import UIKit
 
 enum TicketNavigationOption {
+    case ticketDetail(ticket: Ticket)
 }
 
 protocol TicketViewInterface: class {
@@ -24,6 +25,7 @@ protocol TicketPresenterInterface: class {
     func viewDidLoad()
     func numberOfRows() -> Int
     func getTicket(atIndex index: Int) -> Ticket
+    func openDetail(atIndex index: Int)
 }
 
 protocol TicketRouterInterface: class {

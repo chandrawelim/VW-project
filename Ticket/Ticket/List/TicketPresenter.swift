@@ -9,7 +9,7 @@
 
 import UIKit
 
-struct Ticket {
+public struct Ticket {
     var img: String
     var title: String
 }

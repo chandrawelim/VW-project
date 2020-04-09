@@ -14,6 +14,8 @@ class PriceTicketView: UIView {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var readMoreButton: UIButton!
     
+    var onTapReadMore: (() -> Void)?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         _configure()
@@ -33,6 +35,6 @@ class PriceTicketView: UIView {
     }
     
     @IBAction func readMorePressed(_ sender: UIButton) {
-
+        onTapReadMore?()
     }
 }

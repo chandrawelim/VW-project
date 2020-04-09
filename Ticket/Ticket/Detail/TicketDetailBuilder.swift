@@ -46,13 +46,14 @@ public class TicketDetailBuilder: TicketDetailBuilderInterface {
     
     public init() {}
     
-    public func main() -> UIViewController {
+    public func main(ticket: Ticket) -> UIViewController {
         
         let interactor = resolveInteractor()
         let router = resolveRouter()
         let presenter = resolvePresenter(interactor: interactor,router: router)
         
         let view: TicketDetailViewController = resolveView(presenter: presenter)
+        view.ticket = ticket
         presenter.setView(view)
         router.setView(view)
         return view

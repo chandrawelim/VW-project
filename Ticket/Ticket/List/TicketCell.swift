@@ -25,6 +25,7 @@ class TicketCell: UITableViewCell {
     
     func set(ticket: Ticket) {
         usernameLabel.text = ticket.title
+        avatarImageView.image = UIImage(systemName: "person.2")
     }
     
     private func _configure() {
@@ -33,6 +34,7 @@ class TicketCell: UITableViewCell {
         
         avatarImageView.translatesAutoresizingMaskIntoConstraints = false
         usernameLabel.translatesAutoresizingMaskIntoConstraints = false
+        avatarImageView.contentMode = .center
         
         accessoryType = .disclosureIndicator
         selectionStyle = .none

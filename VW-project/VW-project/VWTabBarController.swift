@@ -23,9 +23,9 @@ class VWTabBarController: UITabBarController {
         tabBar.layer.masksToBounds = true
         tabBar.isTranslucent = true
         tabBar.barStyle = .black
+        tabBar.tintColor = .black
         tabBar.layer.cornerRadius = 16
         tabBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-        tabBar.barTintColor = .black
         UITabBarItem.appearance().setTitleTextAttributes(
             [NSAttributedString.Key.font: UIFont.monseratBold(10)], for: .normal)
         UITabBarItem.appearance().setTitleTextAttributes(

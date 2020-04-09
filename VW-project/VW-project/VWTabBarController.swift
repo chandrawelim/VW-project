@@ -7,23 +7,18 @@
 //
 
 import UIKit
-import Profile
-import Ticket
-import Map
 
 class VWTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        UITabBar.appearance().tintColor = .systemGreen
-        viewControllers = [home(), map(), itenerary(), myTickets()]
     }
     
     func home() -> UINavigationController {
-        let ticketVC = TicketBuilder().main()
-        ticketVC.title = "Home"
-        ticketVC.tabBarItem = UITabBarItem(title: "Ticket", image: nil, tag: 0)
+        let homeVC = HomeBuilder().main()
+        homeVC.title = "Home"
+        homeVC.tabBarItem = UITabBarItem(title: "Ticket", image: nil, tag: 0)
         return UINavigationController(rootViewController: ticketVC)
     }
     

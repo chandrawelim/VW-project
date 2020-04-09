@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ED51A69243EE4DA00A94200 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED51A62243EE4DA00A94200 /* Home.storyboard */; };
+		2ED51A6A243EE4DA00A94200 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A63243EE4DA00A94200 /* HomeBuilder.swift */; };
+		2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A64243EE4DA00A94200 /* HomeInteractor.swift */; };
+		2ED51A6C243EE4DA00A94200 /* HomeInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A65243EE4DA00A94200 /* HomeInterfaces.swift */; };
+		2ED51A6D243EE4DA00A94200 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A66243EE4DA00A94200 /* HomePresenter.swift */; };
+		2ED51A6E243EE4DA00A94200 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A67243EE4DA00A94200 /* HomeRouter.swift */; };
+		2ED51A6F243EE4DA00A94200 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A68243EE4DA00A94200 /* HomeViewController.swift */; };
+		2ED51A77243EE54000A94200 /* MyTickets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED51A70243EE54000A94200 /* MyTickets.storyboard */; };
+		2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A71243EE54000A94200 /* MyTicketsInterfaces.swift */; };
+		2ED51A79243EE54000A94200 /* MyTicketsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A72243EE54000A94200 /* MyTicketsPresenter.swift */; };
+		2ED51A7A243EE54000A94200 /* MyTicketsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A73243EE54000A94200 /* MyTicketsRouter.swift */; };
+		2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A74243EE54000A94200 /* MyTicketsViewController.swift */; };
+		2ED51A7C243EE54000A94200 /* MyTicketsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A75243EE54000A94200 /* MyTicketsBuilder.swift */; };
+		2ED51A7D243EE54000A94200 /* MyTicketsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A76243EE54000A94200 /* MyTicketsInteractor.swift */; };
+		2ED51A85243EE57E00A94200 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED51A7E243EE57E00A94200 /* Map.storyboard */; };
+		2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A7F243EE57E00A94200 /* MapInterfaces.swift */; };
+		2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A80243EE57E00A94200 /* MapPresenter.swift */; };
+		2ED51A88243EE57E00A94200 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A81243EE57E00A94200 /* MapRouter.swift */; };
+		2ED51A89243EE57E00A94200 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A82243EE57E00A94200 /* MapViewController.swift */; };
+		2ED51A8A243EE57E00A94200 /* MapBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A83243EE57E00A94200 /* MapBuilder.swift */; };
+		2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A84243EE57E00A94200 /* MapInteractor.swift */; };
+		2ED51A93243EE58B00A94200 /* Itenerary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED51A8C243EE58B00A94200 /* Itenerary.storyboard */; };
+		2ED51A94243EE58B00A94200 /* IteneraryInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A8D243EE58B00A94200 /* IteneraryInterfaces.swift */; };
+		2ED51A95243EE58B00A94200 /* IteneraryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A8E243EE58B00A94200 /* IteneraryPresenter.swift */; };
+		2ED51A96243EE58B00A94200 /* IteneraryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A8F243EE58B00A94200 /* IteneraryRouter.swift */; };
+		2ED51A97243EE58B00A94200 /* IteneraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A90243EE58B00A94200 /* IteneraryViewController.swift */; };
+		2ED51A98243EE58B00A94200 /* IteneraryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A91243EE58B00A94200 /* IteneraryBuilder.swift */; };
+		2ED51A99243EE58B00A94200 /* IteneraryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A92243EE58B00A94200 /* IteneraryInteractor.swift */; };
 		CD25954C243E00F200D8BD54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25954B243E00F200D8BD54 /* AppDelegate.swift */; };
 		CD25954E243E00F200D8BD54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25954D243E00F200D8BD54 /* SceneDelegate.swift */; };
 		CD259550243E00F200D8BD54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25954F243E00F200D8BD54 /* ViewController.swift */; };
@@ -51,6 +79,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2ED51A62243EE4DA00A94200 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2ED51A63243EE4DA00A94200 /* HomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		2ED51A64243EE4DA00A94200 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		2ED51A65243EE4DA00A94200 /* HomeInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInterfaces.swift; sourceTree = "<group>"; };
+		2ED51A66243EE4DA00A94200 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		2ED51A67243EE4DA00A94200 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		2ED51A68243EE4DA00A94200 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2ED51A70243EE54000A94200 /* MyTickets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyTickets.storyboard; sourceTree = "<group>"; };
+		2ED51A71243EE54000A94200 /* MyTicketsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsInterfaces.swift; sourceTree = "<group>"; };
+		2ED51A72243EE54000A94200 /* MyTicketsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsPresenter.swift; sourceTree = "<group>"; };
+		2ED51A73243EE54000A94200 /* MyTicketsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsRouter.swift; sourceTree = "<group>"; };
+		2ED51A74243EE54000A94200 /* MyTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsViewController.swift; sourceTree = "<group>"; };
+		2ED51A75243EE54000A94200 /* MyTicketsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsBuilder.swift; sourceTree = "<group>"; };
+		2ED51A76243EE54000A94200 /* MyTicketsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsInteractor.swift; sourceTree = "<group>"; };
+		2ED51A7E243EE57E00A94200 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		2ED51A7F243EE57E00A94200 /* MapInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInterfaces.swift; sourceTree = "<group>"; };
+		2ED51A80243EE57E00A94200 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		2ED51A81243EE57E00A94200 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		2ED51A82243EE57E00A94200 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2ED51A83243EE57E00A94200 /* MapBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBuilder.swift; sourceTree = "<group>"; };
+		2ED51A84243EE57E00A94200 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		2ED51A8C243EE58B00A94200 /* Itenerary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Itenerary.storyboard; sourceTree = "<group>"; };
+		2ED51A8D243EE58B00A94200 /* IteneraryInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteneraryInterfaces.swift; sourceTree = "<group>"; };
+		2ED51A8E243EE58B00A94200 /* IteneraryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteneraryPresenter.swift; sourceTree = "<group>"; };
+		2ED51A8F243EE58B00A94200 /* IteneraryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteneraryRouter.swift; sourceTree = "<group>"; };
+		2ED51A90243EE58B00A94200 /* IteneraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteneraryViewController.swift; sourceTree = "<group>"; };
+		2ED51A91243EE58B00A94200 /* IteneraryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteneraryBuilder.swift; sourceTree = "<group>"; };
+		2ED51A92243EE58B00A94200 /* IteneraryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteneraryInteractor.swift; sourceTree = "<group>"; };
 		CD259548243E00F200D8BD54 /* VW-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VW-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25954B243E00F200D8BD54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD25954D243E00F200D8BD54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +146,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ED51A4F243EE38500A94200 /* MyTickets */ = {
+			isa = PBXGroup;
+			children = (
+				2ED51A70243EE54000A94200 /* MyTickets.storyboard */,
+				2ED51A71243EE54000A94200 /* MyTicketsInterfaces.swift */,
+				2ED51A72243EE54000A94200 /* MyTicketsPresenter.swift */,
+				2ED51A73243EE54000A94200 /* MyTicketsRouter.swift */,
+				2ED51A74243EE54000A94200 /* MyTicketsViewController.swift */,
+				2ED51A75243EE54000A94200 /* MyTicketsBuilder.swift */,
+				2ED51A76243EE54000A94200 /* MyTicketsInteractor.swift */,
+			);
+			path = MyTickets;
+			sourceTree = "<group>";
+		};
+		2ED51A51243EE3A500A94200 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2ED51A7E243EE57E00A94200 /* Map.storyboard */,
+				2ED51A7F243EE57E00A94200 /* MapInterfaces.swift */,
+				2ED51A80243EE57E00A94200 /* MapPresenter.swift */,
+				2ED51A81243EE57E00A94200 /* MapRouter.swift */,
+				2ED51A82243EE57E00A94200 /* MapViewController.swift */,
+				2ED51A83243EE57E00A94200 /* MapBuilder.swift */,
+				2ED51A84243EE57E00A94200 /* MapInteractor.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2ED51A52243EE3A800A94200 /* Itenerary */ = {
+			isa = PBXGroup;
+			children = (
+				2ED51A8C243EE58B00A94200 /* Itenerary.storyboard */,
+				2ED51A8D243EE58B00A94200 /* IteneraryInterfaces.swift */,
+				2ED51A8E243EE58B00A94200 /* IteneraryPresenter.swift */,
+				2ED51A8F243EE58B00A94200 /* IteneraryRouter.swift */,
+				2ED51A90243EE58B00A94200 /* IteneraryViewController.swift */,
+				2ED51A91243EE58B00A94200 /* IteneraryBuilder.swift */,
+				2ED51A92243EE58B00A94200 /* IteneraryInteractor.swift */,
+			);
+			path = Itenerary;
+			sourceTree = "<group>";
+		};
+		2ED51A61243EE4DA00A94200 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2ED51A62243EE4DA00A94200 /* Home.storyboard */,
+				2ED51A63243EE4DA00A94200 /* HomeBuilder.swift */,
+				2ED51A64243EE4DA00A94200 /* HomeInteractor.swift */,
+				2ED51A65243EE4DA00A94200 /* HomeInterfaces.swift */,
+				2ED51A66243EE4DA00A94200 /* HomePresenter.swift */,
+				2ED51A67243EE4DA00A94200 /* HomeRouter.swift */,
+				2ED51A68243EE4DA00A94200 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2ED51A9A243EE5A900A94200 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2ED51A52243EE3A800A94200 /* Itenerary */,
+				2ED51A51243EE3A500A94200 /* Map */,
+				2ED51A4F243EE38500A94200 /* MyTickets */,
+				2ED51A61243EE4DA00A94200 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		CD25953F243E00F200D8BD54 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +235,7 @@
 		CD25954A243E00F200D8BD54 /* VW-project */ = {
 			isa = PBXGroup;
 			children = (
+				2ED51A9A243EE5A900A94200 /* Features */,
 				CD25954B243E00F200D8BD54 /* AppDelegate.swift */,
 				CD25954D243E00F200D8BD54 /* SceneDelegate.swift */,
 				CD25954F243E00F200D8BD54 /* ViewController.swift */,
@@ -227,8 +351,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */,
+				2ED51A77243EE54000A94200 /* MyTickets.storyboard in Resources */,
 				CD259558243E00FC00D8BD54 /* Assets.xcassets in Resources */,
 				CD259553243E00F200D8BD54 /* Main.storyboard in Resources */,
+				2ED51A69243EE4DA00A94200 /* Home.storyboard in Resources */,
+				2ED51A85243EE57E00A94200 /* Map.storyboard in Resources */,
+				2ED51A93243EE58B00A94200 /* Itenerary.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,11 +374,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED51A6A243EE4DA00A94200 /* HomeBuilder.swift in Sources */,
 				CD259550243E00F200D8BD54 /* ViewController.swift in Sources */,
 				CD25954C243E00F200D8BD54 /* AppDelegate.swift in Sources */,
 				CD259556243E00F300D8BD54 /* VW_project.xcdatamodeld in Sources */,
+				2ED51A6C243EE4DA00A94200 /* HomeInterfaces.swift in Sources */,
+				2ED51A7C243EE54000A94200 /* MyTicketsBuilder.swift in Sources */,
+				2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */,
+				2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */,
+				2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */,
+				2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */,
+				2ED51A79243EE54000A94200 /* MyTicketsPresenter.swift in Sources */,
+				2ED51A8A243EE57E00A94200 /* MapBuilder.swift in Sources */,
 				CD25954E243E00F200D8BD54 /* SceneDelegate.swift in Sources */,
+				2ED51A7A243EE54000A94200 /* MyTicketsRouter.swift in Sources */,
+				2ED51A6D243EE4DA00A94200 /* HomePresenter.swift in Sources */,
+				2ED51A89243EE57E00A94200 /* MapViewController.swift in Sources */,
+				2ED51A96243EE58B00A94200 /* IteneraryRouter.swift in Sources */,
+				2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */,
+				2ED51A6F243EE4DA00A94200 /* HomeViewController.swift in Sources */,
+				2ED51A98243EE58B00A94200 /* IteneraryBuilder.swift in Sources */,
 				CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */,
+				2ED51A94243EE58B00A94200 /* IteneraryInterfaces.swift in Sources */,
+				2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */,
+				2ED51A97243EE58B00A94200 /* IteneraryViewController.swift in Sources */,
+				2ED51A88243EE57E00A94200 /* MapRouter.swift in Sources */,
+				2ED51A99243EE58B00A94200 /* IteneraryInteractor.swift in Sources */,
+				2ED51A95243EE58B00A94200 /* IteneraryPresenter.swift in Sources */,
+				2ED51A6E243EE4DA00A94200 /* HomeRouter.swift in Sources */,
+				2ED51A7D243EE54000A94200 /* MyTicketsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,8 +27,9 @@ class PriceTicketView: UIView {
         readMoreButton.layer.borderColor = Color.red.cgColor
     }
     
-    func set() {
-        
+    func set(title: String, imageString: String?) {
+        titleLabel.text = title
+        // Add for download image later
     }
     
     @IBAction func readMorePressed(_ sender: UIButton) {

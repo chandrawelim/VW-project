@@ -17,6 +17,7 @@ class ItineraryView: UIView {
     @IBOutlet weak var locationNameLabel: UILabel!
     @IBOutlet weak var buttonAddItinenary: UIButton!
     
+    var onTapAddItenerary: (() -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -36,6 +37,6 @@ class ItineraryView: UIView {
     }
     
     @IBAction func addItinenaryPressed(_ sender: UIButton) {
-        
+        onTapAddItenerary?()
     }
 }

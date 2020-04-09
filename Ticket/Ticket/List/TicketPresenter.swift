@@ -9,9 +9,9 @@
 
 import UIKit
 
-struct Ticket {
-    var img: String
-    var title: String
+public struct Ticket {
+    public var img: String
+    public var title: String
 }
 
 final class TicketPresenter {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76C26E244019D800562AAC /* UINavigationController.swift */; };
+		2E76C2712440206900562AAC /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76C2702440206900562AAC /* UINavigationItem.swift */; };
 		2ED51A69243EE4DA00A94200 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED51A62243EE4DA00A94200 /* Home.storyboard */; };
 		2ED51A6A243EE4DA00A94200 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A63243EE4DA00A94200 /* HomeBuilder.swift */; };
 		2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A64243EE4DA00A94200 /* HomeInteractor.swift */; };
@@ -88,6 +90,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E76C26E244019D800562AAC /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		2E76C2702440206900562AAC /* UINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationItem.swift; sourceTree = "<group>"; };
 		2ED51A62243EE4DA00A94200 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2ED51A63243EE4DA00A94200 /* HomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
 		2ED51A64243EE4DA00A94200 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
@@ -308,6 +312,8 @@
 			children = (
 				2EE4B0CB243EFD5900F3F866 /* UIFont.swift */,
 				CD745C74243F7AF50082BB0A /* UIColor.swift */,
+				2E76C26E244019D800562AAC /* UINavigationController.swift */,
+				2E76C2702440206900562AAC /* UINavigationItem.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -529,6 +535,7 @@
 				2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */,
 				2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */,
 				2EE4B0CC243EFD5900F3F866 /* UIFont.swift in Sources */,
+				2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */,
 				CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */,
 				2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */,
 				2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */,
@@ -539,6 +546,7 @@
 				CD745C9624400D2A0082BB0A /* BookTicketsPresenter.swift in Sources */,
 				2ED51A6D243EE4DA00A94200 /* HomePresenter.swift in Sources */,
 				2ED51A89243EE57E00A94200 /* MapViewController.swift in Sources */,
+				2E76C2712440206900562AAC /* UINavigationItem.swift in Sources */,
 				2ED51A96243EE58B00A94200 /* IteneraryRouter.swift in Sources */,
 				CD745C79243F87360082BB0A /* HomeCell.swift in Sources */,
 				2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */,

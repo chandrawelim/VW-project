@@ -73,6 +73,17 @@
 		CD6AB2C724406A650002AD65 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C624406A650002AD65 /* ProductView.swift */; };
 		CD6AB2C924406B6F0002AD65 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C824406B6F0002AD65 /* ProductCell.swift */; };
 		CD6AB2CB24406CD00002AD65 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2CA24406CD00002AD65 /* ProductTableViewCell.swift */; };
+		CD6AB2E32440849E0002AD65 /* Checkout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2DC2440849E0002AD65 /* Checkout.storyboard */; };
+		CD6AB2E42440849E0002AD65 /* CheckoutInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2DD2440849E0002AD65 /* CheckoutInterfaces.swift */; };
+		CD6AB2E52440849E0002AD65 /* CheckoutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2DE2440849E0002AD65 /* CheckoutPresenter.swift */; };
+		CD6AB2E62440849E0002AD65 /* CheckoutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2DF2440849E0002AD65 /* CheckoutRouter.swift */; };
+		CD6AB2E72440849E0002AD65 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2E02440849E0002AD65 /* CheckoutViewController.swift */; };
+		CD6AB2E82440849E0002AD65 /* CheckoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2E12440849E0002AD65 /* CheckoutBuilder.swift */; };
+		CD6AB2E92440849E0002AD65 /* CheckoutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2E22440849E0002AD65 /* CheckoutInteractor.swift */; };
+		CD6AB2EC244086910002AD65 /* PromoCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2EB244086910002AD65 /* PromoCodeView.xib */; };
+		CD6AB2EE244089B20002AD65 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */; };
+		CD6AB2F024408BD10002AD65 /* ButtonFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */; };
+		CD6AB2F224408DA70002AD65 /* ButtonFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */; };
 		CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C74243F7AF50082BB0A /* UIColor.swift */; };
 		CD745C79243F87360082BB0A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C78243F87360082BB0A /* HomeCell.swift */; };
 		CD745C7D243F98280082BB0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C7C243F98280082BB0A /* Home.swift */; };
@@ -175,6 +186,17 @@
 		CD6AB2C624406A650002AD65 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		CD6AB2C824406B6F0002AD65 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		CD6AB2CA24406CD00002AD65 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		CD6AB2DC2440849E0002AD65 /* Checkout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Checkout.storyboard; sourceTree = "<group>"; };
+		CD6AB2DD2440849E0002AD65 /* CheckoutInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutInterfaces.swift; sourceTree = "<group>"; };
+		CD6AB2DE2440849E0002AD65 /* CheckoutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPresenter.swift; sourceTree = "<group>"; };
+		CD6AB2DF2440849E0002AD65 /* CheckoutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutRouter.swift; sourceTree = "<group>"; };
+		CD6AB2E02440849E0002AD65 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		CD6AB2E12440849E0002AD65 /* CheckoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutBuilder.swift; sourceTree = "<group>"; };
+		CD6AB2E22440849E0002AD65 /* CheckoutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutInteractor.swift; sourceTree = "<group>"; };
+		CD6AB2EB244086910002AD65 /* PromoCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoCodeView.xib; sourceTree = "<group>"; };
+		CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
+		CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonFooterView.xib; sourceTree = "<group>"; };
+		CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFooterView.swift; sourceTree = "<group>"; };
 		CD745C74243F7AF50082BB0A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		CD745C78243F87360082BB0A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		CD745C7C243F98280082BB0A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -273,10 +295,11 @@
 			isa = PBXGroup;
 			children = (
 				CD745C7E24400BC90082BB0A /* BookTickets */,
+				CD6AB2DB2440847F0002AD65 /* Checkout */,
+				2ED51A61243EE4DA00A94200 /* Home */,
 				2ED51A52243EE3A800A94200 /* Itenerary */,
 				2ED51A51243EE3A500A94200 /* Map */,
 				2ED51A4F243EE38500A94200 /* MyTickets */,
-				2ED51A61243EE4DA00A94200 /* Home */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -398,6 +421,32 @@
 				CD259602243E13B400D8BD54 /* Ticket.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6AB2DB2440847F0002AD65 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB2EA2440867D0002AD65 /* Views */,
+				CD6AB2DC2440849E0002AD65 /* Checkout.storyboard */,
+				CD6AB2E12440849E0002AD65 /* CheckoutBuilder.swift */,
+				CD6AB2E22440849E0002AD65 /* CheckoutInteractor.swift */,
+				CD6AB2DD2440849E0002AD65 /* CheckoutInterfaces.swift */,
+				CD6AB2DE2440849E0002AD65 /* CheckoutPresenter.swift */,
+				CD6AB2DF2440849E0002AD65 /* CheckoutRouter.swift */,
+				CD6AB2E02440849E0002AD65 /* CheckoutViewController.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		CD6AB2EA2440867D0002AD65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB2EB244086910002AD65 /* PromoCodeView.xib */,
+				CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */,
+				CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */,
+				CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CD745C77243F87080082BB0A /* Views */ = {
@@ -528,6 +577,8 @@
 				CD745CB224404C750082BB0A /* PriceTicketView.xib in Resources */,
 				2EE4B0C3243EFD1100F3F866 /* Montserrat-Regular.ttf in Resources */,
 				CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */,
+				CD6AB2F024408BD10002AD65 /* ButtonFooterView.xib in Resources */,
+				CD6AB2EC244086910002AD65 /* PromoCodeView.xib in Resources */,
 				2EE4B0B6243EFD1100F3F866 /* Montserrat-Black.ttf in Resources */,
 				2ED51A77243EE54000A94200 /* MyTickets.storyboard in Resources */,
 				2EE4B0C4243EFD1100F3F866 /* Montserrat-SemiBold.ttf in Resources */,
@@ -548,6 +599,7 @@
 				2EE4B0BC243EFD1100F3F866 /* Montserrat-ExtraLight.ttf in Resources */,
 				2EE4B0BD243EFD1100F3F866 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				2EE4B0BE243EFD1100F3F866 /* Montserrat-Italic.ttf in Resources */,
+				CD6AB2E32440849E0002AD65 /* Checkout.storyboard in Resources */,
 				2EE4B0C7243EFD1100F3F866 /* Montserrat-ThinItalic.ttf in Resources */,
 				2EE4B0BF243EFD1100F3F866 /* Montserrat-Light.ttf in Resources */,
 				2ED51A85243EE57E00A94200 /* Map.storyboard in Resources */,
@@ -587,10 +639,13 @@
 				2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */,
 				2EE4B0CC243EFD5900F3F866 /* UIFont.swift in Sources */,
 				2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */,
+				CD6AB2EE244089B20002AD65 /* PromoCodeView.swift in Sources */,
 				CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */,
+				CD6AB2E62440849E0002AD65 /* CheckoutRouter.swift in Sources */,
 				2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */,
 				2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */,
 				2ED51A79243EE54000A94200 /* MyTicketsPresenter.swift in Sources */,
+				CD6AB2F224408DA70002AD65 /* ButtonFooterView.swift in Sources */,
 				2ED51A8A243EE57E00A94200 /* MapBuilder.swift in Sources */,
 				CD25954E243E00F200D8BD54 /* SceneDelegate.swift in Sources */,
 				2ED51A7A243EE54000A94200 /* MyTicketsRouter.swift in Sources */,
@@ -599,13 +654,16 @@
 				2ED51A89243EE57E00A94200 /* MapViewController.swift in Sources */,
 				2E76C2712440206900562AAC /* UINavigationItem.swift in Sources */,
 				2ED51A96243EE58B00A94200 /* IteneraryRouter.swift in Sources */,
+				CD6AB2E92440849E0002AD65 /* CheckoutInteractor.swift in Sources */,
 				CD745C79243F87360082BB0A /* HomeCell.swift in Sources */,
 				2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */,
 				2ED51A6F243EE4DA00A94200 /* HomeViewController.swift in Sources */,
 				2ED51A98243EE58B00A94200 /* IteneraryBuilder.swift in Sources */,
+				CD6AB2E42440849E0002AD65 /* CheckoutInterfaces.swift in Sources */,
 				CD745CAE24404C130082BB0A /* UIView.swift in Sources */,
 				CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */,
 				CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */,
+				CD6AB2E72440849E0002AD65 /* CheckoutViewController.swift in Sources */,
 				2ED51A94243EE58B00A94200 /* IteneraryInterfaces.swift in Sources */,
 				CD745C7D243F98280082BB0A /* Home.swift in Sources */,
 				CD6AB2C924406B6F0002AD65 /* ProductCell.swift in Sources */,
@@ -615,10 +673,12 @@
 				2ED51A97243EE58B00A94200 /* IteneraryViewController.swift in Sources */,
 				2ED51A88243EE57E00A94200 /* MapRouter.swift in Sources */,
 				2ED51A99243EE58B00A94200 /* IteneraryInteractor.swift in Sources */,
+				CD6AB2E52440849E0002AD65 /* CheckoutPresenter.swift in Sources */,
 				2ED51A95243EE58B00A94200 /* IteneraryPresenter.swift in Sources */,
 				2ED51A6E243EE4DA00A94200 /* HomeRouter.swift in Sources */,
 				CD745C9924400D2A0082BB0A /* BookTicketsBuilder.swift in Sources */,
 				CD6AB2C724406A650002AD65 /* ProductView.swift in Sources */,
+				CD6AB2E82440849E0002AD65 /* CheckoutBuilder.swift in Sources */,
 				2ED51A7D243EE54000A94200 /* MyTicketsInteractor.swift in Sources */,
 				CD745CA8244049110082BB0A /* PriceTicketCell.swift in Sources */,
 			);

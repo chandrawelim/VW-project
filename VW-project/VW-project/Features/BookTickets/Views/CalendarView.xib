@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalendarView" customModule="VW_project" customModuleProvider="target">
             <connections>
+                <outlet property="arrowImage" destination="DV4-Ta-qGk" id="ngY-kC-eco"/>
                 <outlet property="textFieldDate" destination="Cde-mE-8zh" id="g31-fv-zVH"/>
             </connections>
         </placeholder>

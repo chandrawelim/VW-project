@@ -15,6 +15,7 @@ final class HomeViewController: UIViewController {
     
     // MARK: - Default properties -
     private var _presenter: HomePresenterInterface!
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var collectionView: UICollectionView!
     
     let padding: CGFloat = 12
@@ -44,8 +45,14 @@ final class HomeViewController: UIViewController {
     private func _setupView() {
         collectionView.delegate = self
         collectionView.dataSource = self
-        collectionView.backgroundView?.backgroundColor = UIColor.clear
-        collectionView.backgroundColor = UIColor.clear
+        collectionView.backgroundView?.backgroundColor = .clear
+        collectionView.backgroundColor = .clear
+        
+        tableView.backgroundView?.backgroundColor = .clear
+        tableView.backgroundColor = .clear
+        tableView.separatorStyle = .none
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 }
 
@@ -53,6 +60,24 @@ final class HomeViewController: UIViewController {
 extension HomeViewController: HomeViewInterface {
     func showHomeData() {
         collectionView.reloadData()
+    }
+}
+
+extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "titleCell", for: indexPath) as! TitleCell
+        cell.backgroundColor = .clear
+        cell.selectionStyle = .none
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 72
     }
 }
 

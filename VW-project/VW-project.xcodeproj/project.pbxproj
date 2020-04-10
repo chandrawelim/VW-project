@@ -74,6 +74,7 @@
 		CD745C9824400D2A0082BB0A /* BookTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9124400D2A0082BB0A /* BookTicketsViewController.swift */; };
 		CD745C9924400D2A0082BB0A /* BookTicketsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9224400D2A0082BB0A /* BookTicketsBuilder.swift */; };
 		CD745C9A24400D2A0082BB0A /* BookTicketsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */; };
+		CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9C244020EB0082BB0A /* TitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		CD745C9124400D2A0082BB0A /* BookTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsViewController.swift; sourceTree = "<group>"; };
 		CD745C9224400D2A0082BB0A /* BookTicketsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsBuilder.swift; sourceTree = "<group>"; };
 		CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsInteractor.swift; sourceTree = "<group>"; };
+		CD745C9C244020EB0082BB0A /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +373,7 @@
 			isa = PBXGroup;
 			children = (
 				CD745C78243F87360082BB0A /* HomeCell.swift */,
+				CD745C9C244020EB0082BB0A /* TitleCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -526,6 +529,7 @@
 				2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */,
 				2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */,
 				2EE4B0CC243EFD5900F3F866 /* UIFont.swift in Sources */,
+				CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */,
 				2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */,
 				2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */,
 				2ED51A79243EE54000A94200 /* MyTicketsPresenter.swift in Sources */,

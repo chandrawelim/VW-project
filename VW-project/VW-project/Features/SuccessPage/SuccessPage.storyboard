@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zIc-eW-6fX">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Success Page View Controller-->
+        <scene sceneID="XJ1-QA-Nrj">
+            <objects>
+                <viewController storyboardIdentifier="SuccessPageViewController" id="zIc-eW-6fX" customClass="SuccessPageViewController" customModule="VW_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z2g-4m-atm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="277-bx-K9x">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="597"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="calendarCell" rowHeight="58" id="b0j-4R-KI7" customClass="CalendarCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="58"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b0j-4R-KI7" id="ei1-Yi-dxA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wtc-dn-9ml" customClass="CalendarView" customModule="VW_project" customModuleProvider="target">
+                                                    <rect key="frame" x="76" y="16" width="223" height="42"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="wtc-dn-9ml" secondAttribute="bottom" id="A1T-DQ-p5L"/>
+                                                <constraint firstAttribute="trailing" secondItem="wtc-dn-9ml" secondAttribute="trailing" constant="76" id="DXV-qY-MjJ"/>
+                                                <constraint firstItem="wtc-dn-9ml" firstAttribute="top" secondItem="ei1-Yi-dxA" secondAttribute="top" constant="16" id="I2A-ak-x0l"/>
+                                                <constraint firstItem="wtc-dn-9ml" firstAttribute="leading" secondItem="ei1-Yi-dxA" secondAttribute="leading" constant="76" id="LKN-bu-lsL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="calendarView" destination="wtc-dn-9ml" id="8tH-4p-wZh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="successFerriesWheelCell" rowHeight="300" id="Dmh-zA-iG7" customClass="SuccessFerriesWheelCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="86" width="375" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dmh-zA-iG7" id="zMb-7e-vCL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kE7-oX-J6K" customClass="SuccessFerriesWheel" customModule="VW_project" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="kE7-oX-J6K" firstAttribute="top" secondItem="zMb-7e-vCL" secondAttribute="top" id="KRc-pq-WkD"/>
+                                                <constraint firstItem="kE7-oX-J6K" firstAttribute="leading" secondItem="zMb-7e-vCL" secondAttribute="leading" id="XbQ-QJ-Zli"/>
+                                                <constraint firstAttribute="bottom" secondItem="kE7-oX-J6K" secondAttribute="bottom" id="bWc-1V-Ccg"/>
+                                                <constraint firstAttribute="trailing" secondItem="kE7-oX-J6K" secondAttribute="trailing" id="fuc-Cp-Ppn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="successFerriesWheelView" destination="kE7-oX-J6K" id="cvx-zB-vgn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="qrCodeCell" rowHeight="300" id="F2p-sa-pWm" customClass="QRCodeCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="386" width="375" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F2p-sa-pWm" id="aWo-0q-dhX">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIE-y7-1vA" customClass="QRCodeView" customModule="VW_project" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="MIE-y7-1vA" firstAttribute="top" secondItem="aWo-0q-dhX" secondAttribute="top" id="PpD-Bc-Pqz"/>
+                                                <constraint firstAttribute="bottom" secondItem="MIE-y7-1vA" secondAttribute="bottom" id="Uug-Sq-RE0"/>
+                                                <constraint firstItem="MIE-y7-1vA" firstAttribute="leading" secondItem="aWo-0q-dhX" secondAttribute="leading" id="gN5-3M-Kbj"/>
+                                                <constraint firstAttribute="trailing" secondItem="MIE-y7-1vA" secondAttribute="trailing" id="tIy-Lf-wph"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="qrCodeView" destination="MIE-y7-1vA" id="tvO-OM-kwI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P49-yl-mb0">
+                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feZ-5q-LE6">
+                                        <rect key="frame" x="16" y="6" width="343" height="32"/>
+                                        <color key="backgroundColor" name="Orange"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="DBV-2E-Vji"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                        <state key="normal" title="Wonderful!">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="okPressed:" destination="zIc-eW-6fX" eventType="touchUpInside" id="njh-4J-aqb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="WPc-bj-2vY"/>
+                                    <constraint firstItem="feZ-5q-LE6" firstAttribute="leading" secondItem="P49-yl-mb0" secondAttribute="leading" constant="16" id="hBo-lr-ASF"/>
+                                    <constraint firstAttribute="trailing" secondItem="feZ-5q-LE6" secondAttribute="trailing" constant="16" id="kKg-sf-vL5"/>
+                                    <constraint firstAttribute="bottom" secondItem="feZ-5q-LE6" secondAttribute="bottom" constant="32" id="tUg-tk-mdx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="277-bx-K9x" firstAttribute="leading" secondItem="3pi-N7-nbV" secondAttribute="leading" id="712-7Y-O0g"/>
+                            <constraint firstItem="P49-yl-mb0" firstAttribute="top" secondItem="277-bx-K9x" secondAttribute="bottom" id="QL3-qm-ZtQ"/>
+                            <constraint firstItem="P49-yl-mb0" firstAttribute="leading" secondItem="3pi-N7-nbV" secondAttribute="leading" id="W0f-ZK-fTD"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="trailing" secondItem="P49-yl-mb0" secondAttribute="trailing" id="acc-cW-MtX"/>
+                            <constraint firstItem="277-bx-K9x" firstAttribute="top" secondItem="3pi-N7-nbV" secondAttribute="top" id="rET-Bn-CGf"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="bottom" secondItem="P49-yl-mb0" secondAttribute="bottom" id="sLL-SG-8bo"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="trailing" secondItem="277-bx-K9x" secondAttribute="trailing" id="wof-Qq-cSG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3pi-N7-nbV"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonOk" destination="feZ-5q-LE6" id="2c5-Xh-Xmn"/>
+                        <outlet property="tableView" destination="277-bx-K9x" id="ATs-bi-4BN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rle-ol-2Ax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="301.79910044977515"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Orange">
+            <color red="0.85500001907348633" green="0.3880000114440918" blue="0.28600001335144043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

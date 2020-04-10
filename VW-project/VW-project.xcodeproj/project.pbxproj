@@ -84,6 +84,19 @@
 		CD6AB2EE244089B20002AD65 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */; };
 		CD6AB2F024408BD10002AD65 /* ButtonFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */; };
 		CD6AB2F224408DA70002AD65 /* ButtonFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */; };
+		CD6AB2FB2440B2070002AD65 /* SuccessPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2F42440B2070002AD65 /* SuccessPage.storyboard */; };
+		CD6AB2FC2440B2070002AD65 /* SuccessPageInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F52440B2070002AD65 /* SuccessPageInterfaces.swift */; };
+		CD6AB2FD2440B2070002AD65 /* SuccessPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F62440B2070002AD65 /* SuccessPagePresenter.swift */; };
+		CD6AB2FE2440B2070002AD65 /* SuccessPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F72440B2070002AD65 /* SuccessPageRouter.swift */; };
+		CD6AB2FF2440B2070002AD65 /* SuccessPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F82440B2070002AD65 /* SuccessPageViewController.swift */; };
+		CD6AB3002440B2070002AD65 /* SuccessPageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F92440B2070002AD65 /* SuccessPageBuilder.swift */; };
+		CD6AB3012440B2070002AD65 /* SuccessPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2FA2440B2070002AD65 /* SuccessPageInteractor.swift */; };
+		CD6AB3042440B3AD0002AD65 /* SuccessFerriesWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB3032440B3AD0002AD65 /* SuccessFerriesWheel.xib */; };
+		CD6AB3062440B3B80002AD65 /* SuccessFerriesWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB3052440B3B80002AD65 /* SuccessFerriesWheel.swift */; };
+		CD6AB3082440B5810002AD65 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB3072440B5800002AD65 /* QRCodeView.swift */; };
+		CD6AB30A2440B5880002AD65 /* QRCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB3092440B5870002AD65 /* QRCodeView.xib */; };
+		CD6AB30C2440B6AB0002AD65 /* QRCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB30B2440B6AB0002AD65 /* QRCodeCell.swift */; };
+		CD6AB30E2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB30D2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift */; };
 		CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C74243F7AF50082BB0A /* UIColor.swift */; };
 		CD745C79243F87360082BB0A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C78243F87360082BB0A /* HomeCell.swift */; };
 		CD745C7D243F98280082BB0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C7C243F98280082BB0A /* Home.swift */; };
@@ -197,6 +210,19 @@
 		CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
 		CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonFooterView.xib; sourceTree = "<group>"; };
 		CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFooterView.swift; sourceTree = "<group>"; };
+		CD6AB2F42440B2070002AD65 /* SuccessPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SuccessPage.storyboard; sourceTree = "<group>"; };
+		CD6AB2F52440B2070002AD65 /* SuccessPageInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageInterfaces.swift; sourceTree = "<group>"; };
+		CD6AB2F62440B2070002AD65 /* SuccessPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPagePresenter.swift; sourceTree = "<group>"; };
+		CD6AB2F72440B2070002AD65 /* SuccessPageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageRouter.swift; sourceTree = "<group>"; };
+		CD6AB2F82440B2070002AD65 /* SuccessPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageViewController.swift; sourceTree = "<group>"; };
+		CD6AB2F92440B2070002AD65 /* SuccessPageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageBuilder.swift; sourceTree = "<group>"; };
+		CD6AB2FA2440B2070002AD65 /* SuccessPageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageInteractor.swift; sourceTree = "<group>"; };
+		CD6AB3032440B3AD0002AD65 /* SuccessFerriesWheel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessFerriesWheel.xib; sourceTree = "<group>"; };
+		CD6AB3052440B3B80002AD65 /* SuccessFerriesWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFerriesWheel.swift; sourceTree = "<group>"; };
+		CD6AB3072440B5800002AD65 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		CD6AB3092440B5870002AD65 /* QRCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeView.xib; sourceTree = "<group>"; };
+		CD6AB30B2440B6AB0002AD65 /* QRCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeCell.swift; sourceTree = "<group>"; };
+		CD6AB30D2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFerriesWheelCell.swift; sourceTree = "<group>"; };
 		CD745C74243F7AF50082BB0A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		CD745C78243F87360082BB0A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		CD745C7C243F98280082BB0A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -294,6 +320,7 @@
 		2ED51A9A243EE5A900A94200 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				CD6AB2F32440B1E20002AD65 /* SuccessPage */,
 				CD745C7E24400BC90082BB0A /* BookTickets */,
 				CD6AB2DB2440847F0002AD65 /* Checkout */,
 				2ED51A61243EE4DA00A94200 /* Home */,
@@ -449,6 +476,34 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		CD6AB2F32440B1E20002AD65 /* SuccessPage */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB3022440B3930002AD65 /* Views */,
+				CD6AB2F42440B2070002AD65 /* SuccessPage.storyboard */,
+				CD6AB2F92440B2070002AD65 /* SuccessPageBuilder.swift */,
+				CD6AB2FA2440B2070002AD65 /* SuccessPageInteractor.swift */,
+				CD6AB2F52440B2070002AD65 /* SuccessPageInterfaces.swift */,
+				CD6AB2F62440B2070002AD65 /* SuccessPagePresenter.swift */,
+				CD6AB2F72440B2070002AD65 /* SuccessPageRouter.swift */,
+				CD6AB2F82440B2070002AD65 /* SuccessPageViewController.swift */,
+			);
+			path = SuccessPage;
+			sourceTree = "<group>";
+		};
+		CD6AB3022440B3930002AD65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB3072440B5800002AD65 /* QRCodeView.swift */,
+				CD6AB3092440B5870002AD65 /* QRCodeView.xib */,
+				CD6AB3052440B3B80002AD65 /* SuccessFerriesWheel.swift */,
+				CD6AB3032440B3AD0002AD65 /* SuccessFerriesWheel.xib */,
+				CD6AB30B2440B6AB0002AD65 /* QRCodeCell.swift */,
+				CD6AB30D2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CD745C77243F87080082BB0A /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -573,6 +628,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE4B0C2243EFD1100F3F866 /* Montserrat-MediumItalic.ttf in Resources */,
+				CD6AB2FB2440B2070002AD65 /* SuccessPage.storyboard in Resources */,
 				2EE4B0B9243EFD1100F3F866 /* Montserrat-BoldItalic.ttf in Resources */,
 				CD745CB224404C750082BB0A /* PriceTicketView.xib in Resources */,
 				2EE4B0C3243EFD1100F3F866 /* Montserrat-Regular.ttf in Resources */,
@@ -584,8 +640,10 @@
 				2EE4B0C4243EFD1100F3F866 /* Montserrat-SemiBold.ttf in Resources */,
 				2EE4B0B7243EFD1100F3F866 /* Montserrat-BlackItalic.ttf in Resources */,
 				CD745C9424400D2A0082BB0A /* BookTickets.storyboard in Resources */,
+				CD6AB3042440B3AD0002AD65 /* SuccessFerriesWheel.xib in Resources */,
 				2EE4B0C5243EFD1100F3F866 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				2EE4B0BA243EFD1100F3F866 /* Montserrat-ExtraBold.ttf in Resources */,
+				CD6AB30A2440B5880002AD65 /* QRCodeView.xib in Resources */,
 				2EE4B0B4243EFD1100F3F866 /* BerkshireSwash-Regular.ttf in Resources */,
 				2EE4B0C0243EFD1100F3F866 /* Montserrat-LightItalic.ttf in Resources */,
 				CD6AB2C124405B6A0002AD65 /* CalendarView.xib in Resources */,
@@ -622,6 +680,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6AB2FC2440B2070002AD65 /* SuccessPageInterfaces.swift in Sources */,
 				2ED51A6A243EE4DA00A94200 /* HomeBuilder.swift in Sources */,
 				CD745CA124402B520082BB0A /* BookTicketCell.swift in Sources */,
 				CD745C9724400D2A0082BB0A /* BookTicketsRouter.swift in Sources */,
@@ -637,14 +696,19 @@
 				CD745C9524400D2A0082BB0A /* BookTicketsInterfaces.swift in Sources */,
 				2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */,
 				2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */,
+				CD6AB3062440B3B80002AD65 /* SuccessFerriesWheel.swift in Sources */,
+				CD6AB3002440B2070002AD65 /* SuccessPageBuilder.swift in Sources */,
 				2EE4B0CC243EFD5900F3F866 /* UIFont.swift in Sources */,
 				2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */,
+				CD6AB3012440B2070002AD65 /* SuccessPageInteractor.swift in Sources */,
+				CD6AB30C2440B6AB0002AD65 /* QRCodeCell.swift in Sources */,
 				CD6AB2EE244089B20002AD65 /* PromoCodeView.swift in Sources */,
 				CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */,
 				CD6AB2E62440849E0002AD65 /* CheckoutRouter.swift in Sources */,
 				2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */,
 				2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */,
 				2ED51A79243EE54000A94200 /* MyTicketsPresenter.swift in Sources */,
+				CD6AB2FD2440B2070002AD65 /* SuccessPagePresenter.swift in Sources */,
 				CD6AB2F224408DA70002AD65 /* ButtonFooterView.swift in Sources */,
 				2ED51A8A243EE57E00A94200 /* MapBuilder.swift in Sources */,
 				CD25954E243E00F200D8BD54 /* SceneDelegate.swift in Sources */,
@@ -653,10 +717,14 @@
 				2ED51A6D243EE4DA00A94200 /* HomePresenter.swift in Sources */,
 				2ED51A89243EE57E00A94200 /* MapViewController.swift in Sources */,
 				2E76C2712440206900562AAC /* UINavigationItem.swift in Sources */,
+				CD6AB2FF2440B2070002AD65 /* SuccessPageViewController.swift in Sources */,
+				CD6AB2FE2440B2070002AD65 /* SuccessPageRouter.swift in Sources */,
 				2ED51A96243EE58B00A94200 /* IteneraryRouter.swift in Sources */,
 				CD6AB2E92440849E0002AD65 /* CheckoutInteractor.swift in Sources */,
 				CD745C79243F87360082BB0A /* HomeCell.swift in Sources */,
+				CD6AB30E2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift in Sources */,
 				2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */,
+				CD6AB3082440B5810002AD65 /* QRCodeView.swift in Sources */,
 				2ED51A6F243EE4DA00A94200 /* HomeViewController.swift in Sources */,
 				2ED51A98243EE58B00A94200 /* IteneraryBuilder.swift in Sources */,
 				CD6AB2E42440849E0002AD65 /* CheckoutInterfaces.swift in Sources */,

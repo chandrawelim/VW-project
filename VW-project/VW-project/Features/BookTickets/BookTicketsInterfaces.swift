@@ -12,6 +12,7 @@ enum BookTicketsNavigationOption {
 }
 
 protocol BookTicketsViewInterface: class {
+    func showTicketPass()
 }
 
 protocol BookTicketsInteractorInterface: class {
@@ -20,6 +21,10 @@ protocol BookTicketsInteractorInterface: class {
 protocol BookTicketsPresenterInterface: class {
 	init(interactor: BookTicketsInteractorInterface, router: BookTicketsRouterInterface)
 	func setView(_ view: BookTicketsViewInterface)
+    func viewDidLoad()
+    func numberOfRows() -> Int
+    func getTicketPass(atIndex index: Int) -> TicketPass
+    func didSelectTicketPass(atIndex index: Int)
 }
 
 protocol BookTicketsRouterInterface: class {

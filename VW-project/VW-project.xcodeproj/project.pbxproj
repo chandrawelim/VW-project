@@ -77,6 +77,7 @@
 		CD745C9924400D2A0082BB0A /* BookTicketsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9224400D2A0082BB0A /* BookTicketsBuilder.swift */; };
 		CD745C9A24400D2A0082BB0A /* BookTicketsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */; };
 		CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9C244020EB0082BB0A /* TitleCell.swift */; };
+		CD745CA124402B520082BB0A /* BookTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745CA024402B520082BB0A /* BookTicketCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +168,7 @@
 		CD745C9224400D2A0082BB0A /* BookTicketsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsBuilder.swift; sourceTree = "<group>"; };
 		CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsInteractor.swift; sourceTree = "<group>"; };
 		CD745C9C244020EB0082BB0A /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		CD745CA024402B520082BB0A /* BookTicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,6 +389,7 @@
 		CD745C7E24400BC90082BB0A /* BookTickets */ = {
 			isa = PBXGroup;
 			children = (
+				CD745C9F24402B2B0082BB0A /* Views */,
 				CD745C8D24400D2A0082BB0A /* BookTickets.storyboard */,
 				CD745C9224400D2A0082BB0A /* BookTicketsBuilder.swift */,
 				CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */,
@@ -396,6 +399,14 @@
 				CD745C9124400D2A0082BB0A /* BookTicketsViewController.swift */,
 			);
 			path = BookTickets;
+			sourceTree = "<group>";
+		};
+		CD745C9F24402B2B0082BB0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD745CA024402B520082BB0A /* BookTicketCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -524,6 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED51A6A243EE4DA00A94200 /* HomeBuilder.swift in Sources */,
+				CD745CA124402B520082BB0A /* BookTicketCell.swift in Sources */,
 				CD745C9724400D2A0082BB0A /* BookTicketsRouter.swift in Sources */,
 				CD259550243E00F200D8BD54 /* ViewController.swift in Sources */,
 				CD25954C243E00F200D8BD54 /* AppDelegate.swift in Sources */,

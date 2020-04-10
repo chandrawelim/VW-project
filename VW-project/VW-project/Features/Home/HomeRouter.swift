@@ -27,5 +27,10 @@ final class HomeRouter {
 extension HomeRouter: HomeRouterInterface {
 
     func navigate(to option: HomeNavigationOption) {
+        switch option {
+        case .bookTicket:
+            let vc = BookTicketsBuilder().main()
+            _view?.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }

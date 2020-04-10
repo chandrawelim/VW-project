@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76C26E244019D800562AAC /* UINavigationController.swift */; };
+		2E76C2712440206900562AAC /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76C2702440206900562AAC /* UINavigationItem.swift */; };
 		2ED51A69243EE4DA00A94200 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED51A62243EE4DA00A94200 /* Home.storyboard */; };
 		2ED51A6A243EE4DA00A94200 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A63243EE4DA00A94200 /* HomeBuilder.swift */; };
 		2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED51A64243EE4DA00A94200 /* HomeInteractor.swift */; };
@@ -80,6 +81,7 @@
 
 /* Begin PBXFileReference section */
 		2E76C26E244019D800562AAC /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		2E76C2702440206900562AAC /* UINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationItem.swift; sourceTree = "<group>"; };
 		2ED51A62243EE4DA00A94200 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2ED51A63243EE4DA00A94200 /* HomeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
 		2ED51A64243EE4DA00A94200 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				2EE4B0CB243EFD5900F3F866 /* UIFont.swift */,
 				CD745C74243F7AF50082BB0A /* UIColor.swift */,
 				2E76C26E244019D800562AAC /* UINavigationController.swift */,
+				2E76C2702440206900562AAC /* UINavigationItem.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				2ED51A7A243EE54000A94200 /* MyTicketsRouter.swift in Sources */,
 				2ED51A6D243EE4DA00A94200 /* HomePresenter.swift in Sources */,
 				2ED51A89243EE57E00A94200 /* MapViewController.swift in Sources */,
+				2E76C2712440206900562AAC /* UINavigationItem.swift in Sources */,
 				2ED51A96243EE58B00A94200 /* IteneraryRouter.swift in Sources */,
 				2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */,
 				2ED51A6F243EE4DA00A94200 /* HomeViewController.swift in Sources */,

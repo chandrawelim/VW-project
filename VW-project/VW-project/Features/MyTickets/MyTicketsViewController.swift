@@ -45,9 +45,15 @@ final class MyTicketsViewController: UIViewController {
     private func _setNavBar() {
         navigationController?.transparentBar()
         navigationController?.navigationBar.tintColor = .black
+        navigationItem.rightCartIcon(self, action: #selector(onTapCartItem))
     }
 }
 
 // MARK: - Extensions -
 extension MyTicketsViewController: MyTicketsViewInterface {
+    @objc func onTapCartItem() {
+        // DO SOMETHING
+        print("COK")
+    }
+
 }

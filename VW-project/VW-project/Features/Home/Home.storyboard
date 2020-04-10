@@ -45,9 +45,6 @@
                                     <rect key="frame" x="0.0" y="128" width="414" height="152"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="152" id="XTI-vR-34W"/>
-                                    </constraints>
                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4Mu-5x-Cd2">
                                         <size key="itemSize" width="134" height="128"/>
                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -70,7 +67,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tickets &amp; Prices" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="op8-IO-2Sl">
-                                                        <rect key="frame" x="31" y="84" width="72" height="28"/>
+                                                        <rect key="frame" x="31" y="84" width="72" height="29.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="32" id="DKj-Gl-YKz"/>
                                                             <constraint firstAttribute="width" constant="72" id="Kg7-CY-zW5"/>
@@ -116,14 +113,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME TO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqu-Yw-nW3">
-                                                    <rect key="frame" x="167" y="16" width="80.5" height="14"/>
+                                                    <rect key="frame" x="163" y="0.0" width="88.5" height="15"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="12"/>
                                                     <color key="textColor" name="Orange"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VinWonders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTq-nu-p7Z">
-                                                    <rect key="frame" x="121.5" y="30" width="171" height="37.5"/>
+                                                    <rect key="frame" x="120.5" y="15" width="173" height="40"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" name="BerkshireSwash-Regular" family="Berkshire Swash" pointSize="32"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -132,7 +129,7 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstItem="Tqu-Yw-nW3" firstAttribute="top" secondItem="SGc-8D-ssn" secondAttribute="top" constant="16" id="5dY-Gb-5Qs"/>
+                                                <constraint firstItem="Tqu-Yw-nW3" firstAttribute="top" secondItem="SGc-8D-ssn" secondAttribute="top" id="5dY-Gb-5Qs"/>
                                                 <constraint firstItem="Tqu-Yw-nW3" firstAttribute="centerX" secondItem="SGc-8D-ssn" secondAttribute="centerX" id="Pea-bc-93c"/>
                                                 <constraint firstItem="KTq-nu-p7Z" firstAttribute="top" secondItem="Tqu-Yw-nW3" secondAttribute="bottom" id="aex-H8-viL"/>
                                                 <constraint firstItem="KTq-nu-p7Z" firstAttribute="centerX" secondItem="SGc-8D-ssn" secondAttribute="centerX" id="eSy-Md-gdl"/>

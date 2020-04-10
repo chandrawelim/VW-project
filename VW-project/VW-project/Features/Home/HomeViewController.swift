@@ -31,6 +31,11 @@ final class HomeViewController: UIViewController {
         super.viewDidLoad()
         _setupView()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
 	
     // MARK: - Setup Initial View
     private func _setupView() {

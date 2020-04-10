@@ -35,7 +35,6 @@ class VWTabBarController: UITabBarController {
     
     func home() -> UINavigationController {
         let homeVC = HomeBuilder().main()
-        homeVC.title = "Home"
         homeVC.tabBarItem = UITabBarItem(title: "HOME", image: #imageLiteral(resourceName: "home_ico-inactive"), tag: 0)
         homeVC.tabBarItem.selectedImage = #imageLiteral(resourceName: "home_ico-active")
         return UINavigationController(rootViewController: homeVC)

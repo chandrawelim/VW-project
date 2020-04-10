@@ -65,6 +65,16 @@
 		CD259566243E00FC00D8BD54 /* VW_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259565243E00FC00D8BD54 /* VW_projectTests.swift */; };
 		CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259570243E0EA800D8BD54 /* VWTabBarController.swift */; };
 		CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C74243F7AF50082BB0A /* UIColor.swift */; };
+		CD745C79243F87360082BB0A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C78243F87360082BB0A /* HomeCell.swift */; };
+		CD745C7D243F98280082BB0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C7C243F98280082BB0A /* Home.swift */; };
+		CD745C9424400D2A0082BB0A /* BookTickets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD745C8D24400D2A0082BB0A /* BookTickets.storyboard */; };
+		CD745C9524400D2A0082BB0A /* BookTicketsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C8E24400D2A0082BB0A /* BookTicketsInterfaces.swift */; };
+		CD745C9624400D2A0082BB0A /* BookTicketsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C8F24400D2A0082BB0A /* BookTicketsPresenter.swift */; };
+		CD745C9724400D2A0082BB0A /* BookTicketsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9024400D2A0082BB0A /* BookTicketsRouter.swift */; };
+		CD745C9824400D2A0082BB0A /* BookTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9124400D2A0082BB0A /* BookTicketsViewController.swift */; };
+		CD745C9924400D2A0082BB0A /* BookTicketsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9224400D2A0082BB0A /* BookTicketsBuilder.swift */; };
+		CD745C9A24400D2A0082BB0A /* BookTicketsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */; };
+		CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9C244020EB0082BB0A /* TitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +153,16 @@
 		CD259602243E13B400D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259644243E15C400D8BD54 /* Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD745C74243F7AF50082BB0A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		CD745C78243F87360082BB0A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		CD745C7C243F98280082BB0A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CD745C8D24400D2A0082BB0A /* BookTickets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookTickets.storyboard; sourceTree = "<group>"; };
+		CD745C8E24400D2A0082BB0A /* BookTicketsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsInterfaces.swift; sourceTree = "<group>"; };
+		CD745C8F24400D2A0082BB0A /* BookTicketsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsPresenter.swift; sourceTree = "<group>"; };
+		CD745C9024400D2A0082BB0A /* BookTicketsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsRouter.swift; sourceTree = "<group>"; };
+		CD745C9124400D2A0082BB0A /* BookTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsViewController.swift; sourceTree = "<group>"; };
+		CD745C9224400D2A0082BB0A /* BookTicketsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsBuilder.swift; sourceTree = "<group>"; };
+		CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsInteractor.swift; sourceTree = "<group>"; };
+		CD745C9C244020EB0082BB0A /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +228,8 @@
 		2ED51A61243EE4DA00A94200 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CD745C7C243F98280082BB0A /* Home.swift */,
+				CD745C77243F87080082BB0A /* Views */,
 				2ED51A62243EE4DA00A94200 /* Home.storyboard */,
 				2ED51A63243EE4DA00A94200 /* HomeBuilder.swift */,
 				2ED51A64243EE4DA00A94200 /* HomeInteractor.swift */,
@@ -222,6 +244,7 @@
 		2ED51A9A243EE5A900A94200 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				CD745C7E24400BC90082BB0A /* BookTickets */,
 				2ED51A52243EE3A800A94200 /* Itenerary */,
 				2ED51A51243EE3A500A94200 /* Map */,
 				2ED51A4F243EE38500A94200 /* MyTickets */,
@@ -346,6 +369,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD745C77243F87080082BB0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD745C78243F87360082BB0A /* HomeCell.swift */,
+				CD745C9C244020EB0082BB0A /* TitleCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD745C7E24400BC90082BB0A /* BookTickets */ = {
+			isa = PBXGroup;
+			children = (
+				CD745C8D24400D2A0082BB0A /* BookTickets.storyboard */,
+				CD745C9224400D2A0082BB0A /* BookTicketsBuilder.swift */,
+				CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */,
+				CD745C8E24400D2A0082BB0A /* BookTicketsInterfaces.swift */,
+				CD745C8F24400D2A0082BB0A /* BookTicketsPresenter.swift */,
+				CD745C9024400D2A0082BB0A /* BookTicketsRouter.swift */,
+				CD745C9124400D2A0082BB0A /* BookTicketsViewController.swift */,
+			);
+			path = BookTickets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -435,6 +481,7 @@
 				2ED51A77243EE54000A94200 /* MyTickets.storyboard in Resources */,
 				2EE4B0C4243EFD1100F3F866 /* Montserrat-SemiBold.ttf in Resources */,
 				2EE4B0B7243EFD1100F3F866 /* Montserrat-BlackItalic.ttf in Resources */,
+				CD745C9424400D2A0082BB0A /* BookTickets.storyboard in Resources */,
 				2EE4B0C5243EFD1100F3F866 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				2EE4B0BA243EFD1100F3F866 /* Montserrat-ExtraBold.ttf in Resources */,
 				2EE4B0B4243EFD1100F3F866 /* BerkshireSwash-Regular.ttf in Resources */,
@@ -471,35 +518,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED51A6A243EE4DA00A94200 /* HomeBuilder.swift in Sources */,
+				CD745C9724400D2A0082BB0A /* BookTicketsRouter.swift in Sources */,
 				CD259550243E00F200D8BD54 /* ViewController.swift in Sources */,
 				CD25954C243E00F200D8BD54 /* AppDelegate.swift in Sources */,
 				CD259556243E00F300D8BD54 /* VW_project.xcdatamodeld in Sources */,
 				2ED51A6C243EE4DA00A94200 /* HomeInterfaces.swift in Sources */,
+				CD745C9A24400D2A0082BB0A /* BookTicketsInteractor.swift in Sources */,
 				2ED51A7C243EE54000A94200 /* MyTicketsBuilder.swift in Sources */,
+				CD745C9524400D2A0082BB0A /* BookTicketsInterfaces.swift in Sources */,
 				2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */,
 				2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */,
 				2EE4B0CC243EFD5900F3F866 /* UIFont.swift in Sources */,
+				CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */,
 				2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */,
 				2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */,
 				2ED51A79243EE54000A94200 /* MyTicketsPresenter.swift in Sources */,
 				2ED51A8A243EE57E00A94200 /* MapBuilder.swift in Sources */,
 				CD25954E243E00F200D8BD54 /* SceneDelegate.swift in Sources */,
 				2ED51A7A243EE54000A94200 /* MyTicketsRouter.swift in Sources */,
+				CD745C9624400D2A0082BB0A /* BookTicketsPresenter.swift in Sources */,
 				2ED51A6D243EE4DA00A94200 /* HomePresenter.swift in Sources */,
 				2ED51A89243EE57E00A94200 /* MapViewController.swift in Sources */,
 				2ED51A96243EE58B00A94200 /* IteneraryRouter.swift in Sources */,
+				CD745C79243F87360082BB0A /* HomeCell.swift in Sources */,
 				2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */,
 				2ED51A6F243EE4DA00A94200 /* HomeViewController.swift in Sources */,
 				2ED51A98243EE58B00A94200 /* IteneraryBuilder.swift in Sources */,
 				CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */,
 				CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */,
 				2ED51A94243EE58B00A94200 /* IteneraryInterfaces.swift in Sources */,
+				CD745C7D243F98280082BB0A /* Home.swift in Sources */,
 				2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */,
+				CD745C9824400D2A0082BB0A /* BookTicketsViewController.swift in Sources */,
 				2ED51A97243EE58B00A94200 /* IteneraryViewController.swift in Sources */,
 				2ED51A88243EE57E00A94200 /* MapRouter.swift in Sources */,
 				2ED51A99243EE58B00A94200 /* IteneraryInteractor.swift in Sources */,
 				2ED51A95243EE58B00A94200 /* IteneraryPresenter.swift in Sources */,
 				2ED51A6E243EE4DA00A94200 /* HomeRouter.swift in Sources */,
+				CD745C9924400D2A0082BB0A /* BookTicketsBuilder.swift in Sources */,
 				2ED51A7D243EE54000A94200 /* MyTicketsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

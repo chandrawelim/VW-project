@@ -12,6 +12,7 @@
 import UIKit
 
 enum HomeNavigationOption {
+    case bookTicket
 }
 
 protocol HomeRouterInterface: class {
@@ -20,11 +21,16 @@ protocol HomeRouterInterface: class {
 }
 
 protocol HomeViewInterface: class {
+    func showHomeData()
 }
 
 protocol HomePresenterInterface: class {
     init(_ interactor: HomeInteractorInterface, _ router: HomeRouterInterface)
     func set(_ view: HomeViewInterface)
+    func viewDidLoad()
+    func numberOfRows() -> Int
+    func getHomeData(atIndex index: Int) -> Home
+    func openDetail(atIndex index: Int)
 }
 
 protocol HomeInteractorInterface: class {

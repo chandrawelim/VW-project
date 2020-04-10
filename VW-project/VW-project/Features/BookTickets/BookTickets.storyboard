@@ -18,14 +18,14 @@
             <objects>
                 <viewController storyboardIdentifier="BookTicketsViewController" id="zIc-eW-6fX" customClass="BookTicketsViewController" customModule="VW_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z2g-4m-atm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ellipse_1" translatesAutoresizingMaskIntoConstraints="NO" id="R2x-9N-Fxq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="267"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uTf-hq-gMp">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="tEe-d4-e85">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
@@ -108,6 +108,77 @@
                                             <outlet property="priceTicketView" destination="Zze-wu-l5O" id="n0f-dN-gBW"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="calendarCell" rowHeight="58" id="yac-zD-DkZ" customClass="CalendarCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="515" width="375" height="58"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yac-zD-DkZ" id="chU-Jd-ec1">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dYl-Rq-9FO" customClass="CalendarView" customModule="VW_project" customModuleProvider="target">
+                                                    <rect key="frame" x="16" y="16" width="343" height="42"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dYl-Rq-9FO" firstAttribute="leading" secondItem="chU-Jd-ec1" secondAttribute="leading" constant="16" id="31Q-Ac-RNp"/>
+                                                <constraint firstAttribute="bottom" secondItem="dYl-Rq-9FO" secondAttribute="bottom" id="5oz-pT-Wvu"/>
+                                                <constraint firstAttribute="trailing" secondItem="dYl-Rq-9FO" secondAttribute="trailing" constant="16" id="kHa-8u-xvY"/>
+                                                <constraint firstItem="dYl-Rq-9FO" firstAttribute="top" secondItem="chU-Jd-ec1" secondAttribute="top" constant="16" id="qv2-13-hke"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="calendarView" destination="dYl-Rq-9FO" id="xdr-WL-wqo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="productTableViewCell" rowHeight="284" id="kDS-AL-Ybt" customClass="ProductTableViewCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="573" width="375" height="284"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kDS-AL-Ybt" id="Xqe-fQ-zan">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="284"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JfR-7s-wbI">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="284"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <prototypes>
+                                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="productCell" rowHeight="80" id="Ks9-q4-SnB" customClass="ProductCell" customModule="VW_project" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ks9-q4-SnB" id="cKQ-0g-IGz">
+                                                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jeE-KG-X0u" customClass="ProductView" customModule="VW_project" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                                    </view>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="jeE-KG-X0u" firstAttribute="leading" secondItem="cKQ-0g-IGz" secondAttribute="leading" id="B7a-rU-kxH"/>
+                                                                    <constraint firstItem="jeE-KG-X0u" firstAttribute="top" secondItem="cKQ-0g-IGz" secondAttribute="top" id="DsO-Cv-qui"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="jeE-KG-X0u" secondAttribute="bottom" id="WRH-yU-buW"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="jeE-KG-X0u" secondAttribute="trailing" id="dt5-OA-Bqj"/>
+                                                                </constraints>
+                                                            </tableViewCellContentView>
+                                                            <connections>
+                                                                <outlet property="productView" destination="jeE-KG-X0u" id="odD-oR-bjO"/>
+                                                            </connections>
+                                                        </tableViewCell>
+                                                    </prototypes>
+                                                </tableView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="JfR-7s-wbI" secondAttribute="bottom" id="9X2-Tp-qAX"/>
+                                                <constraint firstItem="JfR-7s-wbI" firstAttribute="leading" secondItem="Xqe-fQ-zan" secondAttribute="leading" id="NcZ-V5-wKI"/>
+                                                <constraint firstItem="JfR-7s-wbI" firstAttribute="top" secondItem="Xqe-fQ-zan" secondAttribute="top" id="Te5-qL-brC"/>
+                                                <constraint firstAttribute="trailing" secondItem="JfR-7s-wbI" secondAttribute="trailing" id="ri3-gp-5u8"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="productTableView" destination="JfR-7s-wbI" id="LTS-1k-zOm"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
@@ -124,6 +195,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3pi-N7-nbV"/>
                     </view>
+                    <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="collectionView" destination="tEe-d4-e85" id="nj2-aW-4ny"/>
                         <outlet property="tableView" destination="uTf-hq-gMp" id="M53-4k-IGd"/>
@@ -131,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rle-ol-2Ax" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256.80000000000001" y="152.47376311844079"/>
+            <point key="canvasLocation" x="256.80000000000001" y="152.02398800599701"/>
         </scene>
     </scenes>
     <resources>

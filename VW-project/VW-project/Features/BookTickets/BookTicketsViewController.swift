@@ -67,20 +67,37 @@ extension BookTicketsViewController: BookTicketsViewInterface {
 }
 
 extension BookTicketsViewController: UITableViewDelegate, UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "priceTicketCell", for: indexPath) as! PriceTicketCell
-        cell.backgroundColor = .clear
-        cell.selectionStyle = .none
-        return cell
+        if indexPath.section == 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "priceTicketCell", for: indexPath) as! PriceTicketCell
+            cell.backgroundColor = .clear
+            cell.selectionStyle = .none
+            return cell
+        } else if indexPath.section == 1 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "calendarCell", for: indexPath) as! CalendarCell
+            return cell
+        } else if indexPath.section == 2 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "productTableViewCell", for: indexPath) as! ProductTableViewCell
+            return cell
+        }
+        return UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 226
+        if indexPath.section == 0 {
+            return 226
+        } else if indexPath.section == 1 {
+            return 40
+        }
+        return 0
     }
 }
 

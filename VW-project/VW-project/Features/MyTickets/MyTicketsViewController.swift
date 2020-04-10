@@ -31,12 +31,21 @@ final class MyTicketsViewController: UIViewController {
         super.viewDidLoad()
         _setupView()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        _setNavBar()
+    }
 	
     // MARK: - Setup Initial View
     private func _setupView() {
         // Write your initial setup here
     }
-
+    
+    private func _setNavBar() {
+        navigationController?.transparentBar()
+        navigationController?.navigationBar.tintColor = .black
+    }
 }
 
 // MARK: - Extensions -

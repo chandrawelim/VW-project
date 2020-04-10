@@ -81,6 +81,34 @@
                                         </collectionViewCell>
                                     </cells>
                                 </collectionView>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="priceTicketCell" rowHeight="325" id="0fP-Jy-h6R" customClass="PriceTicketCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="190" width="375" height="325"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0fP-Jy-h6R" id="i5J-97-z8Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="325"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zze-wu-l5O" customClass="PriceTicketView" customModule="VW_project" customModuleProvider="target">
+                                                    <rect key="frame" x="76" y="0.0" width="223" height="325"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="226" id="GTl-Rh-vk7"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Zze-wu-l5O" firstAttribute="top" secondItem="i5J-97-z8Y" secondAttribute="top" id="JLb-sj-oEl"/>
+                                                <constraint firstAttribute="trailing" secondItem="Zze-wu-l5O" secondAttribute="trailing" constant="76" id="KtK-KD-mjQ"/>
+                                                <constraint firstItem="Zze-wu-l5O" firstAttribute="leading" secondItem="i5J-97-z8Y" secondAttribute="leading" constant="76" id="gji-TN-gxG"/>
+                                                <constraint firstAttribute="bottom" secondItem="Zze-wu-l5O" secondAttribute="bottom" id="ukQ-GC-XAe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="priceTicketView" destination="Zze-wu-l5O" id="n0f-dN-gBW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

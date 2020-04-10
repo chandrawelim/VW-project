@@ -1,32 +1,36 @@
 //
 //  PriceTicketView.swift
-//  Ticket
+//  VW-project
 //
-//  Created by Chandra Welim on 09/04/20.
+//  Created by Chandra Welim on 10/04/20.
 //  Copyright © 2020 Chandra Welim. All rights reserved.
 //
 
 import UIKit
 
-class PriceTicketView: UIView {
+class PriceTicketView: UIView, ViewFromNib {
+    
+    var view: UIView?
+    var nibName: String {
+        return "PriceTicketView"
+    }
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var readMoreButton: UIButton!
     
-    var onTapReadMore: (() -> Void)?
+    var onPressed: (() -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setupXIB()
         _configure()
     }
     
     private func _configure() {
-        readMoreButton.setTitleColor(Color.brown, for: .normal)
-        
-        readMoreButton.layer.cornerRadius = 32
+        readMoreButton.layer.cornerRadius = 12
         readMoreButton.layer.borderWidth = 1
-        readMoreButton.layer.borderColor = Color.red.cgColor
+        readMoreButton.layer.borderColor = Color.lightOrange.cgColor
     }
     
     func set(title: String, imageString: String?) {
@@ -34,7 +38,7 @@ class PriceTicketView: UIView {
         // Add for download image later
     }
     
-    @IBAction func readMorePressed(_ sender: UIButton) {
-        onTapReadMore?()
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        onPressed?()
     }
 }

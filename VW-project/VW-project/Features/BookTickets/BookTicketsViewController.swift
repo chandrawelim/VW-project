@@ -54,14 +54,33 @@ final class BookTicketsViewController: UIViewController {
         tableView.backgroundView?.backgroundColor = .clear
         tableView.backgroundColor = .clear
         tableView.separatorStyle = .none
+        tableView.delegate = self
+        tableView.dataSource = self
     }
-    
 }
 
 // MARK: - Extensions -
 extension BookTicketsViewController: BookTicketsViewInterface {
     func showTicketPass() {
         collectionView.reloadData()
+    }
+}
+
+extension BookTicketsViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "priceTicketCell", for: indexPath) as! PriceTicketCell
+        cell.backgroundColor = .clear
+        cell.selectionStyle = .none
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 226
     }
 }
 

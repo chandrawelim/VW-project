@@ -66,6 +66,7 @@
 		CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD259559243E00FC00D8BD54 /* LaunchScreen.storyboard */; };
 		CD259566243E00FC00D8BD54 /* VW_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259565243E00FC00D8BD54 /* VW_projectTests.swift */; };
 		CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259570243E0EA800D8BD54 /* VWTabBarController.swift */; };
+		CD2D0ECE24419C3C0084117F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ECD24419C3C0084117F /* UIViewController.swift */; };
 		CD6AB2C024405B6A0002AD65 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */; };
 		CD6AB2C124405B6A0002AD65 /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */; };
 		CD6AB2C324405DAE0002AD65 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */; };
@@ -168,6 +169,7 @@
 		CD259601243E13B400D8BD54 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259602243E13B400D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259644243E15C400D8BD54 /* Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2D0ECD24419C3C0084117F /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
 		CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				2E76C26E244019D800562AAC /* UINavigationController.swift */,
 				2E76C2702440206900562AAC /* UINavigationItem.swift */,
 				CD745CAD24404C130082BB0A /* UIView.swift */,
+				CD2D0ECD24419C3C0084117F /* UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -616,6 +619,7 @@
 				2ED51A88243EE57E00A94200 /* MapRouter.swift in Sources */,
 				2ED51A99243EE58B00A94200 /* IteneraryInteractor.swift in Sources */,
 				2ED51A95243EE58B00A94200 /* IteneraryPresenter.swift in Sources */,
+				CD2D0ECE24419C3C0084117F /* UIViewController.swift in Sources */,
 				2ED51A6E243EE4DA00A94200 /* HomeRouter.swift in Sources */,
 				CD745C9924400D2A0082BB0A /* BookTicketsBuilder.swift in Sources */,
 				CD6AB2C724406A650002AD65 /* ProductView.swift in Sources */,

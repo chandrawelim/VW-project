@@ -40,6 +40,7 @@ final class BookTicketsViewController: UIViewController {
     }
     
     private func _setNavBar() {
+        setTitle(title: "BOOK YOUR TICKETS")
         navigationController?.transparentBar()
         navigationController?.navigationBar.tintColor = .white
     }

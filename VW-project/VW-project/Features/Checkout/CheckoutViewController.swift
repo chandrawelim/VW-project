@@ -46,6 +46,11 @@ final class CheckoutViewController: UIViewController {
         setTitle(title: "YOUR CART")
         navigationController?.transparentBar()
         navigationController?.navigationBar.tintColor = .white
+        navigationItem.rightCartIcon(self, action: #selector(onTapCartItem))
+    }
+    
+    @objc func onTapCartItem() {
+        
     }
     
     // MARK: - Setup Initial View

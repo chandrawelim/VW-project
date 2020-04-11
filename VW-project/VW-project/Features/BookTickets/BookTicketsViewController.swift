@@ -34,6 +34,7 @@ final class BookTicketsViewController: UIViewController {
         _setupView()
         _presenter.viewDidLoad()
         
+        buttonFooterView.set(total: "100,000 ₫", buttonString: "Add to cart")
         buttonFooterView.buttonPressed = { [weak self] in
             self?._presenter.openNextScreen()
         }
@@ -49,6 +50,11 @@ final class BookTicketsViewController: UIViewController {
         setTitle(title: "BOOK YOUR TICKETS")
         navigationController?.transparentBar()
         navigationController?.navigationBar.tintColor = .white
+        navigationItem.rightCartIcon(self, action: #selector(onTapCartItem))
+    }
+    
+    @objc func onTapCartItem() {
+        
     }
     
     // MARK: - Setup Initial View

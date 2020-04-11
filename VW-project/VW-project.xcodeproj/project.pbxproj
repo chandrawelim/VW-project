@@ -67,6 +67,10 @@
 		CD259566243E00FC00D8BD54 /* VW_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259565243E00FC00D8BD54 /* VW_projectTests.swift */; };
 		CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259570243E0EA800D8BD54 /* VWTabBarController.swift */; };
 		CD2D0ECE24419C3C0084117F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ECD24419C3C0084117F /* UIViewController.swift */; };
+		CD2D0ED52441D7BC0084117F /* ScanCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2D0ED42441D7BC0084117F /* ScanCardView.xib */; };
+		CD2D0ED72441D7D60084117F /* ScanCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ED62441D7D60084117F /* ScanCardView.swift */; };
+		CD2D0ED92441D9D70084117F /* ScanCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ED82441D9D70084117F /* ScanCardCell.swift */; };
+		CD2D0EDB2441E4F80084117F /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EDA2441E4F80084117F /* AlertVC.swift */; };
 		CD310A7F2440EA010062E2EB /* SingleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */; };
 		CD310A812440EA1F0062E2EB /* TwoTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */; };
 		CD310A832440EAC90062E2EB /* TwoTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */; };
@@ -221,6 +225,10 @@
 		CD259602243E13B400D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259644243E15C400D8BD54 /* Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2D0ECD24419C3C0084117F /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		CD2D0ED42441D7BC0084117F /* ScanCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanCardView.xib; sourceTree = "<group>"; };
+		CD2D0ED62441D7D60084117F /* ScanCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCardView.swift; sourceTree = "<group>"; };
+		CD2D0ED82441D9D70084117F /* ScanCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCardCell.swift; sourceTree = "<group>"; };
+		CD2D0EDA2441E4F80084117F /* AlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertVC.swift; path = ../../../../../Ticket/Ticket/Detail/AlertVC.swift; sourceTree = "<group>"; };
 		CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextFieldCell.swift; sourceTree = "<group>"; };
 		CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldCell.swift; sourceTree = "<group>"; };
 		CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTextFieldView.xib; sourceTree = "<group>"; };
@@ -508,6 +516,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD2D0ED32441D7A50084117F /* ScanCardView */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D0ED42441D7BC0084117F /* ScanCardView.xib */,
+				CD2D0ED62441D7D60084117F /* ScanCardView.swift */,
+				CD2D0ED82441D9D70084117F /* ScanCardCell.swift */,
+			);
+			path = ScanCardView;
+			sourceTree = "<group>";
+		};
 		CD310A862440F1A90062E2EB /* LabelSwitchView */ = {
 			isa = PBXGroup;
 			children = (
@@ -651,6 +669,8 @@
 		CD8215322440D78700A5B6BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD2D0EDA2441E4F80084117F /* AlertVC.swift */,
+				CD2D0ED32441D7A50084117F /* ScanCardView */,
 				CD310A862440F1A90062E2EB /* LabelSwitchView */,
 				CD4B3A8C2440E45E002B1359 /* TwoImageLeftLabel */,
 				CD4B3A812440E1AC002B1359 /* ImageLeftLabel */,
@@ -813,6 +833,7 @@
 				2EE4B0BD243EFD1100F3F866 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				2EE4B0BE243EFD1100F3F866 /* Montserrat-Italic.ttf in Resources */,
 				CD6AB2E32440849E0002AD65 /* Checkout.storyboard in Resources */,
+				CD2D0ED52441D7BC0084117F /* ScanCardView.xib in Resources */,
 				2EE4B0C7243EFD1100F3F866 /* Montserrat-ThinItalic.ttf in Resources */,
 				2EE4B0BF243EFD1100F3F866 /* Montserrat-Light.ttf in Resources */,
 				2ED51A85243EE57E00A94200 /* Map.storyboard in Resources */,
@@ -857,9 +878,11 @@
 				CD745C9524400D2A0082BB0A /* BookTicketsInterfaces.swift in Sources */,
 				2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */,
 				2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */,
+				CD2D0ED92441D9D70084117F /* ScanCardCell.swift in Sources */,
 				CD8215452440DDBC00A5B6BC /* SingleLabelCell.swift in Sources */,
 				CD6AB3062440B3B80002AD65 /* SuccessFerriesWheel.swift in Sources */,
 				CD82152F2440D78200A5B6BC /* PaymentViewController.swift in Sources */,
+				CD2D0EDB2441E4F80084117F /* AlertVC.swift in Sources */,
 				CD6AB3002440B2070002AD65 /* SuccessPageBuilder.swift in Sources */,
 				2EE4B0CC243EFD5900F3F866 /* UIFont.swift in Sources */,
 				2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */,
@@ -915,6 +938,7 @@
 				CD82152E2440D78200A5B6BC /* PaymentRouter.swift in Sources */,
 				2ED51A99243EE58B00A94200 /* IteneraryInteractor.swift in Sources */,
 				CD6AB2E52440849E0002AD65 /* CheckoutPresenter.swift in Sources */,
+				CD2D0ED72441D7D60084117F /* ScanCardView.swift in Sources */,
 				2ED51A95243EE58B00A94200 /* IteneraryPresenter.swift in Sources */,
 				CD2D0ECE24419C3C0084117F /* UIViewController.swift in Sources */,
 				2ED51A6E243EE4DA00A94200 /* HomeRouter.swift in Sources */,

@@ -24,8 +24,19 @@ class ImageLeftLabelView: UIView, ViewFromNib {
         setupXIB()
     }
     
-    func set(title: String, imageString: String) {
+    func set(title: String,
+             imageString: String,
+             backgroundColor: UIColor = .white,
+             textColor: UIColor = .black) {
         titleLabel.text = title
         imageView.image = UIImage(named: imageString)
+        self.backgroundColor = backgroundColor
+        titleLabel.textColor = textColor
+    }
+    
+    func setBorder() {
+        layer.borderWidth = 1
+        layer.cornerRadius = 4
+        layer.borderColor = Color.whiteThree.cgColor
     }
 }

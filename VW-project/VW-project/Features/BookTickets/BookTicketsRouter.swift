@@ -9,14 +9,14 @@
 import UIKit
 
 final class BookTicketsRouter {
-
+    
     // MARK: - Default properties -
     private weak var _view: BookTicketsViewController?
 }
 
 // MARK: - Extensions -
 extension BookTicketsRouter: BookTicketsRouterInterface {
-
+    
     func setView(_ view: BookTicketsViewController) {
         _view = view
     }

@@ -42,7 +42,7 @@ final class PaymentViewController: UIViewController {
     }
     
     @IBAction func buyPressed(_ sender: UIButton) {
-        
+        _presenter.openNextScreen()
     }
 }
 

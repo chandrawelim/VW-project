@@ -30,6 +30,10 @@ final class CheckoutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         _setupView()
+        
+        buttonFooterView.buttonPressed = { [weak self] in
+            self?._presenter.openNextScreen()
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

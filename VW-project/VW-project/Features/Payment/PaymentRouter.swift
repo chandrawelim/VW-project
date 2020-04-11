@@ -22,5 +22,10 @@ extension PaymentRouter: PaymentRouterInterface {
     }
 
     func navigate(to option: PaymentNavigationOption) {
+        switch option {
+        case .successPage:
+            let vc = SuccessPageBuilder().main()
+            _view?.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }

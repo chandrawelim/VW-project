@@ -22,5 +22,10 @@ extension CheckoutRouter: CheckoutRouterInterface {
     }
 
     func navigate(to option: CheckoutNavigationOption) {
+        switch option {
+        case .payment:
+            let vc = PaymentBuilder().main()
+            _view?.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }

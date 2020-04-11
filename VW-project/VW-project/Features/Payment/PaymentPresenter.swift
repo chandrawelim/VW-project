@@ -29,4 +29,8 @@ extension PaymentPresenter: PaymentPresenterInterface {
     func setView(_ view: PaymentViewInterface) {
         _view = view
     }
+    
+    func openNextScreen() {
+        _router?.navigate(to: .successPage)
+    }
 }

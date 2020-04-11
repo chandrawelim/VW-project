@@ -9,6 +9,7 @@
 import UIKit
 
 enum CheckoutNavigationOption {
+    case payment
 }
 
 protocol CheckoutViewInterface: class {
@@ -20,6 +21,7 @@ protocol CheckoutInteractorInterface: class {
 protocol CheckoutPresenterInterface: class {
 	init(interactor: CheckoutInteractorInterface, router: CheckoutRouterInterface)
 	func setView(_ view: CheckoutViewInterface)
+    func openNextScreen()
 }
 
 protocol CheckoutRouterInterface: class {

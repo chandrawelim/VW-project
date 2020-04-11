@@ -9,6 +9,7 @@
 import UIKit
 
 enum PaymentNavigationOption {
+    case successPage
 }
 
 protocol PaymentViewInterface: class {
@@ -20,6 +21,7 @@ protocol PaymentInteractorInterface: class {
 protocol PaymentPresenterInterface: class {
 	init(interactor: PaymentInteractorInterface, router: PaymentRouterInterface)
 	func setView(_ view: PaymentViewInterface)
+    func openNextScreen()
 }
 
 protocol PaymentRouterInterface: class {

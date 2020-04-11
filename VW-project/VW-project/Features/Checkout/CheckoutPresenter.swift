@@ -29,4 +29,8 @@ extension CheckoutPresenter: CheckoutPresenterInterface {
     func setView(_ view: CheckoutViewInterface) {
         _view = view
     }
+    
+    func openNextScreen() {
+        _router?.navigate(to: .payment)
+    }
 }

@@ -36,10 +36,11 @@ final class SuccessPageViewController: UIViewController {
         buttonOk.layer.cornerRadius = 8
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.separatorStyle = .none
     }
     
     @IBAction func okPressed(_ sender: UIButton) {
-        // Pop VC
+        navigationController?.popToRootViewController(animated: true)
     }
 }
 

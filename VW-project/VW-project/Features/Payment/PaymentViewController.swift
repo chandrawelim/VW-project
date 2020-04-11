@@ -32,6 +32,11 @@ final class PaymentViewController: UIViewController {
         _setupView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setTitle(title: "PAYMENT", color: .black)
+    }
+    
     // MARK: - Setup Initial View
     private func _setupView() {
         tableView.delegate = self

@@ -10,11 +10,11 @@ import UIKit
 
 extension UIViewController {
     
-    func setTitle(title: String) {
+    func setTitle(title: String, color: UIColor = .white) {
         let label = UILabel()
         label.text = title
         label.font = UIFont.monseratBold(12)
-        label.textColor = .white
+        label.textColor = color
         navigationItem.titleView = label
     }
 }

@@ -39,6 +39,7 @@ final class CheckoutViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         _setNavBar()
+        setTitle(title: "YOUR CART")
     }
     
     private func _setNavBar() {

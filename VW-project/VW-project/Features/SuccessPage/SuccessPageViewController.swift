@@ -31,6 +31,11 @@ final class SuccessPageViewController: UIViewController {
         _setupView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setTitle(title: "TICKETS BOUGHT!", color: .black)
+    }
+    
     // MARK: - Setup Initial View
     private func _setupView() {
         buttonOk.setGradient(colors: [Color.gradientOne, Color.gradientTwo,

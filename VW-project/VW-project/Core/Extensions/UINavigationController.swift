@@ -16,19 +16,5 @@ extension UINavigationController {
         navigationBar.isTranslucent = true
         view.backgroundColor = .clear
     }
-    
-    func transparentBarWithCart() {
-        transparentBar()
-        let image = #imageLiteral(resourceName: "cart_ico").withRenderingMode(.alwaysOriginal)
-        let rightButton = UIBarButtonItem(image: image,
-                                          style: UIBarButtonItem.Style.plain,
-                                          target: self,
-                                          action: #selector(self.cartNavBarItemAction))
-        navigationItem.rightBarButtonItem = rightButton
-    }
-    
-    @objc func cartNavBarItemAction() {
-        
-    }
 }
 

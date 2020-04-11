@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductView" customModule="VW_project" customModuleProvider="target">
+            <connections>
+                <outlet property="minusButton" destination="qfe-Px-FJ9" id="HYt-My-h5O"/>
+                <outlet property="plusButton" destination="dTh-ua-8Hp" id="KbB-8V-Ilf"/>
+                <outlet property="priceLabel" destination="QbG-hm-VsG" id="yJG-7j-0lz"/>
+                <outlet property="productCountLabel" destination="Js8-ZJ-y5g" id="eqM-CG-sdi"/>
+                <outlet property="productNameLabel" destination="aoW-7k-ngp" id="Lk4-5Y-kyB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="69"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adult" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoW-7k-ngp">
+                    <rect key="frame" x="16" y="24.5" width="47" height="20"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50,000 ₫" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbG-hm-VsG">
+                    <rect key="frame" x="87" y="25.5" width="61" height="18"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTh-ua-8Hp">
+                    <rect key="frame" x="325" y="26.5" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15.789999999999999" id="25R-XF-yNL"/>
+                        <constraint firstAttribute="height" constant="15.789999999999999" id="5Vj-tH-Cch"/>
+                    </constraints>
+                    <state key="normal" image="btnPlus"/>
+                    <connections>
+                        <action selector="buttonPlusPressed:" destination="-1" eventType="touchUpInside" id="vTX-pm-46E"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfe-Px-FJ9">
+                    <rect key="frame" x="239.5" y="26.5" width="15.5" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15.789999999999999" id="aDK-7V-ErA"/>
+                        <constraint firstAttribute="height" constant="15.789999999999999" id="vmK-1k-xsC"/>
+                    </constraints>
+                    <state key="normal" image="btnMinus"/>
+                    <connections>
+                        <action selector="buttonMinusPressed:" destination="-1" eventType="touchUpInside" id="SUe-vk-cTg"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Js8-ZJ-y5g">
+                    <rect key="frame" x="285" y="24.5" width="10" height="20"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dTh-ua-8Hp" firstAttribute="leading" secondItem="Js8-ZJ-y5g" secondAttribute="trailing" constant="30" id="BMb-tL-byw"/>
+                <constraint firstItem="dTh-ua-8Hp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MPy-YV-fiY"/>
+                <constraint firstItem="Js8-ZJ-y5g" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OcY-gO-LNw"/>
+                <constraint firstItem="Js8-ZJ-y5g" firstAttribute="leading" secondItem="qfe-Px-FJ9" secondAttribute="trailing" constant="30" id="S1e-Af-ACy"/>
+                <constraint firstItem="QbG-hm-VsG" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Su2-fg-10m"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dTh-ua-8Hp" secondAttribute="trailing" constant="16" id="Tgw-Pc-aei"/>
+                <constraint firstItem="QbG-hm-VsG" firstAttribute="leading" secondItem="aoW-7k-ngp" secondAttribute="trailing" constant="24" id="Y1b-IP-Lem"/>
+                <constraint firstItem="aoW-7k-ngp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="pYT-rh-PP5"/>
+                <constraint firstItem="qfe-Px-FJ9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="poW-np-bcU"/>
+                <constraint firstItem="aoW-7k-ngp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="rxv-6g-MHt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="281.8840579710145" y="-481.13839285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btnMinus" width="16" height="16"/>
+        <image name="btnPlus" width="16" height="16"/>
+    </resources>
+</document>

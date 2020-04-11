@@ -66,6 +66,13 @@
 		CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD259559243E00FC00D8BD54 /* LaunchScreen.storyboard */; };
 		CD259566243E00FC00D8BD54 /* VW_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259565243E00FC00D8BD54 /* VW_projectTests.swift */; };
 		CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259570243E0EA800D8BD54 /* VWTabBarController.swift */; };
+		CD6AB2C024405B6A0002AD65 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */; };
+		CD6AB2C124405B6A0002AD65 /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */; };
+		CD6AB2C324405DAE0002AD65 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */; };
+		CD6AB2C5244068C30002AD65 /* ProductView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2C4244068C30002AD65 /* ProductView.xib */; };
+		CD6AB2C724406A650002AD65 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C624406A650002AD65 /* ProductView.swift */; };
+		CD6AB2C924406B6F0002AD65 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C824406B6F0002AD65 /* ProductCell.swift */; };
+		CD6AB2CB24406CD00002AD65 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2CA24406CD00002AD65 /* ProductTableViewCell.swift */; };
 		CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C74243F7AF50082BB0A /* UIColor.swift */; };
 		CD745C79243F87360082BB0A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C78243F87360082BB0A /* HomeCell.swift */; };
 		CD745C7D243F98280082BB0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C7C243F98280082BB0A /* Home.swift */; };
@@ -78,6 +85,10 @@
 		CD745C9A24400D2A0082BB0A /* BookTicketsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */; };
 		CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C9C244020EB0082BB0A /* TitleCell.swift */; };
 		CD745CA124402B520082BB0A /* BookTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745CA024402B520082BB0A /* BookTicketCell.swift */; };
+		CD745CA8244049110082BB0A /* PriceTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745CA7244049110082BB0A /* PriceTicketCell.swift */; };
+		CD745CAE24404C130082BB0A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745CAD24404C130082BB0A /* UIView.swift */; };
+		CD745CB024404C640082BB0A /* PriceTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745CAF24404C640082BB0A /* PriceTicketView.swift */; };
+		CD745CB224404C750082BB0A /* PriceTicketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD745CB124404C750082BB0A /* PriceTicketView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +168,13 @@
 		CD259601243E13B400D8BD54 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259602243E13B400D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259644243E15C400D8BD54 /* Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
+		CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		CD6AB2C4244068C30002AD65 /* ProductView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductView.xib; sourceTree = "<group>"; };
+		CD6AB2C624406A650002AD65 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		CD6AB2C824406B6F0002AD65 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		CD6AB2CA24406CD00002AD65 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		CD745C74243F7AF50082BB0A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		CD745C78243F87360082BB0A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		CD745C7C243F98280082BB0A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -169,6 +187,10 @@
 		CD745C9324400D2A0082BB0A /* BookTicketsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketsInteractor.swift; sourceTree = "<group>"; };
 		CD745C9C244020EB0082BB0A /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 		CD745CA024402B520082BB0A /* BookTicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketCell.swift; sourceTree = "<group>"; };
+		CD745CA7244049110082BB0A /* PriceTicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTicketCell.swift; sourceTree = "<group>"; };
+		CD745CAD24404C130082BB0A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CD745CAF24404C640082BB0A /* PriceTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTicketView.swift; sourceTree = "<group>"; };
+		CD745CB124404C750082BB0A /* PriceTicketView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceTicketView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +338,7 @@
 				CD745C74243F7AF50082BB0A /* UIColor.swift */,
 				2E76C26E244019D800562AAC /* UINavigationController.swift */,
 				2E76C2702440206900562AAC /* UINavigationItem.swift */,
+				CD745CAD24404C130082BB0A /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -404,7 +427,17 @@
 		CD745C9F24402B2B0082BB0A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */,
+				CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */,
+				CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */,
 				CD745CA024402B520082BB0A /* BookTicketCell.swift */,
+				CD745CA7244049110082BB0A /* PriceTicketCell.swift */,
+				CD745CAF24404C640082BB0A /* PriceTicketView.swift */,
+				CD745CB124404C750082BB0A /* PriceTicketView.xib */,
+				CD6AB2C4244068C30002AD65 /* ProductView.xib */,
+				CD6AB2C624406A650002AD65 /* ProductView.swift */,
+				CD6AB2C824406B6F0002AD65 /* ProductCell.swift */,
+				CD6AB2CA24406CD00002AD65 /* ProductTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -492,6 +525,7 @@
 			files = (
 				2EE4B0C2243EFD1100F3F866 /* Montserrat-MediumItalic.ttf in Resources */,
 				2EE4B0B9243EFD1100F3F866 /* Montserrat-BoldItalic.ttf in Resources */,
+				CD745CB224404C750082BB0A /* PriceTicketView.xib in Resources */,
 				2EE4B0C3243EFD1100F3F866 /* Montserrat-Regular.ttf in Resources */,
 				CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */,
 				2EE4B0B6243EFD1100F3F866 /* Montserrat-Black.ttf in Resources */,
@@ -503,6 +537,7 @@
 				2EE4B0BA243EFD1100F3F866 /* Montserrat-ExtraBold.ttf in Resources */,
 				2EE4B0B4243EFD1100F3F866 /* BerkshireSwash-Regular.ttf in Resources */,
 				2EE4B0C0243EFD1100F3F866 /* Montserrat-LightItalic.ttf in Resources */,
+				CD6AB2C124405B6A0002AD65 /* CalendarView.xib in Resources */,
 				CD259558243E00FC00D8BD54 /* Assets.xcassets in Resources */,
 				2EE4B0C6243EFD1100F3F866 /* Montserrat-Thin.ttf in Resources */,
 				2EE4B0C1243EFD1100F3F866 /* Montserrat-Medium.ttf in Resources */,
@@ -516,6 +551,7 @@
 				2EE4B0C7243EFD1100F3F866 /* Montserrat-ThinItalic.ttf in Resources */,
 				2EE4B0BF243EFD1100F3F866 /* Montserrat-Light.ttf in Resources */,
 				2ED51A85243EE57E00A94200 /* Map.storyboard in Resources */,
+				CD6AB2C5244068C30002AD65 /* ProductView.xib in Resources */,
 				2ED51A93243EE58B00A94200 /* Itenerary.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,8 +574,11 @@
 				CD745CA124402B520082BB0A /* BookTicketCell.swift in Sources */,
 				CD745C9724400D2A0082BB0A /* BookTicketsRouter.swift in Sources */,
 				CD259550243E00F200D8BD54 /* ViewController.swift in Sources */,
+				CD6AB2C024405B6A0002AD65 /* CalendarView.swift in Sources */,
+				CD6AB2CB24406CD00002AD65 /* ProductTableViewCell.swift in Sources */,
 				CD25954C243E00F200D8BD54 /* AppDelegate.swift in Sources */,
 				CD259556243E00F300D8BD54 /* VW_project.xcdatamodeld in Sources */,
+				CD6AB2C324405DAE0002AD65 /* CalendarCell.swift in Sources */,
 				2ED51A6C243EE4DA00A94200 /* HomeInterfaces.swift in Sources */,
 				CD745C9A24400D2A0082BB0A /* BookTicketsInteractor.swift in Sources */,
 				2ED51A7C243EE54000A94200 /* MyTicketsBuilder.swift in Sources */,
@@ -564,11 +603,14 @@
 				2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */,
 				2ED51A6F243EE4DA00A94200 /* HomeViewController.swift in Sources */,
 				2ED51A98243EE58B00A94200 /* IteneraryBuilder.swift in Sources */,
+				CD745CAE24404C130082BB0A /* UIView.swift in Sources */,
 				CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */,
 				CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */,
 				2ED51A94243EE58B00A94200 /* IteneraryInterfaces.swift in Sources */,
 				CD745C7D243F98280082BB0A /* Home.swift in Sources */,
+				CD6AB2C924406B6F0002AD65 /* ProductCell.swift in Sources */,
 				2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */,
+				CD745CB024404C640082BB0A /* PriceTicketView.swift in Sources */,
 				CD745C9824400D2A0082BB0A /* BookTicketsViewController.swift in Sources */,
 				2ED51A97243EE58B00A94200 /* IteneraryViewController.swift in Sources */,
 				2ED51A88243EE57E00A94200 /* MapRouter.swift in Sources */,
@@ -576,7 +618,9 @@
 				2ED51A95243EE58B00A94200 /* IteneraryPresenter.swift in Sources */,
 				2ED51A6E243EE4DA00A94200 /* HomeRouter.swift in Sources */,
 				CD745C9924400D2A0082BB0A /* BookTicketsBuilder.swift in Sources */,
+				CD6AB2C724406A650002AD65 /* ProductView.swift in Sources */,
 				2ED51A7D243EE54000A94200 /* MyTicketsInteractor.swift in Sources */,
+				CD745CA8244049110082BB0A /* PriceTicketCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

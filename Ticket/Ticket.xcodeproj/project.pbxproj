@@ -26,8 +26,6 @@
 		CD259662243E185700D8BD54 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25965B243E185700D8BD54 /* TicketViewController.swift */; };
 		CD259663243E185700D8BD54 /* TicketBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25965C243E185700D8BD54 /* TicketBuilder.swift */; };
 		CD259664243E185700D8BD54 /* TicketInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25965D243E185700D8BD54 /* TicketInteractor.swift */; };
-		CD899883243F31D4007F730B /* PriceTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD899881243F31D4007F730B /* PriceTicketView.swift */; };
-		CD899884243F31D4007F730B /* PriceTicketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD899882243F31D4007F730B /* PriceTicketView.xib */; };
 		CDEDAB33243EB5500018FEE5 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEDAB32243EB5500018FEE5 /* AlertVC.swift */; };
 		CDEDAB43243EF02A0018FEE5 /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEDAB42243EF02A0018FEE5 /* ItineraryView.swift */; };
 		CDEDAB46243EF0420018FEE5 /* ItineraryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEDAB45243EF0420018FEE5 /* ItineraryView.xib */; };
@@ -66,8 +64,6 @@
 		CD25965B243E185700D8BD54 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
 		CD25965C243E185700D8BD54 /* TicketBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBuilder.swift; sourceTree = "<group>"; };
 		CD25965D243E185700D8BD54 /* TicketInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketInteractor.swift; sourceTree = "<group>"; };
-		CD899881243F31D4007F730B /* PriceTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceTicketView.swift; sourceTree = "<group>"; };
-		CD899882243F31D4007F730B /* PriceTicketView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceTicketView.xib; sourceTree = "<group>"; };
 		CDEDAB32243EB5500018FEE5 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		CDEDAB42243EF02A0018FEE5 /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
 		CDEDAB45243EF0420018FEE5 /* ItineraryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItineraryView.xib; sourceTree = "<group>"; };
@@ -128,7 +124,6 @@
 		CD25957E243E111500D8BD54 /* Ticket */ = {
 			isa = PBXGroup;
 			children = (
-				CD899880243F31B6007F730B /* PriceTicket */,
 				CDEDAB44243EF0310018FEE5 /* ItinenaryView */,
 				CD003DA8243EA38D00517A2B /* Detail */,
 				CD259673243E258200D8BD54 /* List */,
@@ -161,15 +156,6 @@
 				CD003DA6243E365500517A2B /* TicketCell.swift */,
 			);
 			path = List;
-			sourceTree = "<group>";
-		};
-		CD899880243F31B6007F730B /* PriceTicket */ = {
-			isa = PBXGroup;
-			children = (
-				CD899881243F31D4007F730B /* PriceTicketView.swift */,
-				CD899882243F31D4007F730B /* PriceTicketView.xib */,
-			);
-			path = PriceTicket;
 			sourceTree = "<group>";
 		};
 		CDEDAB44243EF0310018FEE5 /* ItinenaryView */ = {
@@ -275,7 +261,6 @@
 			files = (
 				CDEDAB46243EF0420018FEE5 /* ItineraryView.xib in Resources */,
 				CD25965E243E185700D8BD54 /* Ticket.storyboard in Resources */,
-				CD899884243F31D4007F730B /* PriceTicketView.xib in Resources */,
 				CD003DD2243EA76A00517A2B /* Assets.xcassets in Resources */,
 				CD003DCA243EA40F00517A2B /* TicketDetail.storyboard in Resources */,
 			);
@@ -297,7 +282,6 @@
 			files = (
 				CD259663243E185700D8BD54 /* TicketBuilder.swift in Sources */,
 				CD003DCD243EA40F00517A2B /* TicketDetailRouter.swift in Sources */,
-				CD899883243F31D4007F730B /* PriceTicketView.swift in Sources */,
 				CD259662243E185700D8BD54 /* TicketViewController.swift in Sources */,
 				CD003DCB243EA40F00517A2B /* TicketDetailInterfaces.swift in Sources */,
 				CD003DD0243EA40F00517A2B /* TicketDetailInteractor.swift in Sources */,

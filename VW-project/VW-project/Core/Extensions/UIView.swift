@@ -31,3 +31,18 @@ extension ViewFromNib where Self: UIView {
             options: nil).first as? UIView
     }
 }
+
+extension UIView {
+    
+    func setGradient(colors: [UIColor]) {
+        let cgColors = colors.map { $0.cgColor }
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = bounds
+        gradientLayer.colors = cgColors
+        gradientLayer.locations = [0, 0, 0.52, 1]
+        gradientLayer.startPoint = CGPoint(x: 0.25, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.75, y: 0.5)
+        
+        layer.insertSublayer(gradientLayer, at: 0)
+    }
+}

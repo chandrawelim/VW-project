@@ -17,11 +17,17 @@ class CalendarView: UIView, ViewFromNib {
 
     let datePicker = UIDatePicker()
     @IBOutlet var textFieldDate: UITextField!
+    @IBOutlet weak var arrowImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         setupXIB()
         _configDatePicker()
+    }
+    
+    func viewOnly() {
+        textFieldDate.isEnabled = false
+        arrowImage.isHidden = true
     }
     
     private func _configDatePicker() {

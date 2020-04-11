@@ -9,6 +9,7 @@
 import UIKit
 
 enum BookTicketsNavigationOption {
+    case checkout
 }
 
 protocol BookTicketsViewInterface: class {
@@ -25,6 +26,7 @@ protocol BookTicketsPresenterInterface: class {
     func numberOfRows() -> Int
     func getTicketPass(atIndex index: Int) -> TicketPass
     func didSelectTicketPass(atIndex index: Int)
+    func openNextScreen()
 }
 
 protocol BookTicketsRouterInterface: class {

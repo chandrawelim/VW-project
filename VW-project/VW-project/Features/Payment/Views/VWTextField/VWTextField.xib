@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VWTextField" customModule="VW_project" customModuleProvider="target">
+            <connections>
+                <outlet property="textField" destination="rWd-AA-1ca" id="i7K-1b-b86"/>
+                <outlet property="titleLabel" destination="8aX-cD-THA" id="4mJ-Sm-6nJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="79"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rWd-AA-1ca">
+                    <rect key="frame" x="16" y="29" width="344" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIu-pp-5YS">
+                    <rect key="frame" x="28" y="25.5" width="20" height="9.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aX-cD-THA">
+                            <rect key="frame" x="0.0" y="0.0" width="20" height="9.5"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="8"/>
+                            <color key="textColor" name="Brown"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="8aX-cD-THA" firstAttribute="top" secondItem="NIu-pp-5YS" secondAttribute="top" id="MtM-PA-Ggj"/>
+                        <constraint firstAttribute="trailing" secondItem="8aX-cD-THA" secondAttribute="trailing" id="ZRk-WR-6JX"/>
+                        <constraint firstAttribute="bottom" secondItem="8aX-cD-THA" secondAttribute="bottom" id="fRD-mu-4uC"/>
+                        <constraint firstItem="8aX-cD-THA" firstAttribute="leading" secondItem="NIu-pp-5YS" secondAttribute="leading" id="kJ2-uw-7Hd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NIu-pp-5YS" secondAttribute="trailing" constant="28" id="9HX-PS-Xzd"/>
+                <constraint firstItem="rWd-AA-1ca" firstAttribute="top" secondItem="NIu-pp-5YS" secondAttribute="bottom" constant="-6" id="Evd-wd-hg5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="rWd-AA-1ca" secondAttribute="bottom" constant="16" id="JmA-Ij-Hc7"/>
+                <constraint firstItem="rWd-AA-1ca" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="KNm-RJ-4g2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rWd-AA-1ca" secondAttribute="trailing" constant="16" id="P13-Gp-nCX"/>
+                <constraint firstItem="NIu-pp-5YS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="Whg-fR-Ob0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="105.79710144927537" y="-170.42410714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Brown">
+            <color red="0.53333333333333333" green="0.40784313725490196" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

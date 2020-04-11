@@ -10,6 +10,7 @@
 //
 
 import UIKit
+import MapKit
 
 final class MapViewController: UIViewController {
 
@@ -32,11 +33,19 @@ final class MapViewController: UIViewController {
         _setupView()
     }
 	
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        _setNavBar()
+    }
+    
     // MARK: - Setup Initial View
     private func _setupView() {
         // Write your initial setup here
     }
 
+    private func _setNavBar() {
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
 }
 
 // MARK: - Extensions -

@@ -24,15 +24,22 @@ class ProductView: UIView, ViewFromNib {
     var plusPressed: (() -> Void)?
     var minusPressed: (() -> Void)?
     
+    private var _count: Int = 0
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         setupXIB()
     }
     
-    func set(productName: String, price: String, productCount: String) {
+    func set(productName: String, price: String, productCount: Int) {
         productNameLabel.text = productName
         priceLabel.text = price
-        productCountLabel.text = productCount
+        productCountLabel.text = String(productCount)
+        _count = productCount
+    }
+    
+    func getCount() -> Int {
+        return _count
     }
     
     @IBAction func buttonPlusPressed(_ sender: UIButton) {

@@ -91,6 +91,7 @@ extension BookTicketsViewController: UITableViewDelegate, UITableViewDataSource 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "priceTicketCell", for: indexPath) as! PriceTicketCell
+            cell.priceTicketView.set(title: "One-Day Pass", imageString: "ticketPass", type: .readMore)
             cell.backgroundColor = .clear
             cell.selectionStyle = .none
             return cell

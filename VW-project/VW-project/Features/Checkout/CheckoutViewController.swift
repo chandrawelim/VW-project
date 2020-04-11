@@ -80,6 +80,10 @@ extension CheckoutViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "priceTicketCell", for: indexPath) as! PriceTicketCell
+            cell.priceTicketView.set(title: "One-Day Pass", imageString: "ticketPass", type: .edit)
+            cell.priceTicketView.onPressed = { [weak self] in
+                self?.navigationController?.popViewController(animated: true)
+            }
             cell.backgroundColor = .clear
             return cell
         } else if indexPath.section == 1 {

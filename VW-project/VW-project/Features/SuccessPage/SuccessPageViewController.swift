@@ -34,6 +34,7 @@ final class SuccessPageViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         setTitle(title: "TICKETS BOUGHT!", color: .black)
+        navigationItem.setHidesBackButton(true, animated: true)
     }
     
     // MARK: - Setup Initial View

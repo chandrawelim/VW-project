@@ -34,6 +34,11 @@ final class PaymentViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        _setNavBar()
+    }
+    
+    private func _setNavBar() {
+        setBackButton(isWhite: false)
         setTitle(title: "PAYMENT", color: .black)
     }
     

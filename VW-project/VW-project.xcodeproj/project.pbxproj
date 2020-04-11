@@ -74,6 +74,10 @@
 		CD2D0EE0244200C70084117F /* CheckListLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2D0EDF244200C70084117F /* CheckListLabelView.xib */; };
 		CD2D0EE2244200D90084117F /* CheckListLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EE1244200D90084117F /* CheckListLabelView.swift */; };
 		CD2D0EE4244200E60084117F /* CheckListLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EE3244200E60084117F /* CheckListLabelCell.swift */; };
+		CD2D0EE7244207890084117F /* ProductViewConfirm.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2D0EE6244207890084117F /* ProductViewConfirm.xib */; };
+		CD2D0EEA244208A20084117F /* ProductViewConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EE9244208A20084117F /* ProductViewConfirm.swift */; };
+		CD2D0EEC244209320084117F /* ProductViewConfirmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EEB244209320084117F /* ProductViewConfirmCell.swift */; };
+		CD2D0EEF24420B530084117F /* PromoCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EEE24420B530084117F /* PromoCodeCell.swift */; };
 		CD310A7F2440EA010062E2EB /* SingleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */; };
 		CD310A812440EA1F0062E2EB /* TwoTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */; };
 		CD310A832440EAC90062E2EB /* TwoTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */; };
@@ -235,6 +239,10 @@
 		CD2D0EDF244200C70084117F /* CheckListLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckListLabelView.xib; sourceTree = "<group>"; };
 		CD2D0EE1244200D90084117F /* CheckListLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListLabelView.swift; sourceTree = "<group>"; };
 		CD2D0EE3244200E60084117F /* CheckListLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListLabelCell.swift; sourceTree = "<group>"; };
+		CD2D0EE6244207890084117F /* ProductViewConfirm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewConfirm.xib; sourceTree = "<group>"; };
+		CD2D0EE9244208A20084117F /* ProductViewConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewConfirm.swift; sourceTree = "<group>"; };
+		CD2D0EEB244209320084117F /* ProductViewConfirmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewConfirmCell.swift; sourceTree = "<group>"; };
+		CD2D0EEE24420B530084117F /* PromoCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeCell.swift; sourceTree = "<group>"; };
 		CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextFieldCell.swift; sourceTree = "<group>"; };
 		CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldCell.swift; sourceTree = "<group>"; };
 		CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTextFieldView.xib; sourceTree = "<group>"; };
@@ -542,6 +550,26 @@
 			path = CheckListLabel;
 			sourceTree = "<group>";
 		};
+		CD2D0EE8244207FA0084117F /* ProductViewConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D0EE6244207890084117F /* ProductViewConfirm.xib */,
+				CD2D0EE9244208A20084117F /* ProductViewConfirm.swift */,
+				CD2D0EEB244209320084117F /* ProductViewConfirmCell.swift */,
+			);
+			path = ProductViewConfirm;
+			sourceTree = "<group>";
+		};
+		CD2D0EED24420B350084117F /* PromoCode */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB2EB244086910002AD65 /* PromoCodeView.xib */,
+				CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */,
+				CD2D0EEE24420B530084117F /* PromoCodeCell.swift */,
+			);
+			path = PromoCode;
+			sourceTree = "<group>";
+		};
 		CD310A862440F1A90062E2EB /* LabelSwitchView */ = {
 			isa = PBXGroup;
 			children = (
@@ -589,8 +617,8 @@
 		CD6AB2EA2440867D0002AD65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CD6AB2EB244086910002AD65 /* PromoCodeView.xib */,
-				CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */,
+				CD2D0EED24420B350084117F /* PromoCode */,
+				CD2D0EE8244207FA0084117F /* ProductViewConfirm */,
 				CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */,
 				CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */,
 			);
@@ -818,6 +846,7 @@
 				CD745CB224404C750082BB0A /* PriceTicketView.xib in Resources */,
 				2EE4B0C3243EFD1100F3F866 /* Montserrat-Regular.ttf in Resources */,
 				CD310A882440F1F00062E2EB /* LabelSwitchView.xib in Resources */,
+				CD2D0EE7244207890084117F /* ProductViewConfirm.xib in Resources */,
 				CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */,
 				CD6AB2F024408BD10002AD65 /* ButtonFooterView.xib in Resources */,
 				CD6AB2EC244086910002AD65 /* PromoCodeView.xib in Resources */,
@@ -886,6 +915,7 @@
 				CD6AB2C024405B6A0002AD65 /* CalendarView.swift in Sources */,
 				CD310A7F2440EA010062E2EB /* SingleTextFieldCell.swift in Sources */,
 				CD8215302440D78200A5B6BC /* PaymentBuilder.swift in Sources */,
+				CD2D0EEA244208A20084117F /* ProductViewConfirm.swift in Sources */,
 				CD6AB2CB24406CD00002AD65 /* ProductTableViewCell.swift in Sources */,
 				CD25954C243E00F200D8BD54 /* AppDelegate.swift in Sources */,
 				CD259556243E00F300D8BD54 /* VW_project.xcdatamodeld in Sources */,
@@ -907,12 +937,14 @@
 				2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */,
 				CD6AB3012440B2070002AD65 /* SuccessPageInteractor.swift in Sources */,
 				CD6AB30C2440B6AB0002AD65 /* QRCodeCell.swift in Sources */,
+				CD2D0EEC244209320084117F /* ProductViewConfirmCell.swift in Sources */,
 				CD6AB2EE244089B20002AD65 /* PromoCodeView.swift in Sources */,
 				CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */,
 				CD4B3A8B2440E45A002B1359 /* TwoImageLeftLabelCell.swift in Sources */,
 				CD6AB2E62440849E0002AD65 /* CheckoutRouter.swift in Sources */,
 				CD310A812440EA1F0062E2EB /* TwoTextFieldCell.swift in Sources */,
 				2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */,
+				CD2D0EEF24420B530084117F /* PromoCodeCell.swift in Sources */,
 				2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */,
 				2ED51A79243EE54000A94200 /* MyTicketsPresenter.swift in Sources */,
 				CD310A852440EB330062E2EB /* TwoTextFieldView.swift in Sources */,

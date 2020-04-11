@@ -71,6 +71,52 @@
                                             <outlet property="calendarView" destination="jld-ZJ-TkS" id="dTJ-x1-Xpp"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductViewConfirmCell" id="gSc-ak-vyL" customClass="ProductViewConfirmCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="411" width="375" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gSc-ak-vyL" id="jro-pp-amh">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nG9-pf-B6g" customClass="ProductViewConfirm" customModule="VW_project" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="nG9-pf-B6g" secondAttribute="trailing" id="6To-IC-Ci2"/>
+                                                <constraint firstItem="nG9-pf-B6g" firstAttribute="leading" secondItem="jro-pp-amh" secondAttribute="leading" id="IvE-KB-oAe"/>
+                                                <constraint firstItem="nG9-pf-B6g" firstAttribute="top" secondItem="jro-pp-amh" secondAttribute="top" id="LCK-Ii-uFs"/>
+                                                <constraint firstAttribute="bottom" secondItem="nG9-pf-B6g" secondAttribute="bottom" id="r66-7D-Fu1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="productViewConfirm" destination="nG9-pf-B6g" id="IRa-BO-je9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PromoCodeCell" id="ydG-xX-U5l" customClass="PromoCodeCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="454.5" width="375" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ydG-xX-U5l" id="zNJ-wK-B5h">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z9W-3K-et3" customClass="PromoCodeView" customModule="VW_project" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Z9W-3K-et3" firstAttribute="leading" secondItem="zNJ-wK-B5h" secondAttribute="leading" id="HGp-su-cv9"/>
+                                                <constraint firstAttribute="bottom" secondItem="Z9W-3K-et3" secondAttribute="bottom" id="M92-y9-KhA"/>
+                                                <constraint firstItem="Z9W-3K-et3" firstAttribute="top" secondItem="zNJ-wK-B5h" secondAttribute="top" id="NQy-Ey-Ppb"/>
+                                                <constraint firstAttribute="trailing" secondItem="Z9W-3K-et3" secondAttribute="trailing" id="peL-tN-0E5"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="promoCodeView" destination="Z9W-3K-et3" id="rH8-pS-7SL"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICJ-rP-mT4" customClass="ButtonFooterView" customModule="VW_project" customModuleProvider="target">
@@ -104,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rle-ol-2Ax" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304.80000000000001" y="302.6986506746627"/>
+            <point key="canvasLocation" x="100" y="163"/>
         </scene>
     </scenes>
     <resources>

@@ -26,6 +26,13 @@ class ProductView: UIView, ViewFromNib {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setupXIB()
+    }
+    
+    func set(productName: String, price: String, productCount: String) {
+        productNameLabel.text = productName
+        priceLabel.text = price
+        productCountLabel.text = productCount
     }
     
     @IBAction func buttonPlusPressed(_ sender: UIButton) {

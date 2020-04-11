@@ -8,7 +8,19 @@
 
 import UIKit
 
+struct Product {
+    var name: String
+    var price: String
+    var count: String
+}
+
 class ProductTableViewCell: UITableViewCell {
+    
+    let array: [Product] = [
+        Product(name: "Adult", price: "50,000 ₫", count: "2"),
+        Product(name: "Child", price: "20,000 ₫", count: "0"),
+        Product(name: "Senior", price: "35,000 ₫", count: "0")
+    ]
 
     @IBOutlet weak var productTableView: UITableView!
     
@@ -17,6 +29,7 @@ class ProductTableViewCell: UITableViewCell {
         
         productTableView.delegate = self
         productTableView.dataSource = self
+        productTableView.separatorStyle = .none
     }
 }
 
@@ -27,10 +40,12 @@ extension ProductTableViewCell: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "productCell", for: indexPath) as! ProductCell
+        let data = array[indexPath.row]
+        cell.productView.set(productName: data.name, price: data.price, productCount: data.count)
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 50
     }
 }

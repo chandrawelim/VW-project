@@ -179,6 +179,29 @@
                                             <outlet property="productTableView" destination="JfR-7s-wbI" id="LTS-1k-zOm"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CheckListLabelCell" rowHeight="66" id="9Jc-07-ymt" customClass="CheckListLabelCell" customModule="VW_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="857" width="375" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Jc-07-ymt" id="fca-xS-ONh">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZm-rz-Og4" customClass="CheckListLabelView" customModule="VW_project" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ZZm-rz-Og4" firstAttribute="leading" secondItem="fca-xS-ONh" secondAttribute="leading" id="4vk-oA-h5C"/>
+                                                <constraint firstAttribute="bottom" secondItem="ZZm-rz-Og4" secondAttribute="bottom" id="BRA-GU-cbf"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZZm-rz-Og4" secondAttribute="trailing" id="Kx6-HY-faV"/>
+                                                <constraint firstItem="ZZm-rz-Og4" firstAttribute="top" secondItem="fca-xS-ONh" secondAttribute="top" id="wGk-EY-LmV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="checkListLabelView" destination="ZZm-rz-Og4" id="4sQ-2u-g6e"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vit-X5-KTm" customClass="ButtonFooterView" customModule="VW_project" customModuleProvider="target">

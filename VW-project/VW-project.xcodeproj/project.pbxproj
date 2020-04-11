@@ -71,6 +71,9 @@
 		CD2D0ED72441D7D60084117F /* ScanCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ED62441D7D60084117F /* ScanCardView.swift */; };
 		CD2D0ED92441D9D70084117F /* ScanCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ED82441D9D70084117F /* ScanCardCell.swift */; };
 		CD2D0EDB2441E4F80084117F /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EDA2441E4F80084117F /* AlertVC.swift */; };
+		CD2D0EE0244200C70084117F /* CheckListLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2D0EDF244200C70084117F /* CheckListLabelView.xib */; };
+		CD2D0EE2244200D90084117F /* CheckListLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EE1244200D90084117F /* CheckListLabelView.swift */; };
+		CD2D0EE4244200E60084117F /* CheckListLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EE3244200E60084117F /* CheckListLabelCell.swift */; };
 		CD310A7F2440EA010062E2EB /* SingleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */; };
 		CD310A812440EA1F0062E2EB /* TwoTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */; };
 		CD310A832440EAC90062E2EB /* TwoTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */; };
@@ -229,6 +232,9 @@
 		CD2D0ED62441D7D60084117F /* ScanCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCardView.swift; sourceTree = "<group>"; };
 		CD2D0ED82441D9D70084117F /* ScanCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCardCell.swift; sourceTree = "<group>"; };
 		CD2D0EDA2441E4F80084117F /* AlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertVC.swift; path = ../../../../../Ticket/Ticket/Detail/AlertVC.swift; sourceTree = "<group>"; };
+		CD2D0EDF244200C70084117F /* CheckListLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckListLabelView.xib; sourceTree = "<group>"; };
+		CD2D0EE1244200D90084117F /* CheckListLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListLabelView.swift; sourceTree = "<group>"; };
+		CD2D0EE3244200E60084117F /* CheckListLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListLabelCell.swift; sourceTree = "<group>"; };
 		CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextFieldCell.swift; sourceTree = "<group>"; };
 		CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldCell.swift; sourceTree = "<group>"; };
 		CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTextFieldView.xib; sourceTree = "<group>"; };
@@ -526,6 +532,16 @@
 			path = ScanCardView;
 			sourceTree = "<group>";
 		};
+		CD2D0EDC2442009A0084117F /* CheckListLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D0EDF244200C70084117F /* CheckListLabelView.xib */,
+				CD2D0EE1244200D90084117F /* CheckListLabelView.swift */,
+				CD2D0EE3244200E60084117F /* CheckListLabelCell.swift */,
+			);
+			path = CheckListLabel;
+			sourceTree = "<group>";
+		};
 		CD310A862440F1A90062E2EB /* LabelSwitchView */ = {
 			isa = PBXGroup;
 			children = (
@@ -636,6 +652,7 @@
 		CD745C9F24402B2B0082BB0A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD2D0EDC2442009A0084117F /* CheckListLabel */,
 				CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */,
 				CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */,
 				CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */,
@@ -833,6 +850,7 @@
 				2EE4B0BD243EFD1100F3F866 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				2EE4B0BE243EFD1100F3F866 /* Montserrat-Italic.ttf in Resources */,
 				CD6AB2E32440849E0002AD65 /* Checkout.storyboard in Resources */,
+				CD2D0EE0244200C70084117F /* CheckListLabelView.xib in Resources */,
 				CD2D0ED52441D7BC0084117F /* ScanCardView.xib in Resources */,
 				2EE4B0C7243EFD1100F3F866 /* Montserrat-ThinItalic.ttf in Resources */,
 				2EE4B0BF243EFD1100F3F866 /* Montserrat-Light.ttf in Resources */,
@@ -874,6 +892,7 @@
 				CD6AB2C324405DAE0002AD65 /* CalendarCell.swift in Sources */,
 				2ED51A6C243EE4DA00A94200 /* HomeInterfaces.swift in Sources */,
 				CD745C9A24400D2A0082BB0A /* BookTicketsInteractor.swift in Sources */,
+				CD2D0EE2244200D90084117F /* CheckListLabelView.swift in Sources */,
 				2ED51A7C243EE54000A94200 /* MyTicketsBuilder.swift in Sources */,
 				CD745C9524400D2A0082BB0A /* BookTicketsInterfaces.swift in Sources */,
 				2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */,
@@ -931,6 +950,7 @@
 				CD6AB2C924406B6F0002AD65 /* ProductCell.swift in Sources */,
 				2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */,
 				CD745CB024404C640082BB0A /* PriceTicketView.swift in Sources */,
+				CD2D0EE4244200E60084117F /* CheckListLabelCell.swift in Sources */,
 				CD8215402440DD8900A5B6BC /* SingleLabelView.swift in Sources */,
 				CD745C9824400D2A0082BB0A /* BookTicketsViewController.swift in Sources */,
 				2ED51A97243EE58B00A94200 /* IteneraryViewController.swift in Sources */,

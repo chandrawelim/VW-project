@@ -17,10 +17,15 @@ final class BookTicketsRouter {
 // MARK: - Extensions -
 extension BookTicketsRouter: BookTicketsRouterInterface {
 
-	func setView(_ view: BookTicketsViewController) {
-    	_view = view    
+    func setView(_ view: BookTicketsViewController) {
+        _view = view
     }
-
+    
     func navigate(to option: BookTicketsNavigationOption) {
+        switch option {
+        case .checkout:
+            let vc = CheckoutBuilder().main()
+            _view?.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }

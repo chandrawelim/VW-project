@@ -27,6 +27,13 @@
             <rect key="frame" x="0.0" y="0.0" width="411" height="69"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zRu-zl-hN9">
+                    <rect key="frame" x="16" y="8" width="379" height="1"/>
+                    <color key="backgroundColor" name="White Three"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="m3d-sv-rjJ"/>
+                    </constraints>
+                </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100,000 ₫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jr9-ZN-6JD">
                     <rect key="frame" x="41" y="23" width="89" height="23.5"/>
                     <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="20"/>
@@ -55,9 +62,12 @@
             <constraints>
                 <constraint firstItem="Jr9-ZN-6JD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="2O2-1c-Wdn"/>
                 <constraint firstItem="b8z-4h-36B" firstAttribute="centerY" secondItem="Jr9-ZN-6JD" secondAttribute="centerY" id="DDl-wy-myh"/>
+                <constraint firstItem="zRu-zl-hN9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Q1F-PA-NSy"/>
                 <constraint firstItem="Kvy-Y8-aJ4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="af2-re-N2U"/>
+                <constraint firstItem="zRu-zl-hN9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="bTj-7C-EeD"/>
                 <constraint firstItem="Kvy-Y8-aJ4" firstAttribute="centerY" secondItem="Jr9-ZN-6JD" secondAttribute="centerY" id="fp6-Cp-TTG"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="b8z-4h-36B" secondAttribute="trailing" constant="16" id="rPL-UE-oIr"/>
+                <constraint firstAttribute="trailing" secondItem="zRu-zl-hN9" secondAttribute="trailing" constant="16" id="seu-w6-rZL"/>
                 <constraint firstItem="Jr9-ZN-6JD" firstAttribute="leading" secondItem="Kvy-Y8-aJ4" secondAttribute="trailing" constant="8" id="w01-GG-kb1"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -68,6 +78,9 @@
     <resources>
         <namedColor name="Light Orange">
             <color red="0.93725490196078431" green="0.3843137254901961" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White Three">
+            <color red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

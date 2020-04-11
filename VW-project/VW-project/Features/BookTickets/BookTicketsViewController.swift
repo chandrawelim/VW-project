@@ -14,6 +14,7 @@ final class BookTicketsViewController: UIViewController {
     private var _presenter: BookTicketsPresenterInterface!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var buttonFooterView: ButtonFooterView!
     
     let padding: CGFloat = 12
     
@@ -32,6 +33,10 @@ final class BookTicketsViewController: UIViewController {
         super.viewDidLoad()
         _setupView()
         _presenter.viewDidLoad()
+        
+        buttonFooterView.buttonPressed = { [weak self] in
+            self?._presenter.openNextScreen()
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

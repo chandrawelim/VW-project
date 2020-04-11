@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uTf-hq-gMp">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="930"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="tEe-d4-e85">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
@@ -181,15 +181,25 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vit-X5-KTm" customClass="ButtonFooterView" customModule="VW_project" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="930" width="375" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="vFL-fM-CWs"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="R2x-9N-Fxq" firstAttribute="leading" secondItem="Z2g-4m-atm" secondAttribute="leading" id="65m-5z-2be"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="trailing" secondItem="vit-X5-KTm" secondAttribute="trailing" id="77D-Ut-3pO"/>
                             <constraint firstItem="R2x-9N-Fxq" firstAttribute="height" secondItem="Z2g-4m-atm" secondAttribute="height" multiplier="0.4" id="Jfz-Wj-url"/>
                             <constraint firstItem="uTf-hq-gMp" firstAttribute="top" secondItem="3pi-N7-nbV" secondAttribute="top" id="LvF-XZ-Sb0"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="bottom" secondItem="vit-X5-KTm" secondAttribute="bottom" id="N1X-xL-lOx"/>
                             <constraint firstAttribute="trailing" secondItem="R2x-9N-Fxq" secondAttribute="trailing" id="QCD-iK-cKW"/>
+                            <constraint firstItem="vit-X5-KTm" firstAttribute="leading" secondItem="3pi-N7-nbV" secondAttribute="leading" id="QFq-Ed-sx9"/>
+                            <constraint firstItem="vit-X5-KTm" firstAttribute="top" secondItem="uTf-hq-gMp" secondAttribute="bottom" id="SqP-Qr-YuG"/>
                             <constraint firstItem="R2x-9N-Fxq" firstAttribute="top" secondItem="Z2g-4m-atm" secondAttribute="top" id="nyS-MS-Agk"/>
-                            <constraint firstItem="3pi-N7-nbV" firstAttribute="bottom" secondItem="uTf-hq-gMp" secondAttribute="bottom" id="tSD-5z-fU9"/>
                             <constraint firstItem="3pi-N7-nbV" firstAttribute="trailing" secondItem="uTf-hq-gMp" secondAttribute="trailing" id="wHX-z7-Ip8"/>
                             <constraint firstItem="uTf-hq-gMp" firstAttribute="leading" secondItem="3pi-N7-nbV" secondAttribute="leading" id="yiY-m8-Tdi"/>
                         </constraints>
@@ -197,6 +207,7 @@
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
+                        <outlet property="buttonFooterView" destination="vit-X5-KTm" id="M97-jA-UEo"/>
                         <outlet property="collectionView" destination="tEe-d4-e85" id="nj2-aW-4ny"/>
                         <outlet property="tableView" destination="uTf-hq-gMp" id="M53-4k-IGd"/>
                     </connections>

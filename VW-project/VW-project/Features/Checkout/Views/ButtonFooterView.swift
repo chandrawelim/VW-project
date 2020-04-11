@@ -23,6 +23,14 @@ class ButtonFooterView: UIView, ViewFromNib {
     override func awakeFromNib() {
         super.awakeFromNib()
         setupXIB()
+        _setupButton()
+    }
+    
+    private func _setupButton() {
+        callToActionButton.setGradient(colors: [Color.gradientOne, Color.gradientTwo,
+                                                Color.gradientThree, Color.gradientFour])
+        callToActionButton.layer.cornerRadius = 8
+        callToActionButton.clipsToBounds = true
     }
     
     func set(total: String, buttonString: String) {

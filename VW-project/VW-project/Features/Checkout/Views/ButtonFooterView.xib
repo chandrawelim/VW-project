@@ -46,7 +46,9 @@
                         <constraint firstAttribute="width" constant="104" id="ttv-zL-Ntx"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
-                    <state key="normal" title="Continue"/>
+                    <state key="normal" title="Continue">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
                     <connections>
                         <action selector="ctaPressed:" destination="-1" eventType="touchUpInside" id="xK8-0Q-ELY"/>
                     </connections>

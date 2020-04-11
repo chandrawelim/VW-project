@@ -66,6 +66,7 @@
 		CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD259559243E00FC00D8BD54 /* LaunchScreen.storyboard */; };
 		CD259566243E00FC00D8BD54 /* VW_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259565243E00FC00D8BD54 /* VW_projectTests.swift */; };
 		CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259570243E0EA800D8BD54 /* VWTabBarController.swift */; };
+		CD2D0ECE24419C3C0084117F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ECD24419C3C0084117F /* UIViewController.swift */; };
 		CD310A7F2440EA010062E2EB /* SingleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */; };
 		CD310A812440EA1F0062E2EB /* TwoTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */; };
 		CD310A832440EAC90062E2EB /* TwoTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */; };
@@ -78,7 +79,6 @@
 		CD4B3A872440E376002B1359 /* TwoImageLeftLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B3A862440E376002B1359 /* TwoImageLeftLabelView.swift */; };
 		CD4B3A892440E38A002B1359 /* TwoImageLeftLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4B3A882440E38A002B1359 /* TwoImageLeftLabelView.xib */; };
 		CD4B3A8B2440E45A002B1359 /* TwoImageLeftLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B3A8A2440E45A002B1359 /* TwoImageLeftLabelCell.swift */; };
-		CD2D0ECE24419C3C0084117F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ECD24419C3C0084117F /* UIViewController.swift */; };
 		CD6AB2C024405B6A0002AD65 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */; };
 		CD6AB2C124405B6A0002AD65 /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */; };
 		CD6AB2C324405DAE0002AD65 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */; };
@@ -220,6 +220,7 @@
 		CD259601243E13B400D8BD54 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259602243E13B400D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259644243E15C400D8BD54 /* Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2D0ECD24419C3C0084117F /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextFieldCell.swift; sourceTree = "<group>"; };
 		CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldCell.swift; sourceTree = "<group>"; };
 		CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTextFieldView.xib; sourceTree = "<group>"; };
@@ -232,7 +233,6 @@
 		CD4B3A862440E376002B1359 /* TwoImageLeftLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoImageLeftLabelView.swift; sourceTree = "<group>"; };
 		CD4B3A882440E38A002B1359 /* TwoImageLeftLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoImageLeftLabelView.xib; sourceTree = "<group>"; };
 		CD4B3A8A2440E45A002B1359 /* TwoImageLeftLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoImageLeftLabelCell.swift; sourceTree = "<group>"; };
-		CD2D0ECD24419C3C0084117F /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
 		CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };

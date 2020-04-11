@@ -38,7 +38,10 @@ final class PaymentViewController: UIViewController {
         tableView.dataSource = self
         tableView.separatorStyle = .none
         
+        buttonBuy.setGradient(colors: [Color.gradientOne, Color.gradientTwo,
+                                        Color.gradientThree, Color.gradientFour])
         buttonBuy.layer.cornerRadius = 8
+        buttonBuy.clipsToBounds = true
     }
     
     @IBAction func buyPressed(_ sender: UIButton) {

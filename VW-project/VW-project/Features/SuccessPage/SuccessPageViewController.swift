@@ -33,7 +33,11 @@ final class SuccessPageViewController: UIViewController {
     
     // MARK: - Setup Initial View
     private func _setupView() {
+        buttonOk.setGradient(colors: [Color.gradientOne, Color.gradientTwo,
+                                       Color.gradientThree, Color.gradientFour])
         buttonOk.layer.cornerRadius = 8
+        buttonOk.clipsToBounds = true
+        
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none

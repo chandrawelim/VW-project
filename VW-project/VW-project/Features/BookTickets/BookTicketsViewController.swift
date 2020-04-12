@@ -34,6 +34,7 @@ final class BookTicketsViewController: UIViewController {
         _setupView()
         _presenter.viewDidLoad()
         
+        buttonFooterView.set(total: "100,000 ₫", buttonString: "Add to cart")
         buttonFooterView.buttonPressed = { [weak self] in
             self?._presenter.openNextScreen()
         }
@@ -49,6 +50,11 @@ final class BookTicketsViewController: UIViewController {
         setTitle(title: "BOOK YOUR TICKETS")
         navigationController?.transparentBar()
         navigationController?.navigationBar.tintColor = .white
+        navigationItem.rightCartIcon(self, action: #selector(onTapCartItem))
+    }
+    
+    @objc func onTapCartItem() {
+        
     }
     
     // MARK: - Setup Initial View
@@ -75,7 +81,7 @@ extension BookTicketsViewController: BookTicketsViewInterface {
 
 extension BookTicketsViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -85,6 +91,7 @@ extension BookTicketsViewController: UITableViewDelegate, UITableViewDataSource 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "priceTicketCell", for: indexPath) as! PriceTicketCell
+            cell.priceTicketView.set(title: "One-Day Pass", imageString: "ticketPass", type: .readMore)
             cell.backgroundColor = .clear
             cell.selectionStyle = .none
             return cell
@@ -93,6 +100,9 @@ extension BookTicketsViewController: UITableViewDelegate, UITableViewDataSource 
             return cell
         } else if indexPath.section == 2 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "productTableViewCell", for: indexPath) as! ProductTableViewCell
+            return cell
+        } else if indexPath.section == 3 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "CheckListLabelCell", for: indexPath) as! CheckListLabelCell
             return cell
         }
         return UITableViewCell()
@@ -103,6 +113,10 @@ extension BookTicketsViewController: UITableViewDelegate, UITableViewDataSource 
             return 226
         } else if indexPath.section == 1 {
             return 40
+        } else if indexPath.section == 2 {
+            return 150
+        } else if indexPath.section == 3 {
+            return 50
         }
         return 0
     }

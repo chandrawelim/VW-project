@@ -1,5 +1,5 @@
 //
-//  TwoImageLeftLabelCell.swift
+//  ProductViewConfirm.swift
 //  VW-project
 //
 //  Created by Chandra Welim on 11/04/20.
@@ -8,12 +8,15 @@
 
 import UIKit
 
-class TwoImageLeftLabelCell: UITableViewCell {
-
-    @IBOutlet weak var twoImageLeftLabelView: TwoImageLeftLabelView!
+class ProductViewConfirm: UIView, ViewFromNib {
     
+    var view: UIView?
+    var nibName: String {
+        return "ProductViewConfirm"
+    }
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        selectionStyle = .none
+        setupXIB()
     }
 }

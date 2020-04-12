@@ -1,5 +1,5 @@
 //
-//  TwoImageLeftLabelCell.swift
+//  ScanCardCell.swift
 //  VW-project
 //
 //  Created by Chandra Welim on 11/04/20.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class TwoImageLeftLabelCell: UITableViewCell {
+class ScanCardCell: UITableViewCell {
 
-    @IBOutlet weak var twoImageLeftLabelView: TwoImageLeftLabelView!
+    @IBOutlet weak var scanCardView: ScanCardView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

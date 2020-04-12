@@ -8,6 +8,11 @@
 
 import UIKit
 
+enum ButtonType {
+    case readMore
+    case edit
+}
+
 class PriceTicketView: UIView, ViewFromNib {
     
     var view: UIView?
@@ -20,6 +25,7 @@ class PriceTicketView: UIView, ViewFromNib {
     @IBOutlet weak var readMoreButton: UIButton!
     
     var onPressed: (() -> Void)?
+    var type: ButtonType = .readMore
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -33,9 +39,16 @@ class PriceTicketView: UIView, ViewFromNib {
         readMoreButton.layer.borderColor = Color.lightOrange.cgColor
     }
     
-    func set(title: String, imageString: String?) {
-        titleLabel.text = title
+    func set(title: String, imageString: String?, type: ButtonType) {
         // Add for download image later
+        titleLabel.text = title
+        
+        switch type {
+        case .edit:
+            readMoreButton.setTitle("Edit", for: .normal)
+        case .readMore:
+            readMoreButton.setTitle("Read more", for: .normal)
+        }
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 final class PaymentViewController: UIViewController {
     
@@ -15,6 +16,8 @@ final class PaymentViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var buttonBuy: UIButton!
+    
+    var imagePicker = UIImagePickerController()
     
     // MARK: - Module Setup -
     init?(coder: NSCoder, presenter: PaymentPresenterInterface) {
@@ -57,6 +60,94 @@ final class PaymentViewController: UIViewController {
     @IBAction func buyPressed(_ sender: UIButton) {
         _presenter.openNextScreen()
     }
+    
+    func browseImage() {
+        let alertViewController = UIAlertController(title: "", message: "Choose your option", preferredStyle: .actionSheet)
+        let camera = UIAlertAction(title: "Camera", style: .default, handler: { (alert) in
+            self.openCamera()
+        })
+        let gallery = UIAlertAction(title: "Gallery", style: .default) { (alert) in
+            self.openGallary()
+        }
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel) { (alert) in
+            
+        }
+        alertViewController.addAction(camera)
+        alertViewController.addAction(gallery)
+        alertViewController.addAction(cancel)
+        self.present(alertViewController, animated: true, completion: nil)
+    }
+    
+    func openCamera() {
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            checkCamera()
+        } else {
+            let vc = AlertVC(title: "Sorry!", message: "This device has no camera 😔", buttonTitle: "Ok")
+            vc.modalPresentationStyle = .overFullScreen
+            vc.modalTransitionStyle = .crossDissolve
+            self.present(vc, animated: true)
+        }
+    }
+    
+    func openGallary() {
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.photoLibrary) {
+            imagePicker.sourceType = UIImagePickerController.SourceType.photoLibrary
+            imagePicker.allowsEditing = true
+            self.present(imagePicker, animated: true, completion: nil)
+        }
+    }
+    
+    func checkCamera() {
+         let authStatus = AVCaptureDevice.authorizationStatus(for: AVMediaType.video)
+         switch authStatus {
+         case .authorized: callCamera()
+         case .denied: alertToEncourageCameraAccessInitially()
+         case .notDetermined: alertPromptToAllowCameraAccessViaSetting()
+         default: alertToEncourageCameraAccessInitially()
+         }
+     }
+    
+    func callCamera() {
+        self.imagePicker.sourceType = .camera
+        DispatchQueue.global(qos: .userInitiated).async
+            {
+                self.present(self.imagePicker, animated: true, completion: nil)
+                
+        }
+    }
+    
+    func alertToEncourageCameraAccessInitially() {
+        let alert = UIAlertController(
+            title: "IMPORTANT",
+            message: "Camera access required for capturing photos!",
+            preferredStyle: UIAlertController.Style.alert
+        )
+        alert.view.layoutIfNeeded()
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Allow Camera", style: .default, handler: { (alert) -> Void in
+            UIApplication.shared.openURL(URL(string: UIApplication.openSettingsURLString)!)
+        }))
+        present(alert, animated: true, completion: nil)
+    }
+    
+    func alertPromptToAllowCameraAccessViaSetting() {
+        
+        let alert = UIAlertController(
+            title: "IMPORTANT",
+            message: "Camera access required for capturing photos!",
+            preferredStyle: UIAlertController.Style.alert
+        )
+        alert.view.layoutIfNeeded()
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel) { alert in
+            if AVCaptureDevice.devices(for: AVMediaType.video).count > 0 {
+                AVCaptureDevice.requestAccess(for: AVMediaType.video) { granted in
+                    DispatchQueue.main.async() {
+                        self.checkCamera() } }
+            }
+            }
+        )
+        present(alert, animated: true, completion: nil)
+    }
 }
 
 // MARK: - Extensions -
@@ -65,7 +156,7 @@ extension PaymentViewController: PaymentViewInterface {
 
 extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 8
+        return 9
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -83,8 +174,15 @@ extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
         } else if indexPath.section == 2 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "TwoImageLeftLabelCell", for: indexPath) as! TwoImageLeftLabelCell
-            cell.twoImageLeftLabelView.leftView.set(title: "Credit/Debit", imageString: "creditCard")
-            cell.twoImageLeftLabelView.rightView.set(title: "Apple Pay", imageString: "companyApple")
+            cell.twoImageLeftLabelView.leftView.set(title: "Credit/Debit",
+                                                    imageString: "creditCard",
+                                                    backgroundColor: Color.whiteTwo,
+                                                    textColor: Color.brown)
+            cell.twoImageLeftLabelView.leftView.setBorder()
+            cell.twoImageLeftLabelView.rightView.set(title: "Apple Pay",
+                                                     imageString: "companyApple",
+                                                     textColor: Color.whiteThree)
+            cell.twoImageLeftLabelView.rightView.setBorder()
             return cell
         } else if indexPath.section == 4 || indexPath.section == 5 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "SingleTextFieldCell", for: indexPath) as! SingleTextFieldCell
@@ -96,6 +194,16 @@ extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
             cell.twoTextFieldView.rightTextField.set(title: "CVV")
             return cell
         } else if indexPath.section == 7 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ScanCardCell", for: indexPath) as! ScanCardCell
+            cell.scanCardView.imageLeftLabelView.set(title: "Scan my card",
+                                                     imageString: "cameraIcon",
+                                                     textColor: Color.lightOrange)
+            
+            cell.scanCardView.onTap = { [weak self] in
+                self?.browseImage()
+            }
+            return cell
+        } else if indexPath.section == 8 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "LabelSwitchCell", for: indexPath) as! LabelSwitchCell
             cell.labelSwitchView.singleLabelView.set(title: "Save my card details")
             return cell

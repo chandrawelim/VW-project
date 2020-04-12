@@ -17,4 +17,10 @@
          location = "group:Ticket/Ticket.xcodeproj">
       </FileRef>
    </Group>
+   <FileRef
+      location = "group:VW-Project/VW-Project.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>

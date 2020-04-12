@@ -12,6 +12,7 @@
 import UIKit
 import MapKit
 import CoreLocation
+import Kingfisher
 
 final class MapViewController: UIViewController {
 
@@ -63,6 +64,10 @@ final class MapViewController: UIViewController {
         _locationManager.desiredAccuracy = kCLLocationAccuracyBest
         _locationManager.distanceFilter = kCLDistanceFilterNone
         _locationManager.startUpdatingLocation()
+        
+        // Setup floating view
+        counterLabel.layer.borderWidth = 1
+        counterLabel.layer.borderColor = Color.oldRed.cgColor
         
         // MapKit Set up
         let viewWonderLoc = CLLocation(latitude: 10.341654, longitude: 103.850257)
@@ -139,6 +144,7 @@ extension MapViewController: MapViewInterface {
         pinLabel.text = pinText
         fireLabel.text = fireText
         counterLabel.text = counterText
+        venueImageView.kf.setImage(with: imageURL)
     }
 }
 

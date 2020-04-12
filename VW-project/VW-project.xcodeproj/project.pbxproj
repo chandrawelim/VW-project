@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0FDF722441FC91000BA6F5 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0FDF712441FC91000BA6F5 /* Venue.swift */; };
 		2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76C26E244019D800562AAC /* UINavigationController.swift */; };
 		2E76C2712440206900562AAC /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76C2702440206900562AAC /* UINavigationItem.swift */; };
 		2ED51A69243EE4DA00A94200 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED51A62243EE4DA00A94200 /* Home.storyboard */; };
@@ -102,6 +103,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0FDF712441FC91000BA6F5 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		2E76C26E244019D800562AAC /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		2E76C2702440206900562AAC /* UINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationItem.swift; sourceTree = "<group>"; };
 		2ED51A62243EE4DA00A94200 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -211,6 +213,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0FDF702441FC7F000BA6F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E0FDF712441FC91000BA6F5 /* Venue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2ED51A4F243EE38500A94200 /* MyTickets */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +238,7 @@
 		2ED51A51243EE3A500A94200 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				2E0FDF702441FC7F000BA6F5 /* Models */,
 				2ED51A7E243EE57E00A94200 /* Map.storyboard */,
 				2ED51A7F243EE57E00A94200 /* MapInterfaces.swift */,
 				2ED51A80243EE57E00A94200 /* MapPresenter.swift */,
@@ -607,6 +618,7 @@
 				CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */,
 				CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */,
 				2ED51A94243EE58B00A94200 /* IteneraryInterfaces.swift in Sources */,
+				2E0FDF722441FC91000BA6F5 /* Venue.swift in Sources */,
 				CD745C7D243F98280082BB0A /* Home.swift in Sources */,
 				CD6AB2C924406B6F0002AD65 /* ProductCell.swift in Sources */,
 				2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */,

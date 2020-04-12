@@ -10,6 +10,24 @@
 //
 
 import UIKit
+import MapKit
+
+class VenuePin: NSObject, MKAnnotation {
+    var venue: Venue
+    var coordinate: CLLocationCoordinate2D
+    var metersAway: Int
+    var typeVenue: String
+    
+    init(venue: Venue,
+         coordinate: CLLocationCoordinate2D,
+         metersAway: Int,
+         typeVenue: String) {
+        self.venue = venue
+        self.coordinate = coordinate
+        self.metersAway = metersAway
+        self.typeVenue = typeVenue
+    }
+}
 
 enum MapNavigationOption {
 }
@@ -20,12 +38,20 @@ protocol MapRouterInterface: class {
 }
 
 protocol MapViewInterface: class {
+    func showAnnotations(_ data: [VenuePin])
+    func showFloatingView()
+    func hideFloatingView()
+    func setFloatingViewValue(_ data: VenuePin)
 }
 
 protocol MapPresenterInterface: class {
     init(_ interactor: MapInteractorInterface, _ router: MapRouterInterface)
     func set(_ view: MapViewInterface)
+    func viewDidLoad()
+    func annotationDidSelect(_ data: VenuePin)
+    func annotationDidDeselect(_ data: VenuePin)
 }
 
 protocol MapInteractorInterface: class {
+    func fetchVenues(_ completion: (([Venue]) -> Void)?)
 }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageLeftLabelView" customModule="VW_project" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="tgY-or-g93" id="Gdf-p0-grp"/>
+                <outlet property="titleLabel" destination="KbJ-6M-Dfq" id="00z-aV-9cD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="NLJ-XR-H8P">
+            <rect key="frame" x="0.0" y="0.0" width="257" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tgY-or-g93">
+                    <rect key="frame" x="22" y="26" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="NNu-gf-k2t"/>
+                        <constraint firstAttribute="width" constant="24" id="lxG-uJ-wVi"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbJ-6M-Dfq">
+                    <rect key="frame" x="54" y="29.5" width="39" height="17.5"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="tgY-or-g93" firstAttribute="centerY" secondItem="NLJ-XR-H8P" secondAttribute="centerY" id="G1C-B0-SJg"/>
+                <constraint firstItem="O5b-u9-O2W" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KbJ-6M-Dfq" secondAttribute="trailing" constant="8" id="N25-dx-H7Q"/>
+                <constraint firstItem="KbJ-6M-Dfq" firstAttribute="centerY" secondItem="tgY-or-g93" secondAttribute="centerY" id="N2Y-F8-rsY"/>
+                <constraint firstItem="tgY-or-g93" firstAttribute="leading" secondItem="O5b-u9-O2W" secondAttribute="leading" constant="22" id="NaM-df-zEk"/>
+                <constraint firstItem="KbJ-6M-Dfq" firstAttribute="leading" secondItem="tgY-or-g93" secondAttribute="trailing" constant="8" id="rjf-Rz-0Ah"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="O5b-u9-O2W"/>
+            <point key="canvasLocation" x="-654" y="-311"/>
+        </view>
+    </objects>
+</document>

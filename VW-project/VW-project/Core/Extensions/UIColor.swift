@@ -21,4 +21,11 @@ enum Color {
     static let orange = UIColor(hex: 0xDA6349)
     static let lightOrange = UIColor(hex: 0xEF6243)
     static let brown = UIColor(hex: 0x886861)
+    static let whiteTwo = UIColor(hex: 0xFFF2E7)
+    static let whiteThree = UIColor(hex: 0xE7E7E7)
+    
+    static let gradientOne = UIColor(hex: 0xFF8177)
+    static let gradientTwo = UIColor(hex: 0xFF867A)
+    static let gradientThree = UIColor(hex: 0xFFAC7F)
+    static let gradientFour = UIColor(hex: 0xF99185)
 }

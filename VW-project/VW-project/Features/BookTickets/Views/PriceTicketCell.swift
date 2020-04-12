@@ -11,4 +11,9 @@ import UIKit
 class PriceTicketCell: UITableViewCell {
 
     @IBOutlet weak var priceTicketView: PriceTicketView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        selectionStyle = .none
+    }
 }

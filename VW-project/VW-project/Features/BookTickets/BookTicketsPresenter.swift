@@ -36,7 +36,6 @@ final class BookTicketsPresenter {
 
 // MARK: - Extensions -
 extension BookTicketsPresenter: BookTicketsPresenterInterface {
-    
     func setView(_ view: BookTicketsViewInterface) {
         _view = view
     }
@@ -51,6 +50,10 @@ extension BookTicketsPresenter: BookTicketsPresenterInterface {
     
     func getTicketPass(atIndex index: Int) -> TicketPass {
         return ticketPass[index]
+    }
+    
+    func openNextScreen() {
+        _router?.navigate(to: .checkout)
     }
     
     func didSelectTicketPass(atIndex index: Int) {

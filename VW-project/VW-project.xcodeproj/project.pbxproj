@@ -67,6 +67,30 @@
 		CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD259559243E00FC00D8BD54 /* LaunchScreen.storyboard */; };
 		CD259566243E00FC00D8BD54 /* VW_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259565243E00FC00D8BD54 /* VW_projectTests.swift */; };
 		CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259570243E0EA800D8BD54 /* VWTabBarController.swift */; };
+		CD2D0ECE24419C3C0084117F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ECD24419C3C0084117F /* UIViewController.swift */; };
+		CD2D0ED52441D7BC0084117F /* ScanCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2D0ED42441D7BC0084117F /* ScanCardView.xib */; };
+		CD2D0ED72441D7D60084117F /* ScanCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ED62441D7D60084117F /* ScanCardView.swift */; };
+		CD2D0ED92441D9D70084117F /* ScanCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0ED82441D9D70084117F /* ScanCardCell.swift */; };
+		CD2D0EDB2441E4F80084117F /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EDA2441E4F80084117F /* AlertVC.swift */; };
+		CD2D0EE0244200C70084117F /* CheckListLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2D0EDF244200C70084117F /* CheckListLabelView.xib */; };
+		CD2D0EE2244200D90084117F /* CheckListLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EE1244200D90084117F /* CheckListLabelView.swift */; };
+		CD2D0EE4244200E60084117F /* CheckListLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EE3244200E60084117F /* CheckListLabelCell.swift */; };
+		CD2D0EE7244207890084117F /* ProductViewConfirm.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2D0EE6244207890084117F /* ProductViewConfirm.xib */; };
+		CD2D0EEA244208A20084117F /* ProductViewConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EE9244208A20084117F /* ProductViewConfirm.swift */; };
+		CD2D0EEC244209320084117F /* ProductViewConfirmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EEB244209320084117F /* ProductViewConfirmCell.swift */; };
+		CD2D0EEF24420B530084117F /* PromoCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D0EEE24420B530084117F /* PromoCodeCell.swift */; };
+		CD310A7F2440EA010062E2EB /* SingleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */; };
+		CD310A812440EA1F0062E2EB /* TwoTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */; };
+		CD310A832440EAC90062E2EB /* TwoTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */; };
+		CD310A852440EB330062E2EB /* TwoTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A842440EB330062E2EB /* TwoTextFieldView.swift */; };
+		CD310A882440F1F00062E2EB /* LabelSwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD310A872440F1F00062E2EB /* LabelSwitchView.xib */; };
+		CD310A8A2440F35F0062E2EB /* LabelSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A892440F35F0062E2EB /* LabelSwitchView.swift */; };
+		CD310A8C2440F3D50062E2EB /* LabelSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD310A8B2440F3D50062E2EB /* LabelSwitchCell.swift */; };
+		CD4B3A832440E1DA002B1359 /* ImageLeftLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B3A822440E1DA002B1359 /* ImageLeftLabelView.swift */; };
+		CD4B3A852440E1E5002B1359 /* ImageLeftLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4B3A842440E1E5002B1359 /* ImageLeftLabelView.xib */; };
+		CD4B3A872440E376002B1359 /* TwoImageLeftLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B3A862440E376002B1359 /* TwoImageLeftLabelView.swift */; };
+		CD4B3A892440E38A002B1359 /* TwoImageLeftLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4B3A882440E38A002B1359 /* TwoImageLeftLabelView.xib */; };
+		CD4B3A8B2440E45A002B1359 /* TwoImageLeftLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B3A8A2440E45A002B1359 /* TwoImageLeftLabelCell.swift */; };
 		CD6AB2C024405B6A0002AD65 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */; };
 		CD6AB2C124405B6A0002AD65 /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */; };
 		CD6AB2C324405DAE0002AD65 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */; };
@@ -74,6 +98,30 @@
 		CD6AB2C724406A650002AD65 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C624406A650002AD65 /* ProductView.swift */; };
 		CD6AB2C924406B6F0002AD65 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2C824406B6F0002AD65 /* ProductCell.swift */; };
 		CD6AB2CB24406CD00002AD65 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2CA24406CD00002AD65 /* ProductTableViewCell.swift */; };
+		CD6AB2E32440849E0002AD65 /* Checkout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2DC2440849E0002AD65 /* Checkout.storyboard */; };
+		CD6AB2E42440849E0002AD65 /* CheckoutInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2DD2440849E0002AD65 /* CheckoutInterfaces.swift */; };
+		CD6AB2E52440849E0002AD65 /* CheckoutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2DE2440849E0002AD65 /* CheckoutPresenter.swift */; };
+		CD6AB2E62440849E0002AD65 /* CheckoutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2DF2440849E0002AD65 /* CheckoutRouter.swift */; };
+		CD6AB2E72440849E0002AD65 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2E02440849E0002AD65 /* CheckoutViewController.swift */; };
+		CD6AB2E82440849E0002AD65 /* CheckoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2E12440849E0002AD65 /* CheckoutBuilder.swift */; };
+		CD6AB2E92440849E0002AD65 /* CheckoutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2E22440849E0002AD65 /* CheckoutInteractor.swift */; };
+		CD6AB2EC244086910002AD65 /* PromoCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2EB244086910002AD65 /* PromoCodeView.xib */; };
+		CD6AB2EE244089B20002AD65 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */; };
+		CD6AB2F024408BD10002AD65 /* ButtonFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */; };
+		CD6AB2F224408DA70002AD65 /* ButtonFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */; };
+		CD6AB2FB2440B2070002AD65 /* SuccessPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB2F42440B2070002AD65 /* SuccessPage.storyboard */; };
+		CD6AB2FC2440B2070002AD65 /* SuccessPageInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F52440B2070002AD65 /* SuccessPageInterfaces.swift */; };
+		CD6AB2FD2440B2070002AD65 /* SuccessPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F62440B2070002AD65 /* SuccessPagePresenter.swift */; };
+		CD6AB2FE2440B2070002AD65 /* SuccessPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F72440B2070002AD65 /* SuccessPageRouter.swift */; };
+		CD6AB2FF2440B2070002AD65 /* SuccessPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F82440B2070002AD65 /* SuccessPageViewController.swift */; };
+		CD6AB3002440B2070002AD65 /* SuccessPageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2F92440B2070002AD65 /* SuccessPageBuilder.swift */; };
+		CD6AB3012440B2070002AD65 /* SuccessPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB2FA2440B2070002AD65 /* SuccessPageInteractor.swift */; };
+		CD6AB3042440B3AD0002AD65 /* SuccessFerriesWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB3032440B3AD0002AD65 /* SuccessFerriesWheel.xib */; };
+		CD6AB3062440B3B80002AD65 /* SuccessFerriesWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB3052440B3B80002AD65 /* SuccessFerriesWheel.swift */; };
+		CD6AB3082440B5810002AD65 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB3072440B5800002AD65 /* QRCodeView.swift */; };
+		CD6AB30A2440B5880002AD65 /* QRCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6AB3092440B5870002AD65 /* QRCodeView.xib */; };
+		CD6AB30C2440B6AB0002AD65 /* QRCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB30B2440B6AB0002AD65 /* QRCodeCell.swift */; };
+		CD6AB30E2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6AB30D2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift */; };
 		CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C74243F7AF50082BB0A /* UIColor.swift */; };
 		CD745C79243F87360082BB0A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C78243F87360082BB0A /* HomeCell.swift */; };
 		CD745C7D243F98280082BB0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745C7C243F98280082BB0A /* Home.swift */; };
@@ -90,6 +138,21 @@
 		CD745CAE24404C130082BB0A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745CAD24404C130082BB0A /* UIView.swift */; };
 		CD745CB024404C640082BB0A /* PriceTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD745CAF24404C640082BB0A /* PriceTicketView.swift */; };
 		CD745CB224404C750082BB0A /* PriceTicketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD745CB124404C750082BB0A /* PriceTicketView.xib */; };
+		CD82152B2440D78200A5B6BC /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8215242440D78200A5B6BC /* Payment.storyboard */; };
+		CD82152C2440D78200A5B6BC /* PaymentInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8215252440D78200A5B6BC /* PaymentInterfaces.swift */; };
+		CD82152D2440D78200A5B6BC /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8215262440D78200A5B6BC /* PaymentPresenter.swift */; };
+		CD82152E2440D78200A5B6BC /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8215272440D78200A5B6BC /* PaymentRouter.swift */; };
+		CD82152F2440D78200A5B6BC /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8215282440D78200A5B6BC /* PaymentViewController.swift */; };
+		CD8215302440D78200A5B6BC /* PaymentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8215292440D78200A5B6BC /* PaymentBuilder.swift */; };
+		CD8215312440D78200A5B6BC /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82152A2440D78200A5B6BC /* PaymentInteractor.swift */; };
+		CD8215342440D79900A5B6BC /* VWTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8215332440D79900A5B6BC /* VWTextField.xib */; };
+		CD8215362440D7AF00A5B6BC /* VWTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8215352440D7AF00A5B6BC /* VWTextField.swift */; };
+		CD8215382440DBCE00A5B6BC /* SingleImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8215372440DBCE00A5B6BC /* SingleImageView.xib */; };
+		CD82153A2440DBD700A5B6BC /* SingleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8215392440DBD700A5B6BC /* SingleImageView.swift */; };
+		CD82153C2440DC8600A5B6BC /* SingleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82153B2440DC8600A5B6BC /* SingleImageCell.swift */; };
+		CD82153E2440DD7800A5B6BC /* SingleLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD82153D2440DD7800A5B6BC /* SingleLabelView.xib */; };
+		CD8215402440DD8900A5B6BC /* SingleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82153F2440DD8900A5B6BC /* SingleLabelView.swift */; };
+		CD8215452440DDBC00A5B6BC /* SingleLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8215442440DDBC00A5B6BC /* SingleLabelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +233,30 @@
 		CD259601243E13B400D8BD54 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259602243E13B400D8BD54 /* Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD259644243E15C400D8BD54 /* Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2D0ECD24419C3C0084117F /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		CD2D0ED42441D7BC0084117F /* ScanCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanCardView.xib; sourceTree = "<group>"; };
+		CD2D0ED62441D7D60084117F /* ScanCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCardView.swift; sourceTree = "<group>"; };
+		CD2D0ED82441D9D70084117F /* ScanCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCardCell.swift; sourceTree = "<group>"; };
+		CD2D0EDA2441E4F80084117F /* AlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertVC.swift; path = ../../../../../Ticket/Ticket/Detail/AlertVC.swift; sourceTree = "<group>"; };
+		CD2D0EDF244200C70084117F /* CheckListLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckListLabelView.xib; sourceTree = "<group>"; };
+		CD2D0EE1244200D90084117F /* CheckListLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListLabelView.swift; sourceTree = "<group>"; };
+		CD2D0EE3244200E60084117F /* CheckListLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListLabelCell.swift; sourceTree = "<group>"; };
+		CD2D0EE6244207890084117F /* ProductViewConfirm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewConfirm.xib; sourceTree = "<group>"; };
+		CD2D0EE9244208A20084117F /* ProductViewConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewConfirm.swift; sourceTree = "<group>"; };
+		CD2D0EEB244209320084117F /* ProductViewConfirmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewConfirmCell.swift; sourceTree = "<group>"; };
+		CD2D0EEE24420B530084117F /* PromoCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeCell.swift; sourceTree = "<group>"; };
+		CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextFieldCell.swift; sourceTree = "<group>"; };
+		CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldCell.swift; sourceTree = "<group>"; };
+		CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTextFieldView.xib; sourceTree = "<group>"; };
+		CD310A842440EB330062E2EB /* TwoTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTextFieldView.swift; sourceTree = "<group>"; };
+		CD310A872440F1F00062E2EB /* LabelSwitchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelSwitchView.xib; sourceTree = "<group>"; };
+		CD310A892440F35F0062E2EB /* LabelSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelSwitchView.swift; sourceTree = "<group>"; };
+		CD310A8B2440F3D50062E2EB /* LabelSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelSwitchCell.swift; sourceTree = "<group>"; };
+		CD4B3A822440E1DA002B1359 /* ImageLeftLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLeftLabelView.swift; sourceTree = "<group>"; };
+		CD4B3A842440E1E5002B1359 /* ImageLeftLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageLeftLabelView.xib; sourceTree = "<group>"; };
+		CD4B3A862440E376002B1359 /* TwoImageLeftLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoImageLeftLabelView.swift; sourceTree = "<group>"; };
+		CD4B3A882440E38A002B1359 /* TwoImageLeftLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoImageLeftLabelView.xib; sourceTree = "<group>"; };
+		CD4B3A8A2440E45A002B1359 /* TwoImageLeftLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoImageLeftLabelCell.swift; sourceTree = "<group>"; };
 		CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
 		CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
@@ -177,6 +264,30 @@
 		CD6AB2C624406A650002AD65 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		CD6AB2C824406B6F0002AD65 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		CD6AB2CA24406CD00002AD65 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		CD6AB2DC2440849E0002AD65 /* Checkout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Checkout.storyboard; sourceTree = "<group>"; };
+		CD6AB2DD2440849E0002AD65 /* CheckoutInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutInterfaces.swift; sourceTree = "<group>"; };
+		CD6AB2DE2440849E0002AD65 /* CheckoutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPresenter.swift; sourceTree = "<group>"; };
+		CD6AB2DF2440849E0002AD65 /* CheckoutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutRouter.swift; sourceTree = "<group>"; };
+		CD6AB2E02440849E0002AD65 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		CD6AB2E12440849E0002AD65 /* CheckoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutBuilder.swift; sourceTree = "<group>"; };
+		CD6AB2E22440849E0002AD65 /* CheckoutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutInteractor.swift; sourceTree = "<group>"; };
+		CD6AB2EB244086910002AD65 /* PromoCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoCodeView.xib; sourceTree = "<group>"; };
+		CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
+		CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonFooterView.xib; sourceTree = "<group>"; };
+		CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFooterView.swift; sourceTree = "<group>"; };
+		CD6AB2F42440B2070002AD65 /* SuccessPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SuccessPage.storyboard; sourceTree = "<group>"; };
+		CD6AB2F52440B2070002AD65 /* SuccessPageInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageInterfaces.swift; sourceTree = "<group>"; };
+		CD6AB2F62440B2070002AD65 /* SuccessPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPagePresenter.swift; sourceTree = "<group>"; };
+		CD6AB2F72440B2070002AD65 /* SuccessPageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageRouter.swift; sourceTree = "<group>"; };
+		CD6AB2F82440B2070002AD65 /* SuccessPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageViewController.swift; sourceTree = "<group>"; };
+		CD6AB2F92440B2070002AD65 /* SuccessPageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageBuilder.swift; sourceTree = "<group>"; };
+		CD6AB2FA2440B2070002AD65 /* SuccessPageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageInteractor.swift; sourceTree = "<group>"; };
+		CD6AB3032440B3AD0002AD65 /* SuccessFerriesWheel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessFerriesWheel.xib; sourceTree = "<group>"; };
+		CD6AB3052440B3B80002AD65 /* SuccessFerriesWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFerriesWheel.swift; sourceTree = "<group>"; };
+		CD6AB3072440B5800002AD65 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		CD6AB3092440B5870002AD65 /* QRCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeView.xib; sourceTree = "<group>"; };
+		CD6AB30B2440B6AB0002AD65 /* QRCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeCell.swift; sourceTree = "<group>"; };
+		CD6AB30D2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFerriesWheelCell.swift; sourceTree = "<group>"; };
 		CD745C74243F7AF50082BB0A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		CD745C78243F87360082BB0A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		CD745C7C243F98280082BB0A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -193,6 +304,21 @@
 		CD745CAD24404C130082BB0A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		CD745CAF24404C640082BB0A /* PriceTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTicketView.swift; sourceTree = "<group>"; };
 		CD745CB124404C750082BB0A /* PriceTicketView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceTicketView.xib; sourceTree = "<group>"; };
+		CD8215242440D78200A5B6BC /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		CD8215252440D78200A5B6BC /* PaymentInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInterfaces.swift; sourceTree = "<group>"; };
+		CD8215262440D78200A5B6BC /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
+		CD8215272440D78200A5B6BC /* PaymentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRouter.swift; sourceTree = "<group>"; };
+		CD8215282440D78200A5B6BC /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CD8215292440D78200A5B6BC /* PaymentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentBuilder.swift; sourceTree = "<group>"; };
+		CD82152A2440D78200A5B6BC /* PaymentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
+		CD8215332440D79900A5B6BC /* VWTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VWTextField.xib; sourceTree = "<group>"; };
+		CD8215352440D7AF00A5B6BC /* VWTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWTextField.swift; sourceTree = "<group>"; };
+		CD8215372440DBCE00A5B6BC /* SingleImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleImageView.xib; sourceTree = "<group>"; };
+		CD8215392440DBD700A5B6BC /* SingleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageView.swift; sourceTree = "<group>"; };
+		CD82153B2440DC8600A5B6BC /* SingleImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageCell.swift; sourceTree = "<group>"; };
+		CD82153D2440DD7800A5B6BC /* SingleLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleLabelView.xib; sourceTree = "<group>"; };
+		CD82153F2440DD8900A5B6BC /* SingleLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLabelView.swift; sourceTree = "<group>"; };
+		CD8215442440DDBC00A5B6BC /* SingleLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLabelCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,11 +409,14 @@
 		2ED51A9A243EE5A900A94200 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				CD8215232440D76800A5B6BC /* Payment */,
+				CD6AB2F32440B1E20002AD65 /* SuccessPage */,
 				CD745C7E24400BC90082BB0A /* BookTickets */,
+				CD6AB2DB2440847F0002AD65 /* Checkout */,
+				2ED51A61243EE4DA00A94200 /* Home */,
 				2ED51A52243EE3A800A94200 /* Itenerary */,
 				2ED51A51243EE3A500A94200 /* Map */,
 				2ED51A4F243EE38500A94200 /* MyTickets */,
-				2ED51A61243EE4DA00A94200 /* Home */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -350,6 +479,7 @@
 				2E76C26E244019D800562AAC /* UINavigationController.swift */,
 				2E76C2702440206900562AAC /* UINavigationItem.swift */,
 				CD745CAD24404C130082BB0A /* UIView.swift */,
+				CD2D0ECD24419C3C0084117F /* UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -411,6 +541,129 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD2D0ED32441D7A50084117F /* ScanCardView */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D0ED42441D7BC0084117F /* ScanCardView.xib */,
+				CD2D0ED62441D7D60084117F /* ScanCardView.swift */,
+				CD2D0ED82441D9D70084117F /* ScanCardCell.swift */,
+			);
+			path = ScanCardView;
+			sourceTree = "<group>";
+		};
+		CD2D0EDC2442009A0084117F /* CheckListLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D0EDF244200C70084117F /* CheckListLabelView.xib */,
+				CD2D0EE1244200D90084117F /* CheckListLabelView.swift */,
+				CD2D0EE3244200E60084117F /* CheckListLabelCell.swift */,
+			);
+			path = CheckListLabel;
+			sourceTree = "<group>";
+		};
+		CD2D0EE8244207FA0084117F /* ProductViewConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D0EE6244207890084117F /* ProductViewConfirm.xib */,
+				CD2D0EE9244208A20084117F /* ProductViewConfirm.swift */,
+				CD2D0EEB244209320084117F /* ProductViewConfirmCell.swift */,
+			);
+			path = ProductViewConfirm;
+			sourceTree = "<group>";
+		};
+		CD2D0EED24420B350084117F /* PromoCode */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB2EB244086910002AD65 /* PromoCodeView.xib */,
+				CD6AB2ED244089B20002AD65 /* PromoCodeView.swift */,
+				CD2D0EEE24420B530084117F /* PromoCodeCell.swift */,
+			);
+			path = PromoCode;
+			sourceTree = "<group>";
+		};
+		CD310A862440F1A90062E2EB /* LabelSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				CD310A872440F1F00062E2EB /* LabelSwitchView.xib */,
+				CD310A892440F35F0062E2EB /* LabelSwitchView.swift */,
+				CD310A8B2440F3D50062E2EB /* LabelSwitchCell.swift */,
+			);
+			path = LabelSwitchView;
+			sourceTree = "<group>";
+		};
+		CD4B3A812440E1AC002B1359 /* ImageLeftLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B3A822440E1DA002B1359 /* ImageLeftLabelView.swift */,
+				CD4B3A842440E1E5002B1359 /* ImageLeftLabelView.xib */,
+			);
+			path = ImageLeftLabel;
+			sourceTree = "<group>";
+		};
+		CD4B3A8C2440E45E002B1359 /* TwoImageLeftLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B3A882440E38A002B1359 /* TwoImageLeftLabelView.xib */,
+				CD4B3A862440E376002B1359 /* TwoImageLeftLabelView.swift */,
+				CD4B3A8A2440E45A002B1359 /* TwoImageLeftLabelCell.swift */,
+			);
+			path = TwoImageLeftLabel;
+			sourceTree = "<group>";
+		};
+		CD6AB2DB2440847F0002AD65 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB2EA2440867D0002AD65 /* Views */,
+				CD6AB2DC2440849E0002AD65 /* Checkout.storyboard */,
+				CD6AB2E12440849E0002AD65 /* CheckoutBuilder.swift */,
+				CD6AB2E22440849E0002AD65 /* CheckoutInteractor.swift */,
+				CD6AB2DD2440849E0002AD65 /* CheckoutInterfaces.swift */,
+				CD6AB2DE2440849E0002AD65 /* CheckoutPresenter.swift */,
+				CD6AB2DF2440849E0002AD65 /* CheckoutRouter.swift */,
+				CD6AB2E02440849E0002AD65 /* CheckoutViewController.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		CD6AB2EA2440867D0002AD65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D0EED24420B350084117F /* PromoCode */,
+				CD2D0EE8244207FA0084117F /* ProductViewConfirm */,
+				CD6AB2EF24408BD10002AD65 /* ButtonFooterView.xib */,
+				CD6AB2F124408DA70002AD65 /* ButtonFooterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD6AB2F32440B1E20002AD65 /* SuccessPage */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB3022440B3930002AD65 /* Views */,
+				CD6AB2F42440B2070002AD65 /* SuccessPage.storyboard */,
+				CD6AB2F92440B2070002AD65 /* SuccessPageBuilder.swift */,
+				CD6AB2FA2440B2070002AD65 /* SuccessPageInteractor.swift */,
+				CD6AB2F52440B2070002AD65 /* SuccessPageInterfaces.swift */,
+				CD6AB2F62440B2070002AD65 /* SuccessPagePresenter.swift */,
+				CD6AB2F72440B2070002AD65 /* SuccessPageRouter.swift */,
+				CD6AB2F82440B2070002AD65 /* SuccessPageViewController.swift */,
+			);
+			path = SuccessPage;
+			sourceTree = "<group>";
+		};
+		CD6AB3022440B3930002AD65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD6AB3072440B5800002AD65 /* QRCodeView.swift */,
+				CD6AB3092440B5870002AD65 /* QRCodeView.xib */,
+				CD6AB3052440B3B80002AD65 /* SuccessFerriesWheel.swift */,
+				CD6AB3032440B3AD0002AD65 /* SuccessFerriesWheel.xib */,
+				CD6AB30B2440B6AB0002AD65 /* QRCodeCell.swift */,
+				CD6AB30D2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CD745C77243F87080082BB0A /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +691,7 @@
 		CD745C9F24402B2B0082BB0A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD2D0EDC2442009A0084117F /* CheckListLabel */,
 				CD6AB2C224405DAE0002AD65 /* CalendarCell.swift */,
 				CD6AB2BE24405B6A0002AD65 /* CalendarView.swift */,
 				CD6AB2BF24405B6A0002AD65 /* CalendarView.xib */,
@@ -451,6 +705,69 @@
 				CD6AB2CA24406CD00002AD65 /* ProductTableViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CD8215232440D76800A5B6BC /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				CD8215322440D78700A5B6BC /* Views */,
+				CD8215242440D78200A5B6BC /* Payment.storyboard */,
+				CD8215292440D78200A5B6BC /* PaymentBuilder.swift */,
+				CD82152A2440D78200A5B6BC /* PaymentInteractor.swift */,
+				CD8215252440D78200A5B6BC /* PaymentInterfaces.swift */,
+				CD8215262440D78200A5B6BC /* PaymentPresenter.swift */,
+				CD8215272440D78200A5B6BC /* PaymentRouter.swift */,
+				CD8215282440D78200A5B6BC /* PaymentViewController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		CD8215322440D78700A5B6BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D0EDA2441E4F80084117F /* AlertVC.swift */,
+				CD2D0ED32441D7A50084117F /* ScanCardView */,
+				CD310A862440F1A90062E2EB /* LabelSwitchView */,
+				CD4B3A8C2440E45E002B1359 /* TwoImageLeftLabel */,
+				CD4B3A812440E1AC002B1359 /* ImageLeftLabel */,
+				CD8215432440DDA100A5B6BC /* SingleImage */,
+				CD8215422440DD9800A5B6BC /* VWTextField */,
+				CD8215412440DD8E00A5B6BC /* SingleLabel */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD8215412440DD8E00A5B6BC /* SingleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CD82153D2440DD7800A5B6BC /* SingleLabelView.xib */,
+				CD82153F2440DD8900A5B6BC /* SingleLabelView.swift */,
+				CD8215442440DDBC00A5B6BC /* SingleLabelCell.swift */,
+			);
+			path = SingleLabel;
+			sourceTree = "<group>";
+		};
+		CD8215422440DD9800A5B6BC /* VWTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CD310A7E2440EA010062E2EB /* SingleTextFieldCell.swift */,
+				CD310A802440EA1F0062E2EB /* TwoTextFieldCell.swift */,
+				CD310A822440EAC90062E2EB /* TwoTextFieldView.xib */,
+				CD310A842440EB330062E2EB /* TwoTextFieldView.swift */,
+				CD8215352440D7AF00A5B6BC /* VWTextField.swift */,
+				CD8215332440D79900A5B6BC /* VWTextField.xib */,
+			);
+			path = VWTextField;
+			sourceTree = "<group>";
+		};
+		CD8215432440DDA100A5B6BC /* SingleImage */ = {
+			isa = PBXGroup;
+			children = (
+				CD8215372440DBCE00A5B6BC /* SingleImageView.xib */,
+				CD8215392440DBD700A5B6BC /* SingleImageView.swift */,
+				CD82153B2440DC8600A5B6BC /* SingleImageCell.swift */,
+			);
+			path = SingleImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -535,21 +852,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE4B0C2243EFD1100F3F866 /* Montserrat-MediumItalic.ttf in Resources */,
+				CD6AB2FB2440B2070002AD65 /* SuccessPage.storyboard in Resources */,
 				2EE4B0B9243EFD1100F3F866 /* Montserrat-BoldItalic.ttf in Resources */,
 				CD745CB224404C750082BB0A /* PriceTicketView.xib in Resources */,
 				2EE4B0C3243EFD1100F3F866 /* Montserrat-Regular.ttf in Resources */,
+				CD310A882440F1F00062E2EB /* LabelSwitchView.xib in Resources */,
+				CD2D0EE7244207890084117F /* ProductViewConfirm.xib in Resources */,
 				CD25955B243E00FC00D8BD54 /* LaunchScreen.storyboard in Resources */,
+				CD6AB2F024408BD10002AD65 /* ButtonFooterView.xib in Resources */,
+				CD6AB2EC244086910002AD65 /* PromoCodeView.xib in Resources */,
 				2EE4B0B6243EFD1100F3F866 /* Montserrat-Black.ttf in Resources */,
+				CD82153E2440DD7800A5B6BC /* SingleLabelView.xib in Resources */,
 				2ED51A77243EE54000A94200 /* MyTickets.storyboard in Resources */,
 				2EE4B0C4243EFD1100F3F866 /* Montserrat-SemiBold.ttf in Resources */,
 				2EE4B0B7243EFD1100F3F866 /* Montserrat-BlackItalic.ttf in Resources */,
+				CD4B3A852440E1E5002B1359 /* ImageLeftLabelView.xib in Resources */,
+				CD82152B2440D78200A5B6BC /* Payment.storyboard in Resources */,
 				CD745C9424400D2A0082BB0A /* BookTickets.storyboard in Resources */,
+				CD6AB3042440B3AD0002AD65 /* SuccessFerriesWheel.xib in Resources */,
 				2EE4B0C5243EFD1100F3F866 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				2EE4B0BA243EFD1100F3F866 /* Montserrat-ExtraBold.ttf in Resources */,
+				CD6AB30A2440B5880002AD65 /* QRCodeView.xib in Resources */,
 				2EE4B0B4243EFD1100F3F866 /* BerkshireSwash-Regular.ttf in Resources */,
+				CD310A832440EAC90062E2EB /* TwoTextFieldView.xib in Resources */,
 				2EE4B0C0243EFD1100F3F866 /* Montserrat-LightItalic.ttf in Resources */,
 				CD6AB2C124405B6A0002AD65 /* CalendarView.xib in Resources */,
 				CD259558243E00FC00D8BD54 /* Assets.xcassets in Resources */,
+				CD8215382440DBCE00A5B6BC /* SingleImageView.xib in Resources */,
+				CD4B3A892440E38A002B1359 /* TwoImageLeftLabelView.xib in Resources */,
 				2EE4B0C6243EFD1100F3F866 /* Montserrat-Thin.ttf in Resources */,
 				2EE4B0C1243EFD1100F3F866 /* Montserrat-Medium.ttf in Resources */,
 				CD259553243E00F200D8BD54 /* Main.storyboard in Resources */,
@@ -559,10 +889,14 @@
 				2EE4B0BC243EFD1100F3F866 /* Montserrat-ExtraLight.ttf in Resources */,
 				2EE4B0BD243EFD1100F3F866 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				2EE4B0BE243EFD1100F3F866 /* Montserrat-Italic.ttf in Resources */,
+				CD6AB2E32440849E0002AD65 /* Checkout.storyboard in Resources */,
+				CD2D0EE0244200C70084117F /* CheckListLabelView.xib in Resources */,
+				CD2D0ED52441D7BC0084117F /* ScanCardView.xib in Resources */,
 				2EE4B0C7243EFD1100F3F866 /* Montserrat-ThinItalic.ttf in Resources */,
 				2EE4B0BF243EFD1100F3F866 /* Montserrat-Light.ttf in Resources */,
 				2ED51A85243EE57E00A94200 /* Map.storyboard in Resources */,
 				CD6AB2C5244068C30002AD65 /* ProductView.xib in Resources */,
+				CD8215342440D79900A5B6BC /* VWTextField.xib in Resources */,
 				2ED51A93243EE58B00A94200 /* Itenerary.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,56 +915,102 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6AB2FC2440B2070002AD65 /* SuccessPageInterfaces.swift in Sources */,
+				CD82153A2440DBD700A5B6BC /* SingleImageView.swift in Sources */,
+				CD310A8C2440F3D50062E2EB /* LabelSwitchCell.swift in Sources */,
+				CD310A8A2440F35F0062E2EB /* LabelSwitchView.swift in Sources */,
 				2ED51A6A243EE4DA00A94200 /* HomeBuilder.swift in Sources */,
 				CD745CA124402B520082BB0A /* BookTicketCell.swift in Sources */,
 				CD745C9724400D2A0082BB0A /* BookTicketsRouter.swift in Sources */,
 				CD259550243E00F200D8BD54 /* ViewController.swift in Sources */,
 				CD6AB2C024405B6A0002AD65 /* CalendarView.swift in Sources */,
+				CD310A7F2440EA010062E2EB /* SingleTextFieldCell.swift in Sources */,
+				CD8215302440D78200A5B6BC /* PaymentBuilder.swift in Sources */,
+				CD2D0EEA244208A20084117F /* ProductViewConfirm.swift in Sources */,
 				CD6AB2CB24406CD00002AD65 /* ProductTableViewCell.swift in Sources */,
 				CD25954C243E00F200D8BD54 /* AppDelegate.swift in Sources */,
 				CD259556243E00F300D8BD54 /* VW_project.xcdatamodeld in Sources */,
 				CD6AB2C324405DAE0002AD65 /* CalendarCell.swift in Sources */,
 				2ED51A6C243EE4DA00A94200 /* HomeInterfaces.swift in Sources */,
 				CD745C9A24400D2A0082BB0A /* BookTicketsInteractor.swift in Sources */,
+				CD2D0EE2244200D90084117F /* CheckListLabelView.swift in Sources */,
 				2ED51A7C243EE54000A94200 /* MyTicketsBuilder.swift in Sources */,
 				CD745C9524400D2A0082BB0A /* BookTicketsInterfaces.swift in Sources */,
 				2ED51A7B243EE54000A94200 /* MyTicketsViewController.swift in Sources */,
 				2ED51A78243EE54000A94200 /* MyTicketsInterfaces.swift in Sources */,
+				CD2D0ED92441D9D70084117F /* ScanCardCell.swift in Sources */,
+				CD8215452440DDBC00A5B6BC /* SingleLabelCell.swift in Sources */,
+				CD6AB3062440B3B80002AD65 /* SuccessFerriesWheel.swift in Sources */,
+				CD82152F2440D78200A5B6BC /* PaymentViewController.swift in Sources */,
+				CD2D0EDB2441E4F80084117F /* AlertVC.swift in Sources */,
+				CD6AB3002440B2070002AD65 /* SuccessPageBuilder.swift in Sources */,
 				2EE4B0CC243EFD5900F3F866 /* UIFont.swift in Sources */,
 				2E76C26F244019D800562AAC /* UINavigationController.swift in Sources */,
+				CD6AB3012440B2070002AD65 /* SuccessPageInteractor.swift in Sources */,
+				CD6AB30C2440B6AB0002AD65 /* QRCodeCell.swift in Sources */,
+				CD2D0EEC244209320084117F /* ProductViewConfirmCell.swift in Sources */,
+				CD6AB2EE244089B20002AD65 /* PromoCodeView.swift in Sources */,
 				CD745C9D244020EB0082BB0A /* TitleCell.swift in Sources */,
+				CD4B3A8B2440E45A002B1359 /* TwoImageLeftLabelCell.swift in Sources */,
+				CD6AB2E62440849E0002AD65 /* CheckoutRouter.swift in Sources */,
+				CD310A812440EA1F0062E2EB /* TwoTextFieldCell.swift in Sources */,
 				2ED51A87243EE57E00A94200 /* MapPresenter.swift in Sources */,
+				CD2D0EEF24420B530084117F /* PromoCodeCell.swift in Sources */,
 				2ED51A8B243EE57E00A94200 /* MapInteractor.swift in Sources */,
 				2ED51A79243EE54000A94200 /* MyTicketsPresenter.swift in Sources */,
+				CD310A852440EB330062E2EB /* TwoTextFieldView.swift in Sources */,
+				CD8215362440D7AF00A5B6BC /* VWTextField.swift in Sources */,
+				CD6AB2FD2440B2070002AD65 /* SuccessPagePresenter.swift in Sources */,
+				CD6AB2F224408DA70002AD65 /* ButtonFooterView.swift in Sources */,
 				2ED51A8A243EE57E00A94200 /* MapBuilder.swift in Sources */,
 				CD25954E243E00F200D8BD54 /* SceneDelegate.swift in Sources */,
 				2ED51A7A243EE54000A94200 /* MyTicketsRouter.swift in Sources */,
 				CD745C9624400D2A0082BB0A /* BookTicketsPresenter.swift in Sources */,
+				CD4B3A872440E376002B1359 /* TwoImageLeftLabelView.swift in Sources */,
 				2ED51A6D243EE4DA00A94200 /* HomePresenter.swift in Sources */,
 				2ED51A89243EE57E00A94200 /* MapViewController.swift in Sources */,
 				2E76C2712440206900562AAC /* UINavigationItem.swift in Sources */,
+				CD6AB2FF2440B2070002AD65 /* SuccessPageViewController.swift in Sources */,
+				CD82152C2440D78200A5B6BC /* PaymentInterfaces.swift in Sources */,
+				CD6AB2FE2440B2070002AD65 /* SuccessPageRouter.swift in Sources */,
 				2ED51A96243EE58B00A94200 /* IteneraryRouter.swift in Sources */,
+				CD6AB2E92440849E0002AD65 /* CheckoutInteractor.swift in Sources */,
 				CD745C79243F87360082BB0A /* HomeCell.swift in Sources */,
+				CD6AB30E2440B6BA0002AD65 /* SuccessFerriesWheelCell.swift in Sources */,
 				2ED51A86243EE57E00A94200 /* MapInterfaces.swift in Sources */,
+				CD6AB3082440B5810002AD65 /* QRCodeView.swift in Sources */,
+				CD4B3A832440E1DA002B1359 /* ImageLeftLabelView.swift in Sources */,
 				2ED51A6F243EE4DA00A94200 /* HomeViewController.swift in Sources */,
 				2ED51A98243EE58B00A94200 /* IteneraryBuilder.swift in Sources */,
+				CD6AB2E42440849E0002AD65 /* CheckoutInterfaces.swift in Sources */,
 				CD745CAE24404C130082BB0A /* UIView.swift in Sources */,
+				CD8215312440D78200A5B6BC /* PaymentInteractor.swift in Sources */,
 				CD745C75243F7AF50082BB0A /* UIColor.swift in Sources */,
 				CD259571243E0EA800D8BD54 /* VWTabBarController.swift in Sources */,
+				CD6AB2E72440849E0002AD65 /* CheckoutViewController.swift in Sources */,
 				2ED51A94243EE58B00A94200 /* IteneraryInterfaces.swift in Sources */,
 				2E0FDF722441FC91000BA6F5 /* Venue.swift in Sources */,
 				CD745C7D243F98280082BB0A /* Home.swift in Sources */,
 				CD6AB2C924406B6F0002AD65 /* ProductCell.swift in Sources */,
 				2ED51A6B243EE4DA00A94200 /* HomeInteractor.swift in Sources */,
 				CD745CB024404C640082BB0A /* PriceTicketView.swift in Sources */,
+				CD2D0EE4244200E60084117F /* CheckListLabelCell.swift in Sources */,
+				CD8215402440DD8900A5B6BC /* SingleLabelView.swift in Sources */,
 				CD745C9824400D2A0082BB0A /* BookTicketsViewController.swift in Sources */,
 				2ED51A97243EE58B00A94200 /* IteneraryViewController.swift in Sources */,
 				2ED51A88243EE57E00A94200 /* MapRouter.swift in Sources */,
+				CD82152E2440D78200A5B6BC /* PaymentRouter.swift in Sources */,
 				2ED51A99243EE58B00A94200 /* IteneraryInteractor.swift in Sources */,
+				CD6AB2E52440849E0002AD65 /* CheckoutPresenter.swift in Sources */,
+				CD2D0ED72441D7D60084117F /* ScanCardView.swift in Sources */,
 				2ED51A95243EE58B00A94200 /* IteneraryPresenter.swift in Sources */,
+				CD2D0ECE24419C3C0084117F /* UIViewController.swift in Sources */,
 				2ED51A6E243EE4DA00A94200 /* HomeRouter.swift in Sources */,
 				CD745C9924400D2A0082BB0A /* BookTicketsBuilder.swift in Sources */,
+				CD82152D2440D78200A5B6BC /* PaymentPresenter.swift in Sources */,
 				CD6AB2C724406A650002AD65 /* ProductView.swift in Sources */,
+				CD6AB2E82440849E0002AD65 /* CheckoutBuilder.swift in Sources */,
+				CD82153C2440DC8600A5B6BC /* SingleImageCell.swift in Sources */,
 				2ED51A7D243EE54000A94200 /* MyTicketsInteractor.swift in Sources */,
 				CD745CA8244049110082BB0A /* PriceTicketCell.swift in Sources */,
 			);

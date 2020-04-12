@@ -34,7 +34,7 @@ final class BookTicketsViewController: UIViewController {
         _setupView()
         _presenter.viewDidLoad()
         
-        buttonFooterView.set(total: "100,000 ₫", buttonString: "Add to cart")
+        buttonFooterView.set(total: "1,000,000 ₫", buttonString: "Add to cart")
         buttonFooterView.buttonPressed = { [weak self] in
             self?._presenter.openNextScreen()
         }

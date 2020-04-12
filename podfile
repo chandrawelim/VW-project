@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+workspace 'VW-Project'
+
+use_frameworks!
+
+target 'VW-project' do
+project 'VW-Project/VW-Project.xcodeproj'
+   
+  pod 'Kingfisher', '~> 5.0'
+
+  target 'VW-projectTests' do
+    inherit! :search_paths
+    
+  end
+
+end

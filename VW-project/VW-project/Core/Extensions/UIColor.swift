@@ -18,6 +18,7 @@ extension UIColor {
 }
 
 enum Color {
+    static let oldRed = UIColor(hex: 0xBD180B)
     static let orange = UIColor(hex: 0xDA6349)
     static let lightOrange = UIColor(hex: 0xEF6243)
     static let brown = UIColor(hex: 0x886861)

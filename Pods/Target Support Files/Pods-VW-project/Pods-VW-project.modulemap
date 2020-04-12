@@ -1,0 +1,6 @@
+framework module Pods_VW_project {
+  umbrella header "Pods-VW-project-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -30,7 +30,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adult" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoW-7k-ngp">
-                    <rect key="frame" x="16" y="24.5" width="100" height="20"/>
+                    <rect key="frame" x="16" y="25" width="100" height="19"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="lkU-b0-QNS"/>
                     </constraints>
@@ -38,8 +38,8 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50,000 ₫" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbG-hm-VsG">
-                    <rect key="frame" x="140" y="25.5" width="61" height="18"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="750,000 ₫" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbG-hm-VsG">
+                    <rect key="frame" x="140" y="26.5" width="62.5" height="16.5"/>
                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -67,7 +67,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Js8-ZJ-y5g">
-                    <rect key="frame" x="275" y="24.5" width="20" height="20"/>
+                    <rect key="frame" x="275" y="25" width="20" height="19"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="20" id="hPm-d5-v2m"/>
                     </constraints>

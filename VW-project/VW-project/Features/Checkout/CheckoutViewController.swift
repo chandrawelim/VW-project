@@ -108,6 +108,5 @@ extension CheckoutViewController: UITableViewDelegate, UITableViewDataSource {
         } else {
             return 60
         }
-        return 0
     }
 }

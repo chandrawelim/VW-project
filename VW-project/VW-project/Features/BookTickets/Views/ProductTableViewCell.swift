@@ -17,9 +17,9 @@ struct Product {
 class ProductTableViewCell: UITableViewCell {
     
     let array: [Product] = [
-        Product(name: "Adult", price: "50,000 ₫", count: 2),
-        Product(name: "Child", price: "20,000 ₫", count: 0),
-        Product(name: "Senior", price: "35,000 ₫", count: 0)
+        Product(name: "Adult", price: "750,000 ₫", count: 2),
+        Product(name: "Child", price: "560,000 ₫", count: 0),
+        Product(name: "Senior", price: "700,000 ₫", count: 0)
     ]
 
     @IBOutlet weak var productTableView: UITableView!

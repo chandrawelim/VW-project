@@ -18,6 +18,7 @@ final class PaymentViewController: UIViewController {
     @IBOutlet weak var buttonBuy: UIButton!
     
     var imagePicker = UIImagePickerController()
+    var isFromGalleryCamera: Bool = false
     
     // MARK: - Module Setup -
     init?(coder: NSCoder, presenter: PaymentPresenterInterface) {
@@ -33,6 +34,8 @@ final class PaymentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         _setupView()
+        
+        imagePicker.delegate = self
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -52,7 +55,7 @@ final class PaymentViewController: UIViewController {
         tableView.separatorStyle = .none
         
         buttonBuy.setGradient(colors: [Color.gradientOne, Color.gradientTwo,
-                                        Color.gradientThree, Color.gradientFour])
+                                       Color.gradientThree, Color.gradientFour])
         buttonBuy.layer.cornerRadius = 8
         buttonBuy.clipsToBounds = true
     }
@@ -184,18 +187,38 @@ extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
                                                      textColor: Color.whiteThree)
             cell.twoImageLeftLabelView.rightView.setBorder()
             return cell
-        } else if indexPath.section == 4 || indexPath.section == 5 {
+        } else if indexPath.section == 4 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "SingleTextFieldCell", for: indexPath) as! SingleTextFieldCell
-            cell.textField.set(title: indexPath.section == 4 ? "NAME ON CARD" : "CARD NUMBER")
+            cell.textField.set(title: "NAME ON CARD")
+            
+            if isFromGalleryCamera {
+                cell.textField.textField.text = "LE NGUYEN MINH"
+            }
+            
+            return cell
+        } else if indexPath.section == 5 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SingleTextFieldCell", for: indexPath) as! SingleTextFieldCell
+            cell.textField.set(title: "CARD NUMBER")
+            
+            if isFromGalleryCamera {
+                cell.textField.textField.text = "3456 9394 9012 3400"
+            }
+            
             return cell
         } else if indexPath.section == 6 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "TwoTextFieldCell", for: indexPath) as! TwoTextFieldCell
             cell.twoTextFieldView.leftTextField.set(title: "VALID UNTIL")
             cell.twoTextFieldView.rightTextField.set(title: "CVV")
+            cell.twoTextFieldView.rightTextField.textField.isSecureTextEntry = true
+            
+            if isFromGalleryCamera {
+                cell.twoTextFieldView.leftTextField.textField.text = "10/22"
+            }
+            
             return cell
         } else if indexPath.section == 7 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ScanCardCell", for: indexPath) as! ScanCardCell
-            cell.scanCardView.imageLeftLabelView.set(title: "Scan my card",
+            cell.scanCardView.imageLeftLabelView.set(title: "Scan my credit card",
                                                      imageString: "cameraIcon",
                                                      textColor: Color.lightOrange)
             
@@ -213,5 +236,17 @@ extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 65
+    }
+}
+
+extension PaymentViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        isFromGalleryCamera = true
+        tableView.reloadData()
+        dismiss(animated:true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        self.dismiss(animated: true, completion: nil)
     }
 }

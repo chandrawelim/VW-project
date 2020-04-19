@@ -31,6 +31,7 @@ protocol HomePresenterInterface: class {
     func numberOfRows() -> Int
     func getHomeData(atIndex index: Int) -> Home
     func openDetail(atIndex index: Int)
+    func getArray() -> [Home]
 }
 
 protocol HomeInteractorInterface: class {

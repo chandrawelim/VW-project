@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="85" id="Rn3-vW-fyf" customClass="ItineraryCell" customModule="VW_project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="85"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rn3-vW-fyf" id="RIp-8d-yei">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n4G-vT-NyH" customClass="ItineraryView" customModule="VW_project" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="335" height="85"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="n4G-vT-NyH" firstAttribute="leading" secondItem="RIp-8d-yei" secondAttribute="leading" id="Ivr-Tx-fwb"/>
+                    <constraint firstAttribute="bottom" secondItem="n4G-vT-NyH" secondAttribute="bottom" id="ad7-yr-p5y"/>
+                    <constraint firstItem="n4G-vT-NyH" firstAttribute="top" secondItem="RIp-8d-yei" secondAttribute="top" id="gIS-b8-2eI"/>
+                    <constraint firstAttribute="trailing" secondItem="n4G-vT-NyH" secondAttribute="trailing" id="go0-Jz-TPO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="itineraryView" destination="n4G-vT-NyH" id="v8O-cA-36z"/>
+            </connections>
+            <point key="canvasLocation" x="-77.536231884057983" y="8.3705357142857135"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -22,6 +22,15 @@ class SingleLabelView: UIView, ViewFromNib {
         setupXIB()
     }
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupXIB()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     func set(title: String) {
         titleLabel.text = title
     }

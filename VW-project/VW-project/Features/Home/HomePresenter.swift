@@ -55,4 +55,8 @@ extension HomePresenter: HomePresenterInterface {
     func openDetail(atIndex index: Int) {
         _router?.navigate(to: .bookTicket)
     }
+    
+    func getArray() -> [Home] {
+        return arrayData
+    }
 }

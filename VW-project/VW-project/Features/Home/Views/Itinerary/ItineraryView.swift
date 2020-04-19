@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ItineraryView: UIView {
+class ItineraryView: UIView, ViewFromNib {
+    
+    var view: UIView?
+    var nibName: String {
+        return "ItineraryView"
+    }
     
     @IBOutlet weak var openHourLabel: UILabel!
     @IBOutlet weak var closeHourLabel: UILabel!
@@ -21,6 +26,8 @@ class ItineraryView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setupXIB()
+        _setupButton()
     }
     
     func setup(openHour: String,
@@ -34,6 +41,12 @@ class ItineraryView: UIView {
         venueNameLabel.text = venueName
         durationLabel.text = duration
         locationNameLabel.text = locationName
+    }
+    
+    private func _setupButton() {
+        buttonAddItinenary.layer.borderColor = Color.lightOrange.cgColor
+        buttonAddItinenary.layer.borderWidth = 1
+        buttonAddItinenary.layer.cornerRadius = 4
     }
     
     @IBAction func addItinenaryPressed(_ sender: UIButton) {
